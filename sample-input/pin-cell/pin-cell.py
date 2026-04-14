@@ -16,7 +16,7 @@ tolerance = options.tolerance
 max_iters = options.max_iters
 
 # The most important runtime parameters:
-#-t / --num-omp-threads → number of CPU threads
+#-t / --num-omp-threads → number of CPU threads used
 #-a / --num-azim → number of azimuthal angles
 #-s / --azim-spacing → track spacing in cm
 #-i / --max-iters → maximum number of transport/source iterations

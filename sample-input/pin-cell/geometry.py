@@ -43,6 +43,8 @@ fuel.setFill(materials['UO2'])
 fuel.addSurface(halfspace=-1, surface=zcylinder)
 fuel.addSurface(halfspace=+1, surface=zmin)
 fuel.addSurface(halfspace=-1, surface=zmax)
+fuel.setNumRings(3)
+fuel.setNumSectors(8)
 
 moderator = openmoc.Cell(name='moderator')
 moderator.setFill(materials['Water'])
@@ -54,6 +56,7 @@ moderator.addSurface(halfspace=-1, surface=ymax)
 moderator.addSurface(halfspace=+1, surface=zmin)
 moderator.addSurface(halfspace=-1, surface=zmax)
 moderator.setNumRings(2)
+moderator.setNumSectors(8)
 
 ###############################################################################
 #                            Creating Universes
