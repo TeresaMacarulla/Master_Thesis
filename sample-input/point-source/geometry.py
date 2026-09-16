@@ -45,7 +45,7 @@ water_cell = openmoc.Cell(name='water')
 water_cell.setFill(materials['Water'])
 
 source_cell = openmoc.Cell(name='source')
-source_cell.setFill(materials['Water'])
+source_cell.setFill(materials['Guide Tube'])
 
 root_cell = openmoc.Cell(name='root cell')
 root_cell.addSurface(halfspace=+1, surface=xmin)

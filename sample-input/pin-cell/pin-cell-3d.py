@@ -1,10 +1,36 @@
+###############################################################################
+#                          Start with
+###############################################################################
+# conda activate openmoc-env
+
+# Example runs:
+#
+# 1) Run with OpenMOC defaults
+#    python pin-cell-3d.py
+# 2) Small/cheap 3D test
+#    python pin-cell-3d.py -a 4 -p 2 -s 0.2 -l 1.0 -t 2 -i 50
+# 3) Moderate run
+#    python pin-cell-3d.py -a 8 -p 4 -s 0.1 -l 0.5 -t 4 -i 100 -c 1e-5
+# 4) Finer angular resolution
+#    python pin-cell-3d.py -a 16 -p 6 -s 0.1 -l 0.5 -t 4 -i 200 -c 1e-5
+# 5) Finer spatial/axial sampling
+#    python pin-cell-3d.py -a 16 -p 6 -s 0.05 -l 0.25 -t 8 -i 300 -c 1e-5
+
 import openmoc
 from geometry import *
 from openmoc import plotter as plotter
 
 ###############################################################################
-#                          Main Simulation Parameters
+#                          Main Simulation Parameters (default)
 ###############################################################################
+# The most important runtime parameters:
+#-t / --num-omp-threads → number of CPU threads used = 1
+#-a / --num-azim → number of azimuthal angles = 4
+#-s / --azim-spacing → track spacing in cm = 0.1
+#-i / --max-iters → maximum number of transport/source iterations = 1000
+#-c / --tolerance → convergence tolerance = 1E-5
+#-p / --num-polar → number of polar angles, mainly for 3D problems = 6
+#-l / --z-spacing → axial ray spacing, also for 3D problems. = 1.5
 
 options = openmoc.options.Options()
 

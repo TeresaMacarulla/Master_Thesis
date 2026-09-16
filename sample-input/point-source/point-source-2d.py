@@ -1,3 +1,5 @@
+# conda activate openmoc-env
+
 import openmoc
 import openmoc.log as log
 import openmoc.plotter as plotter

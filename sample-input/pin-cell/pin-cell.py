@@ -5,6 +5,14 @@ from openmoc import plotter as plotter
 ###############################################################################
 #                          Main Simulation Parameters
 ###############################################################################
+# The most important runtime parameters:
+#-t / --num-omp-threads → number of CPU threads used
+#-a / --num-azim → number of azimuthal angles
+#-s / --azim-spacing → track spacing in cm
+#-i / --max-iters → maximum number of transport/source iterations
+#-c / --tolerance → convergence tolerance
+#-p / --num-polar → number of polar angles, mainly for 3D problems
+#-l / --z-spacing → axial ray spacing, also for 3D problems.
 
 options = openmoc.options.Options()
 
@@ -14,15 +22,6 @@ num_azim = options.num_azim
 num_polar = options.num_polar
 tolerance = options.tolerance
 max_iters = options.max_iters
-
-# The most important runtime parameters:
-#-t / --num-omp-threads → number of CPU threads used
-#-a / --num-azim → number of azimuthal angles
-#-s / --azim-spacing → track spacing in cm
-#-i / --max-iters → maximum number of transport/source iterations
-#-c / --tolerance → convergence tolerance
-#-p / --num-polar → number of polar angles, mainly for 3D problems
-#-l / --z-spacing → axial ray spacing, also for 3D problems.
 
 ###############################################################################
 #                          Creating the TrackGenerator

@@ -17,7 +17,7 @@ materials = openmoc.materialize.load_from_hdf5('c5g7-mgxs.h5', '../')
 
 openmoc.log.py_printf('NORMAL', 'Creating surfaces...')
 
-zcylinder = openmoc.ZCylinder(x=0.0, y=0.0, radius=0.8, name='pin')
+zcylinder = openmoc.ZCylinder(x=0.0, y=0.0, radius=1, name='pin')
 xmin = openmoc.XPlane(x=-2.0, name='xmin')
 ymin = openmoc.YPlane(y=-2.0, name='ymin')
 zmin = openmoc.ZPlane(z=-2.0, name='zmin')
