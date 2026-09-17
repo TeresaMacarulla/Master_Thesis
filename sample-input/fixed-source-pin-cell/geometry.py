@@ -12,8 +12,8 @@ ymin_value = -2.0
 ymax_value =  2.0
 
 # Number of spatial cells
-NX = 80
-NY = 80
+NX = 40
+NY = 40
 
 dx = (xmax_value - xmin_value) / NX
 dy = (ymax_value - ymin_value) / NY
@@ -40,7 +40,7 @@ material = openmoc.Material(name='non-fissile material')
 
 material.setNumEnergyGroups(1)
 
-# Same one-group material physics used in William's first case
+# one-group material 
 material.setSigmaT(
     np.array([1.0])
 )

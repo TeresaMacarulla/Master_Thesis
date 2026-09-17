@@ -1,4 +1,4 @@
-Current local time and date: Wed Sep 16 19:26:01 2026
+Current local time and date: Thu Sep 17 19:27:54 2026
 [  NORMAL ]  Initializing flat source regions...
 [  NORMAL ]  Initializing a default angular quadrature...
 [  NORMAL ]  Initializing 2D tracks...
@@ -17,40 +17,41 @@ Current local time and date: Wed Sep 16 19:26:01 2026
 [  NORMAL ]  Progress Segmenting 2D tracks: 89.84 %
 [  NORMAL ]  Progress Segmenting 2D tracks: 100.00 %
 [  NORMAL ]  Initializing FSR lookup vectors
-[  NORMAL ]  Total number of FSRs 400
+[  NORMAL ]  Total number of FSRs 1600
 [  NORMAL ]  Computing the source...
 [  NORMAL ]  Initializing solver arrays...
 [  NORMAL ]  Centering segments around FSR centroid...
 [  NORMAL ]  Max boundary angular flux storage per domain =   0.08 MB
-[  NORMAL ]  Max scalar flux storage per domain =   0.00 MB
-[  NORMAL ]  Max source storage per domain =   0.00 MB
-[  NORMAL ]  Iteration 0:	res = 3.460E+00
-[  NORMAL ]  Iteration 1:	res = 3.068E-01
-[  NORMAL ]  Iteration 2:	res = 9.486E-02
-[  NORMAL ]  Iteration 3:	res = 3.528E-02
-[  NORMAL ]  Iteration 4:	res = 1.394E-02
-[  NORMAL ]  Iteration 5:	res = 5.642E-03
-[  NORMAL ]  Iteration 6:	res = 2.306E-03
-[  NORMAL ]  Iteration 7:	res = 9.464E-04
-[  NORMAL ]  Iteration 8:	res = 3.892E-04
-[  NORMAL ]  Iteration 9:	res = 1.602E-04
-[  NORMAL ]  Iteration 10:	res = 6.596E-05
-[  NORMAL ]  Iteration 11:	res = 2.716E-05
-[  NORMAL ]  Iteration 12:	res = 1.119E-05
-[  NORMAL ]  Iteration 13:	res = 4.609E-06
+[  NORMAL ]  Max scalar flux storage per domain =   0.01 MB
+[  NORMAL ]  Max source storage per domain =   0.01 MB
+[  NORMAL ]  Iteration 0:	res = 7.559E+00
+[  NORMAL ]  Iteration 1:	res = 3.495E-01
+[  NORMAL ]  Iteration 2:	res = 1.044E-01
+[  NORMAL ]  Iteration 3:	res = 3.843E-02
+[  NORMAL ]  Iteration 4:	res = 1.514E-02
+[  NORMAL ]  Iteration 5:	res = 6.121E-03
+[  NORMAL ]  Iteration 6:	res = 2.502E-03
+[  NORMAL ]  Iteration 7:	res = 1.028E-03
+[  NORMAL ]  Iteration 8:	res = 4.230E-04
+[  NORMAL ]  Iteration 9:	res = 1.743E-04
+[  NORMAL ]  Iteration 10:	res = 7.185E-05
+[  NORMAL ]  Iteration 11:	res = 2.963E-05
+[  NORMAL ]  Iteration 12:	res = 1.222E-05
+[  NORMAL ]  Iteration 13:	res = 5.041E-06
 [  TITLE  ]  *******************************************************************
 [  TITLE  ]                             TIMING REPORT                           
 [  TITLE  ]  *******************************************************************
-[  RESULT ]  Total Track Generation & Segmentation Time...........2.1178E-01 sec
-[  RESULT ]  Total time to solution...............................7.0528E-02 sec
+[  RESULT ]  Total Track Generation & Segmentation Time...........8.2238E-01 sec
+[  RESULT ]  Total time to solution...............................9.5015E-02 sec
 [  RESULT ]    Solver initialization..............................0.0000E+00 sec
-[  RESULT ]    Transport Sweep....................................6.4638E-02 sec
-[  RESULT ]  Integration time by segment-group-thread (sweep).....2.5389E-08 sec
-[  RESULT ]  Integration time by segment-group-thread (total).....2.7702E-08 sec
+[  RESULT ]    Transport Sweep....................................9.1037E-02 sec
+[  RESULT ]  Integration time by segment-group-thread (sweep).....1.7879E-08 sec
+[  RESULT ]  Integration time by segment-group-thread (total).....1.8660E-08 sec
 [SEPARATOR]  -------------------------------------------------------------------
 [  RESULT ]             # tracks          # segments          # FSRs
 [SEPARATOR]  -------------------------------------------------------------------
-[  RESULT ]                1644              32640              400             
+[  RESULT ]                1644              65280              1600            
+[  RESULT ]  ...   
 [SEPARATOR]  -------------------------------------------------------------------
 [  NORMAL ]  Plotting the source regions...
 [  NORMAL ]  Plotting the FSR scalar fluxes...

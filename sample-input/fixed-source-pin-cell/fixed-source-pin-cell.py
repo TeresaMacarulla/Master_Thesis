@@ -37,10 +37,6 @@ from geometry import (
 #
 # The 4 cm x 4 cm domain is divided into an NX x NY regular grid.
 #
-# For NX = NY = 20:
-#
-#       number of spatial cells = NX * NY = 400
-#
 # Each grid cell corresponds to one OpenMOC Flat Source Region (FSR).
 # Therefore, each FSR will receive one constant source value Q_ij.
 #
@@ -52,19 +48,15 @@ from geometry import (
 #       r_k = (x_k, y_k)
 #
 # Although the source is two-dimensional, the NX x NY grid is temporarily
-# flattened into a list of N = NX*NY spatial positions. For a 20x20 grid:
-#
-#       coords.shape = (400, 2)
+# flattened into a list of N = NX*NY spatial positions. 
 #
 #
 # 3. GAUSSIAN RANDOM FIELD COVARIANCE
 #
 # The spatial correlation between every pair of points r_a and r_b is
 # described using the squared-exponential covariance kernel:
-#
-#                         |r_a - r_b|^2
-#       C_ab = sigma^2 exp(---------------)
-#                            2*l^2
+#                      
+#       C_ab = sigma^2 exp[(-|r_a - r_b|^2)/(2*l^2)]                         
 #
 # where:
 #
@@ -74,10 +66,6 @@ from geometry import (
 # Since there are N spatial points, the covariance matrix has dimensions:
 #
 #       C.shape = (N, N)
-#
-# For the 20x20 grid:
-#
-#       C.shape = (400, 400)
 #
 #
 # 4. NUMERICAL STABILIZATION
@@ -107,11 +95,11 @@ from geometry import (
 #
 # where M is the mean-source vector.
 #
-# For a 20x20 grid:
+# For a N=NX*NY grid:
 #
-#       L.shape      = (400, 400)
-#       Z.shape      = (400,)
-#       Q_flat.shape = (400,)
+#       L.shape      = (N, N)
+#       Z.shape      = (N,)
+#       Q_flat.shape = (N,)
 #
 #
 # 6. RESTORING THE 2D SOURCE FIELD
@@ -179,23 +167,10 @@ from geometry import (
 # GRF PARAMETERS
 # ============================================================
 
-# William / Sahadath-style parameters
-mean = 5.0
-variance = 1.0
-
-# NOTE:
-# William uses l = 0.1 cm with cells of width 0.1 cm.
-#
-# Here dx = dy = 0.2 cm for a 20x20 grid over 4 cm.
-# To preserve roughly the same ratio between length scale
-# and cell size, use l = 0.2 cm for this first experiment.
-#
-# If you later use a 40x40 grid, dx = 0.1 cm and you can
-# directly use l = 0.1 cm.
-length_scale = 0.2
-
+mean = 50.0
+variance = 2.0
+length_scale = 1.0
 random_seed = 1234
-
 
 # ============================================================
 # BUILD THE 2D GRF
@@ -218,7 +193,6 @@ coords = np.column_stack(
 
 num_points = coords.shape[0]
 
-
 # ------------------------------------------------------------
 # Mean vector
 # ------------------------------------------------------------
@@ -227,7 +201,6 @@ M = np.full(
     num_points,
     mean
 )
-
 
 # ------------------------------------------------------------
 # Squared-exponential covariance matrix
@@ -343,92 +316,42 @@ solver.setConvergenceThreshold(
 
 num_fsrs = geometry.getNumFSRs()
 
-print(
-    "Number of FSRs:",
-    num_fsrs
-)
+print( "Number of FSRs:", num_fsrs )
+print( "Expected number:", NX * NY )
 
-print(
-    "Expected number:",
-    NX * NY
-)
-
-
-# Arrays that let us later reconstruct which Q value
-# was assigned to which FSR
-fsr_source = np.zeros(
-    num_fsrs
-)
-
-fsr_x = np.zeros(
-    num_fsrs
-)
-
-fsr_y = np.zeros(
-    num_fsrs
-)
+# Store the grid indices associated with each FSR.
+# These will later be reused to reconstruct the flux matrix.
+fsr_i = np.zeros(num_fsrs, dtype=int)
+fsr_j = np.zeros(num_fsrs, dtype=int)
 
 
 for fsr_id in range(num_fsrs):
 
-    # OpenMOC provides a representative point
-    # inside each FSR
-    point = geometry.getFSRPoint(
-        fsr_id
-    )
+    # OpenMOC provides a representative point inside each FSR
+    point = geometry.getFSRPoint(fsr_id)
 
     x = point.getX()
     y = point.getY()
 
-    fsr_x[fsr_id] = x
-    fsr_y[fsr_id] = y
-
-
-    # --------------------------------------------------------
-    # Find which grid cell contains this FSR
-    # --------------------------------------------------------
-
-    i = int(
-        (x - xmin_value)
-        /
-        dx
-    )
-
-    j = int(
-        (y - ymin_value)
-        /
-        dy
-    )
+    # Identify the Cartesian grid cell containing this FSR
+    i = int((x - xmin_value) / dx)
+    j = int((y - ymin_value) / dy)
 
 
     # Protect against floating-point boundary issues
-    i = np.clip(
-        i,
-        0,
-        NX - 1
-    )
+    i = np.clip(i, 0, NX - 1)
+    j = np.clip(j, 0, NY - 1)
 
-    j = np.clip(
-        j,
-        0,
-        NY - 1
-    )
+    # Save the mapping FSR -> grid cell
+    fsr_i[fsr_id] = i
+    fsr_j[fsr_id] = j
 
-
-    # Source value from the GRF
-    source_value = Q[j, i]
-
-    fsr_source[fsr_id] = source_value
-
-
-    # --------------------------------------------------------
     # Assign the source to this FSR
-    # --------------------------------------------------------
 
     solver.setFixedSourceByFSR(
         fsr_id,
         1,
-        source_value
+        Q[j,i]
     )
 
 
@@ -436,73 +359,39 @@ for fsr_id in range(num_fsrs):
 # SOLVE THE FIXED-SOURCE TRANSPORT PROBLEM
 # ============================================================
 
-solver.computeSource(
-    1000
-)
-
+solver.computeSource(1000)
 solver.printTimerReport()
 
 
 # ============================================================
-# EXTRACT SCALAR FLUX
+# EXTRACT AND RECONSTRUCT SCALAR FLUX
 # ============================================================
 
-flux_fsr = np.zeros(
-    num_fsrs
-)
-
-for fsr_id in range(num_fsrs):
-
-    flux_fsr[fsr_id] = solver.getFlux(
-        fsr_id,
-        1
-    )
-
-
-# ============================================================
-# RECONSTRUCT FLUX AS Nx x Ny MATRIX
-# ============================================================
-
-Phi = np.zeros(
-    (NY, NX)
-)
+Phi = np.zeros((NY, NX))
 
 FSR_ID = np.zeros(
     (NY, NX),
     dtype=int
 )
 
+
 for fsr_id in range(num_fsrs):
 
-    x = fsr_x[fsr_id]
-    y = fsr_y[fsr_id]
+    # Retrieve the grid indices already calculated
+    # before solving the transport problem
+    i = fsr_i[fsr_id]
+    j = fsr_j[fsr_id]
 
-    i = int(
-        (x - xmin_value)
-        /
-        dx
+    # Extract scalar flux from OpenMOC
+    flux = solver.getFlux(
+        fsr_id,
+        1
     )
 
-    j = int(
-        (y - ymin_value)
-        /
-        dy
-    )
+    # Map the FSR result back onto the Cartesian grid
+    Phi[j, i] = flux
 
-    i = np.clip(
-        i,
-        0,
-        NX - 1
-    )
-
-    j = np.clip(
-        j,
-        0,
-        NY - 1
-    )
-
-    Phi[j, i] = flux_fsr[fsr_id]
-
+    # Save the FSR identifier corresponding to this grid cell
     FSR_ID[j, i] = fsr_id
 
 
@@ -518,7 +407,7 @@ os.makedirs(
 )
 
 np.savez_compressed(
-    f'log/grf-sample-{random_seed:04d}-{grid_tag}.npz',
+    f'log/Q_Phi-mean{mean}-variance{variance}-l{length_scale}-grid{grid_tag}.npz',
     Q=Q,
     phi=Phi,
     x=x_centers,
@@ -560,7 +449,7 @@ plt.title(
 )
 plt.tight_layout()
 plt.savefig(
-    f'plots/Q-GRF-{grid_tag}.png',
+    f'plots/Q-GRF-mean{mean}-variance{variance}-l{length_scale}-grid{grid_tag}.png',
     dpi=200
 )
 
@@ -594,7 +483,7 @@ plt.title(
 )
 plt.tight_layout()
 plt.savefig(
-    f'plots/phi-GRF-{grid_tag}.png',
+    f'plots/phi-GRF-mean{mean}-variance{variance}-l{length_scale}-grid{grid_tag}.png',
     dpi=200
 )
 
