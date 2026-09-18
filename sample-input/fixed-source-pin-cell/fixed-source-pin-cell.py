@@ -167,9 +167,9 @@ from geometry import (
 # GRF PARAMETERS
 # ============================================================
 
-mean = 50.0
-variance = 2.0
-length_scale = 1.0
+mean = 2.5
+variance = 0.5
+length_scale = 0.08
 random_seed = 1234
 
 # ============================================================
