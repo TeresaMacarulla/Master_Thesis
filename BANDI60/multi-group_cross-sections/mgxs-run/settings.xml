@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>10000</particles>
+  <batches>450</batches>
+  <inactive>100</inactive>
+  <generations_per_batch>3</generations_per_batch>
+  <source type="independent" strength="1.0" particle="neutron">
+    <space type="box">
+      <parameters>-85.68 -85.68 -100.0 85.68 85.68 100.0</parameters>
+    </space>
+    <energy type="watt" parameters="988000.0 2.249e-06"/>
+    <constraints>
+      <fissionable>true</fissionable>
+    </constraints>
+  </source>
+</settings>

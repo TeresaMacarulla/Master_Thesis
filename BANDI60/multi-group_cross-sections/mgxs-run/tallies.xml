@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tallies>
+  <filter id="238" type="material">
+    <bins>1 2 3 4 9 10 11 12 13 14 15</bins>
+  </filter>
+  <filter id="2" type="energy">
+    <bins>1e-05 0.0635 10.0 100.0 1000.0 500000.0 1000000.0 20000000.0</bins>
+  </filter>
+  <filter id="5" type="energyout">
+    <bins>1e-05 0.0635 10.0 100.0 1000.0 500000.0 1000000.0 20000000.0</bins>
+  </filter>
+  <filter id="6" type="legendre">
+    <order>0</order>
+  </filter>
+  <filter id="13" type="energy">
+    <bins>1e-05 20000000.0</bins>
+  </filter>
+  <tally id="211">
+    <filters>238 2</filters>
+    <nuclides>total</nuclides>
+    <scores>flux total fission nu-fission</scores>
+    <estimator>tracklength</estimator>
+  </tally>
+  <tally id="202">
+    <filters>238 2</filters>
+    <nuclides>total</nuclides>
+    <scores>flux</scores>
+    <estimator>analog</estimator>
+  </tally>
+  <tally id="203">
+    <filters>238 2 5 6</filters>
+    <nuclides>total</nuclides>
+    <scores>scatter</scores>
+    <estimator>analog</estimator>
+  </tally>
+  <tally id="214">
+    <filters>238 13</filters>
+    <nuclides>total</nuclides>
+    <scores>nu-fission</scores>
+    <estimator>analog</estimator>
+  </tally>
+  <tally id="215">
+    <filters>238 5</filters>
+    <nuclides>total</nuclides>
+    <scores>nu-fission</scores>
+    <estimator>analog</estimator>
+  </tally>
+</tallies>
