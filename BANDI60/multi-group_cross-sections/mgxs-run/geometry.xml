@@ -9098,13 +9098,13 @@
   <surface id="13" type="y-plane" coeffs="10.71"/>
   <surface id="14" type="z-plane" coeffs="-100.0"/>
   <surface id="15" type="z-plane" coeffs="100.0"/>
-  <surface id="16" type="x-plane" boundary="reflective" coeffs="-85.68"/>
-  <surface id="17" type="x-plane" boundary="reflective" coeffs="85.68"/>
-  <surface id="18" type="y-plane" boundary="reflective" coeffs="-85.68"/>
-  <surface id="19" type="y-plane" boundary="reflective" coeffs="85.68"/>
-  <surface id="20" type="z-plane" boundary="reflective" coeffs="-100.0"/>
-  <surface id="21" type="z-plane" boundary="reflective" coeffs="100.0"/>
-  <surface id="22" type="z-cylinder" boundary="reflective" coeffs="0.0 0.0 95.68"/>
-  <surface id="23" type="z-cylinder" boundary="reflective" coeffs="0.0 0.0 100.68"/>
+  <surface id="16" type="x-plane" boundary="vacuum" coeffs="-85.68"/>
+  <surface id="17" type="x-plane" boundary="vacuum" coeffs="85.68"/>
+  <surface id="18" type="y-plane" boundary="vacuum" coeffs="-85.68"/>
+  <surface id="19" type="y-plane" boundary="vacuum" coeffs="85.68"/>
+  <surface id="20" type="z-plane" boundary="vacuum" coeffs="-100.0"/>
+  <surface id="21" type="z-plane" boundary="vacuum" coeffs="100.0"/>
+  <surface id="22" type="z-cylinder" coeffs="0.0 0.0 95.68"/>
+  <surface id="23" type="z-cylinder" coeffs="0.0 0.0 100.68"/>
   <surface id="24" type="z-cylinder" boundary="vacuum" coeffs="0.0 0.0 120.68"/>
 </geometry>

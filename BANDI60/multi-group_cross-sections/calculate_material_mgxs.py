@@ -18,13 +18,13 @@ It also writes the same output to:
     mgxs_arrays.txt
 
 Required files in the same directory:
-    materials.py
-    geometry.xml
-    settings.xml
+    maia_materials.py
+    maia_geometry.xml
+    maia_settings.xml
 
-The script imports the material definitions from materials.py, so the
+The script imports the material definitions from maia_materials.py, so the
 material temperatures defined there are used unless a cell temperature
-in geometry.xml overrides them.
+in maia_geometry.xml overrides them.
 
 Run from an environment in which the OpenMC Python package and the OpenMC
 executable are installed, for example:
@@ -40,8 +40,8 @@ import openmc
 import openmc.mgxs
 
 # Import the existing OpenMC materials exactly as defined by the model.
-# NOTE: materials.py currently exports materials.xml as a side effect.
-from materials import materials
+# NOTE: maia_materials.py currently exports materials.xml as a side effect.
+from maia_materials import materials
 
 
 # =============================================================================
@@ -50,8 +50,8 @@ from materials import materials
 
 BASE_DIR = Path(__file__).resolve().parent
 
-GEOMETRY_XML = BASE_DIR / "geometry.xml"
-SETTINGS_XML = BASE_DIR / "settings.xml"
+GEOMETRY_XML = BASE_DIR / "maia_geometry.xml"
+SETTINGS_XML = BASE_DIR / "maia_settings.xml"
 
 RUN_DIR = BASE_DIR / "mgxs-run"
 OUTPUT_TXT = BASE_DIR / "mgxs_arrays.txt"
@@ -86,7 +86,7 @@ for path in (GEOMETRY_XML, SETTINGS_XML):
     if not path.exists():
         raise FileNotFoundError(
             f"Required file not found: {path}\n"
-            "Place geometry.xml and settings.xml in the same directory "
+            "Place maia_geometry.xml and maia_settings.xml in the same directory "
             "as this script."
         )
 
@@ -95,9 +95,9 @@ for path in (GEOMETRY_XML, SETTINGS_XML):
 # LOAD THE EXISTING OPENMC MODEL
 # =============================================================================
 #
-# Geometry is loaded using the material objects imported from materials.py.
+# Geometry is loaded using the material objects imported from maia_materials.py.
 # Therefore the temperatures, densities, compositions and S(alpha,beta)
-# definitions in materials.py are retained.
+# definitions in maia_materials.py are retained.
 # =============================================================================
 
 geometry = openmc.Geometry.from_xml( GEOMETRY_XML, materials=materials,)
@@ -120,7 +120,7 @@ for material in materials:
 
 print("-" * 65)
 print(
-    "A cell-specific temperature in geometry.xml, if present, "
+    "A cell-specific temperature in maia_geometry.xml, if present, "
     "would override the material temperature.\n"
 )
 

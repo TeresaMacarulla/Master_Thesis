@@ -33,6 +33,11 @@ import openmoc
 import openmoc.log as log
 import openmoc.materialize as materialize
 import openmoc.plotter as plotter
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.patches import Patch
+from pathlib import Path
+from matplotlib.colors import ListedColormap
 
 
 # =============================================================================
@@ -98,6 +103,8 @@ pyrex10 = materials['pyrex10']
 pyrex25 = materials['pyrex25']
 pyrex35 = materials['pyrex35']
 pyrex40 = materials['pyrex40']
+Steel_SA508 = materials['Steel_SA508']
+Steel_14404 = materials['Steel_14404']
 
 
 # =============================================================================
@@ -243,7 +250,10 @@ def make_guide_tube_universe(name):
     )
 
     inner_water = openmoc.Cell(name=name + " inner water")
-    inner_water.setFill(water)
+    if name=="guide tube":
+        inner_water.setFill(water)
+    elif name=="instrument tube":
+        inner_water.setFill(zircaloy4)
     inner_water.addSurface(halfspace=-1, surface=inner_surface)
 
     tube_wall = openmoc.Cell(name=name + " Zircaloy-4 wall")
@@ -495,35 +505,138 @@ core_lattice.setUniverses([core_universes])
 
 
 # =============================================================================
-# ROOT ACTIVE-CORE BOUNDARIES
+# ROOT CORE + STEEL REGIONS
 # =============================================================================
 
 CORE_WIDTH_X = N_CORE_X * ASSEMBLY_PITCH
 CORE_WIDTH_Y = N_CORE_Y * ASSEMBLY_PITCH
+CORE_HALF_X = CORE_WIDTH_X / 2.0
+CORE_HALF_Y = CORE_WIDTH_Y / 2.0
 
-xmin = openmoc.XPlane(x=-CORE_WIDTH_X / 2.0, name="active-core xmin")
-xmax = openmoc.XPlane(x=+CORE_WIDTH_X / 2.0, name="active-core xmax")
-ymin = openmoc.YPlane(y=-CORE_WIDTH_Y / 2.0, name="active-core ymin")
-ymax = openmoc.YPlane(y=+CORE_WIDTH_Y / 2.0, name="active-core ymax")
-zmin = openmoc.ZPlane(z=-ACTIVE_HEIGHT / 2.0, name="active-core zmin")
-zmax = openmoc.ZPlane(z=+ACTIVE_HEIGHT / 2.0, name="active-core zmax")
+# -----------------------------------------------------------------------------
+# Rectangular boundary of the 8x8 core lattice
+# -----------------------------------------------------------------------------
 
-# Vacuum is applied at the boundary of this active-core-only model.
-for surface in (xmin, xmax, ymin, ymax, zmin, zmax):
-    surface.setBoundaryType(openmoc.VACUUM)
+xmin = openmoc.XPlane(x=-CORE_HALF_X, name="core lattice xmin")
+xmax = openmoc.XPlane(x=+CORE_HALF_X, name="core lattice xmax")
+ymin = openmoc.YPlane(y=-CORE_HALF_Y, name="core lattice ymin")
+ymax = openmoc.YPlane(y=+CORE_HALF_Y, name="core lattice ymax")
+zmin = openmoc.ZPlane(z=-ACTIVE_HEIGHT / 2.0, name="reactor zmin")
+zmax = openmoc.ZPlane(z=+ACTIVE_HEIGHT / 2.0, name="reactor zmax")
+
+# These are external boundaries
+zmin.setBoundaryType(openmoc.VACUUM)
+zmax.setBoundaryType(openmoc.VACUUM)
+
+# -----------------------------------------------------------------------------
+# Cylindrical radial regions
+# -----------------------------------------------------------------------------
+#
+# R_MODERATOR_OUTER is chosen as 96.2 cm rather than exactly 96.0 cm
+# so that the complete outer fuel assemblies are not clipped by the
+# cylindrical boundary.
+#
+# Steel thicknesses inherited from the OpenMC (Maia) model:
+#
+#   SA508      : 5 cm
+#   Steel 14404: 20 cm
+#
+# -----------------------------------------------------------------------------
+
+R_MODERATOR_OUTER = 96.2
+R_SA508_OUTER = R_MODERATOR_OUTER + 5.0
+R_STEEL14404_OUTER = R_SA508_OUTER + 20.0
+
+moderator_outer = openmoc.ZCylinder(x=0.0, y=0.0, radius=R_MODERATOR_OUTER, name="moderator outer radius")
+sa508_outer = openmoc.ZCylinder(x=0.0, y=0.0, radius=R_SA508_OUTER, name="SA508 outer radius")
+steel14404_outer = openmoc.ZCylinder(x=0.0, y=0.0, radius=R_STEEL14404_OUTER, name="Steel 14404 outer radius")
+
+# Only the OUTERMOST cylinder is vacuum.
+# moderator_outer and sa508_outer are internal interfaces and must
+# remain transmissive (the OpenMOC default).
+
+steel14404_outer.setBoundaryType(openmoc.VACUUM)
+
+# SA508 ring
+sa508_cell = openmoc.Cell(name="SA508 steel ring")
+sa508_cell.setFill(Steel_SA508)
+sa508_cell.addSurface(halfspace=+1, surface=moderator_outer)
+sa508_cell.addSurface(halfspace=-1, surface=sa508_outer)
+sa508_cell.addSurface(halfspace=+1, surface=zmin)
+sa508_cell.addSurface(halfspace=-1, surface=zmax)
+
+# Steel 1.4404 ring
+steel14404_cell = openmoc.Cell(name="Steel 1.4404 outer ring")
+steel14404_cell.setFill(Steel_14404)
+steel14404_cell.addSurface(halfspace=+1, surface=sa508_outer)
+steel14404_cell.addSurface(halfspace=-1, surface=steel14404_outer)
+steel14404_cell.addSurface(halfspace=+1, surface=zmin)
+steel14404_cell.addSurface(halfspace=-1, surface=zmax)
+
+# -----------------------------------------------------------------------------
+# Core lattice cell
+# -----------------------------------------------------------------------------
+
+core_cell = openmoc.Cell(name="BANDI-60 active-core cell")
+core_cell.addSurface(halfspace=+1, surface=xmin)
+core_cell.addSurface(halfspace=-1, surface=xmax)
+core_cell.addSurface(halfspace=+1, surface=ymin)
+core_cell.addSurface(halfspace=-1, surface=ymax)
+core_cell.addSurface(halfspace=+1, surface=zmin)
+core_cell.addSurface(halfspace=-1, surface=zmax)
+core_cell.addSurface(halfspace=-1, surface=moderator_outer)
+core_cell.setFill(core_lattice)
 
 
-root_cell = openmoc.Cell(name="BANDI-60 active-core cell")
-root_cell.addSurface(halfspace=+1, surface=xmin)
-root_cell.addSurface(halfspace=-1, surface=xmax)
-root_cell.addSurface(halfspace=+1, surface=ymin)
-root_cell.addSurface(halfspace=-1, surface=ymax)
-root_cell.addSurface(halfspace=+1, surface=zmin)
-root_cell.addSurface(halfspace=-1, surface=zmax)
-root_cell.setFill(core_lattice)
+# =============================================================================
+# WATER REGION AROUND THE 8x8 CORE LATTICE
+# =============================================================================
+
+# Top water region
+water_top = openmoc.Cell(name="core peripheral water top")
+water_top.setFill(water)
+water_top.addSurface(halfspace=-1, surface=moderator_outer)
+water_top.addSurface(halfspace=+1, surface=ymax)
+water_top.addSurface(halfspace=+1, surface=zmin)
+water_top.addSurface(halfspace=-1, surface=zmax)
+# Bottom water region
+water_bottom = openmoc.Cell(name="core peripheral water bottom")
+water_bottom.setFill(water)
+water_bottom.addSurface(halfspace=-1, surface=moderator_outer)
+water_bottom.addSurface(halfspace=-1, surface=ymin)
+water_bottom.addSurface(halfspace=+1, surface=zmin)
+water_bottom.addSurface(halfspace=-1, surface=zmax)
+# Left water region
+water_left = openmoc.Cell(name="core peripheral water left")
+water_left.setFill(water)
+water_left.addSurface(halfspace=-1, surface=moderator_outer)
+water_left.addSurface(halfspace=-1, surface=xmin)
+water_left.addSurface(halfspace=+1, surface=ymin)
+water_left.addSurface(halfspace=-1, surface=ymax)
+water_left.addSurface(halfspace=+1, surface=zmin)
+water_left.addSurface(halfspace=-1, surface=zmax)
+# Right water region
+water_right = openmoc.Cell(name="core peripheral water right")
+water_right.setFill(water)
+water_right.addSurface(halfspace=-1, surface=moderator_outer)
+water_right.addSurface(halfspace=+1, surface=xmax)
+water_right.addSurface(halfspace=+1, surface=ymin)
+water_right.addSurface(halfspace=-1, surface=ymax)
+water_right.addSurface(halfspace=+1, surface=zmin)
+water_right.addSurface(halfspace=-1, surface=zmax)
+
+# =============================================================================
+# ROOT UNIVERSE
+# =============================================================================
 
 root_universe = openmoc.Universe(name="BANDI-60 root universe")
-root_universe.addCell(root_cell)
+root_universe.addCell(core_cell)
+root_universe.addCell(water_top)
+root_universe.addCell(water_bottom)
+root_universe.addCell(water_right)
+root_universe.addCell(water_left)
+root_universe.addCell(sa508_cell)
+root_universe.addCell(steel14404_cell)
 
 
 # =============================================================================
@@ -537,6 +650,37 @@ geometry = openmoc.Geometry()
 geometry.setRootUniverse(root_universe)
 
 geometry.initializeFlatSourceRegions()
+
+def check_material_at(x, y):
+
+    material_dict = geometry.getAllMaterials()
+
+    material_id = geometry.getSpatialDataOnGrid(
+        np.array([x]),
+        np.array([y]),
+        offset=0.0,
+        plane='xy',
+        domain_type='material'
+    )[0]
+
+    if material_id in material_dict:
+        name = material_dict[material_id].getName()
+    else:
+        name = "NO MATERIAL / outside geometry"
+
+    print(
+        "x = {}, y = {} -> ID {} -> {}".format(
+            x, y, material_id, name
+        )
+    )
+
+check_material_at(0.0, 0.0)
+check_material_at(90.0, 0.0)
+check_material_at(0.0, 90.0)
+check_material_at(95.0, 0.0)
+check_material_at(98.0, 0.0)
+check_material_at(110.0, 0.0)
+check_material_at(125.0, 0.0)
 
 
 # =============================================================================
@@ -569,20 +713,186 @@ log.py_printf(
     ACTIVE_HEIGHT
 )
 
-plotter.plot_materials(
-    geometry,
-    gridsize=1000,
-    plane='xy',
-    offset=0.0,
-    xlim=(-86, 86),
-    ylim=(-86, 86)
-)
 
-plotter.plot_materials(
-    geometry,
-    gridsize=1000,
-    plane='xz',
-    offset=0.0,
-    xlim=(-86, 86),
-    zlim=(-100, 100)
-)
+# ============================================================
+# PLOT
+# ============================================================
+
+# Directory containing geometry.py
+BASE_DIR = Path(__file__).resolve().parent
+
+# BANDI60/plots
+PLOTS_DIR = BASE_DIR / "plots"
+
+MATERIAL_COLORS = {
+
+    "UO2": "#F31CD6",          # pink
+    "water": "#0066CC",        # blue
+    "pyrex40": "#E31A1C",      # red
+    "pyrex35": "#FF4500",      # red-orange
+    "pyrex25": "#FF8C00",      # orange
+    "pyrex10": "#FFC107",      # orange-yellow
+    "pyrex5": "#FFFF00",       # yellow
+    "zircaloy4": "#ADD8E6",    # light blue
+    "Steel_14404": "#D3D3D3",  # light gray
+    "Steel_SA508": "#555555",   # dark gray
+    "helium": "#90EE90",       # light green
+}
+
+def plot_materials_custom(geometry, gridsize=1000, plane="xy", offset=0.0, xlim=None, ylim=None, zlim=None):
+
+    material_dict = geometry.getAllMaterials()
+
+    # Material name -> OpenMOC material ID
+    name_to_id = {
+        material.getName(): material_id
+        for material_id, material in material_dict.items()
+    }
+
+    # Make sure every material is included in our plotting definition
+    unknown_materials = [
+        name
+        for name in name_to_id
+        if name not in LEGEND_ORDER
+    ]
+
+    if unknown_materials:
+        raise ValueError(
+            "Materials missing from LEGEND_ORDER: {}".format(
+                unknown_materials
+            )
+        )
+
+    # ----------------------------------------------------------
+    # IMPORTANT:
+    # value 0 is reserved for points outside the geometry.
+    # Real materials therefore start from 1.
+    # ----------------------------------------------------------
+
+    material_to_plot_value = {}
+
+    # First colour = background
+    plot_colors = ["white"]
+
+    for name in LEGEND_ORDER:
+
+        if name in name_to_id:
+            plot_value = len(plot_colors)
+            material_to_plot_value[name_to_id[name]] = plot_value
+            plot_colors.append(MATERIAL_COLORS[name])
+
+    # Custom deterministic colour map
+    cmap = ListedColormap(plot_colors)
+
+    # OpenMOC plotting parameters
+    params = plotter.PlotParams()
+    params.geometry = geometry
+    params.domain_type = "material"
+    params.gridsize = gridsize
+    params.plane = plane
+    params.offset = offset
+    params.xlim = xlim
+    params.ylim = ylim
+    params.zlim = zlim
+    params.interpolation = "nearest"
+    params.cmap = cmap
+    params.vmin = 0
+    params.vmax = len(plot_colors) - 1
+    params.suptitle = "Materials"
+
+    if plane == "xy":
+        params.title = "z = {}".format(offset)
+        params.filename = "custom-materials-z-{}".format(offset)
+    elif plane == "xz":
+        params.title = "y = {}".format(offset)
+        params.filename = "custom-materials-y-{}".format(offset)
+    elif plane == "yz":
+        params.title = "x = {}".format(offset)
+        params.filename = "custom-materials-x-{}".format(offset)
+
+    figures = plotter.plot_spatial_data(material_to_plot_value, params, get_figure=True)
+    fig = figures[0]
+    fig.patch.set_facecolor("white")
+    ax = fig.axes[0]
+    ax.set_facecolor("white")
+
+    return fig
+
+# Include materials color legend
+LEGEND_ORDER = ["UO2", "water", "helium", "zircaloy4", "pyrex5", "pyrex10", "pyrex25", "pyrex35", "pyrex40", "Steel_SA508", "Steel_14404"]
+MATERIAL_LABELS = {
+    "UO2": "UO$_2$", "water": "Water", "helium": "Helium", "zircaloy4": "Zircaloy-4", "pyrex5": "Pyrex 5%", "pyrex10": "Pyrex 10%",
+    "pyrex25": "Pyrex 25%", "pyrex35": "Pyrex 35%", "pyrex40": "Pyrex 40%", "Steel_SA508": "Steel SA508", "Steel_14404": "Steel 1.4404",
+}
+
+def add_material_legend(fig, geometry):
+
+    ax = fig.axes[0]
+
+    # Materials that actually exist in this geometry
+    material_dict = geometry.getAllMaterials()
+    available_names = {
+        material.getName()
+        for material in material_dict.values()
+    }
+    legend_handles = []
+
+    for name in LEGEND_ORDER:
+
+        if name in available_names:
+            legend_handles.append(
+                Patch(
+                    facecolor=MATERIAL_COLORS[name],
+                    edgecolor="black",
+                    label=MATERIAL_LABELS[name]
+                )
+            )
+
+    ax.legend(
+        handles=legend_handles,
+        loc="upper left",
+        bbox_to_anchor=(1.02, 1.0),
+        borderaxespad=0.0,
+        fontsize=8
+    )
+
+# CORE XY
+
+fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(-130, 130), ylim=(-130, 130))
+add_material_legend(fig, geometry)
+fig.savefig(PLOTS_DIR /"core_xy.pdf", bbox_inches="tight")
+plt.close(fig)
+
+# PIN / ASSEMBLY ZOOM
+
+fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(0, 21.5), ylim=(0, 21.5))
+add_material_legend(fig, geometry)
+fig.savefig(PLOTS_DIR /"pin_pyrex40_xy.pdf", bbox_inches="tight")
+plt.close(fig)
+
+fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(21.5, 43), ylim=(0, 21.5))
+add_material_legend(fig, geometry)
+fig.savefig(PLOTS_DIR /"pin_pyrex35_xy.pdf", bbox_inches="tight")
+plt.close(fig)
+
+fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(43, 64.5), ylim=(0, 21.5))
+add_material_legend(fig, geometry)
+fig.savefig(PLOTS_DIR /"pin_pyrex25_xy.pdf", bbox_inches="tight")
+plt.close(fig)
+
+fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(64.5, 86), ylim=(0, 21.5))
+add_material_legend(fig, geometry)
+fig.savefig(PLOTS_DIR /"pin_pyrex10_xy.pdf", bbox_inches="tight")
+plt.close(fig)
+
+fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(64.5, 86), ylim=(21.5, 43))
+add_material_legend(fig, geometry)
+fig.savefig(PLOTS_DIR /"pin_pyrex5_xy.pdf", bbox_inches="tight")
+plt.close(fig)
+
+# CORE XZ
+
+fig = plot_materials_custom(geometry,   gridsize=3500, plane='xz', offset=50.0, xlim=(-100, 100), zlim=(-100, 100))
+add_material_legend(fig, geometry)
+fig.savefig(PLOTS_DIR /"core_xz.pdf",  bbox_inches="tight")
+plt.close(fig)
