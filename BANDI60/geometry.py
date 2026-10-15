@@ -147,7 +147,6 @@ def make_fuel_pin_universe():
 
     return universe
 
-
 def make_pyrex_pin_universe(pyrex_material, concentration):
     """
     Pyrex BA rod with the same published pellet/gap/cladding radii as
@@ -213,7 +212,6 @@ def make_pyrex_pin_universe(pyrex_material, concentration):
 
     return universe
 
-
 def make_water_universe(name):
     """Homogeneous water universe."""
     cell = openmoc.Cell(name=name + " cell")
@@ -224,15 +222,14 @@ def make_water_universe(name):
 
     return universe
 
-
 def make_guide_tube_universe(name):
     """
     All-rods-out guide/instrument tube approximation.
 
     The supplied papers identify 24 guide tubes and one instrument tube.
     Separate instrument-tube dimensions are not reported, so the central
-    instrument tube is provisionally represented using the same water-filled
-    Zircaloy tube geometry as the guide tubes.
+    instrument tube is provisionally represented with the same radius as 
+    the guide tubes but filled with Zircaloy.
     """
 
     inner_surface = openmoc.ZCylinder(
@@ -348,7 +345,6 @@ assert INSTRUMENT_POSITION in TUBE_POSITIONS
 
 log.py_printf("NORMAL", "Creating five BANDI-60 Pyrex assembly types...")
 
-
 def make_assembly(concentration):
     """
     Build one 17x17 Pyrex-loaded BANDI-60 fuel assembly.
@@ -427,7 +423,6 @@ def make_assembly(concentration):
 
     return assembly_universe
 
-
 assemblies = {
     5: make_assembly(5),
     10: make_assembly(10),
@@ -468,7 +463,6 @@ CORE_MAP = [
     [None, None, 5, 10, 10, 5, None, None],
 ]
 
-
 assembly_counts = {
     concentration: sum(
         row.count(concentration)
@@ -478,9 +472,7 @@ assembly_counts = {
 }
 
 assert assembly_counts == {5: 8, 10: 12, 25: 16, 35: 12, 40: 4,}
-
 assert sum(assembly_counts.values()) == 52
-
 
 core_universes = []
 
@@ -489,10 +481,8 @@ for row in CORE_MAP:
     core_row = []
 
     for concentration in row:
-
         if concentration is None:
             core_row.append(water_assembly_universe)
-
         else:
             core_row.append(assemblies[concentration])
 
@@ -551,11 +541,7 @@ moderator_outer = openmoc.ZCylinder(x=0.0, y=0.0, radius=R_MODERATOR_OUTER, name
 sa508_outer = openmoc.ZCylinder(x=0.0, y=0.0, radius=R_SA508_OUTER, name="SA508 outer radius")
 steel14404_outer = openmoc.ZCylinder(x=0.0, y=0.0, radius=R_STEEL14404_OUTER, name="Steel 14404 outer radius")
 
-# Only the OUTERMOST cylinder is vacuum.
-# moderator_outer and sa508_outer are internal interfaces and must
-# remain transmissive (the OpenMOC default).
-
-steel14404_outer.setBoundaryType(openmoc.VACUUM)
+# the interfaces must remain transmissive (the OpenMOC default).
 
 # SA508 ring
 sa508_cell = openmoc.Cell(name="SA508 steel ring")
@@ -572,6 +558,40 @@ steel14404_cell.addSurface(halfspace=+1, surface=sa508_outer)
 steel14404_cell.addSurface(halfspace=-1, surface=steel14404_outer)
 steel14404_cell.addSurface(halfspace=+1, surface=zmin)
 steel14404_cell.addSurface(halfspace=-1, surface=zmax)
+
+# -------------------------------------------------------------------------
+# Rectangular outside openmoc transport domain
+# -------------------------------------------------------------------------
+
+DOMAIN_HALF = R_STEEL14404_OUTER + 1.0
+
+domain_xmin = openmoc.XPlane(x=-DOMAIN_HALF, name="domain xmin")
+domain_xmax = openmoc.XPlane(x=+DOMAIN_HALF, name="domain xmax")
+domain_ymin = openmoc.YPlane(y=-DOMAIN_HALF, name="domain ymin")
+domain_ymax = openmoc.YPlane(y=+DOMAIN_HALF, name="domain ymax")
+
+domain_xmin.setBoundaryType(openmoc.VACUUM)
+domain_xmax.setBoundaryType(openmoc.VACUUM)
+domain_ymin.setBoundaryType(openmoc.VACUUM)
+domain_ymax.setBoundaryType(openmoc.VACUUM)
+
+outer_buffer = openmoc.Cell(name="outside-vessel buffer")
+
+# Use helium here as near-void material because it has very small interaction probability.
+outer_buffer.setFill(helium)
+
+# Inside rectangular domain
+outer_buffer.addSurface(halfspace=+1, surface=domain_xmin)
+outer_buffer.addSurface(halfspace=-1, surface=domain_xmax)
+outer_buffer.addSurface(halfspace=+1, surface=domain_ymin)
+outer_buffer.addSurface(halfspace=-1, surface=domain_ymax)
+
+# Outside the cylindrical vessel
+outer_buffer.addSurface(halfspace=+1, surface=steel14404_outer)
+
+# Same axial bounds
+outer_buffer.addSurface(halfspace=+1, surface=zmin)
+outer_buffer.addSurface(halfspace=-1, surface=zmax)
 
 # -----------------------------------------------------------------------------
 # Core lattice cell
@@ -637,7 +657,7 @@ root_universe.addCell(water_right)
 root_universe.addCell(water_left)
 root_universe.addCell(sa508_cell)
 root_universe.addCell(steel14404_cell)
-
+root_universe.addCell(outer_buffer)
 
 # =============================================================================
 # CREATE OPENMOC GEOMETRY
@@ -646,42 +666,8 @@ root_universe.addCell(steel14404_cell)
 log.py_printf("NORMAL", "Creating BANDI-60 OpenMOC geometry...")
 
 geometry = openmoc.Geometry()
-
 geometry.setRootUniverse(root_universe)
-
 geometry.initializeFlatSourceRegions()
-
-def check_material_at(x, y):
-
-    material_dict = geometry.getAllMaterials()
-
-    material_id = geometry.getSpatialDataOnGrid(
-        np.array([x]),
-        np.array([y]),
-        offset=0.0,
-        plane='xy',
-        domain_type='material'
-    )[0]
-
-    if material_id in material_dict:
-        name = material_dict[material_id].getName()
-    else:
-        name = "NO MATERIAL / outside geometry"
-
-    print(
-        "x = {}, y = {} -> ID {} -> {}".format(
-            x, y, material_id, name
-        )
-    )
-
-check_material_at(0.0, 0.0)
-check_material_at(90.0, 0.0)
-check_material_at(0.0, 90.0)
-check_material_at(95.0, 0.0)
-check_material_at(98.0, 0.0)
-check_material_at(110.0, 0.0)
-check_material_at(125.0, 0.0)
-
 
 # =============================================================================
 # SANITY INFORMATION
@@ -856,43 +842,45 @@ def add_material_legend(fig, geometry):
         fontsize=8
     )
 
-# CORE XY
+if __name__ == "__main__":
 
-fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(-130, 130), ylim=(-130, 130))
-add_material_legend(fig, geometry)
-fig.savefig(PLOTS_DIR /"core_xy.pdf", bbox_inches="tight")
-plt.close(fig)
+    # CORE XY
 
-# PIN / ASSEMBLY ZOOM
+    fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(-130, 130), ylim=(-130, 130))
+    add_material_legend(fig, geometry)
+    fig.savefig(PLOTS_DIR /"core_xy.pdf", bbox_inches="tight")
+    plt.close(fig)
 
-fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(0, 21.5), ylim=(0, 21.5))
-add_material_legend(fig, geometry)
-fig.savefig(PLOTS_DIR /"pin_pyrex40_xy.pdf", bbox_inches="tight")
-plt.close(fig)
+    # PIN / ASSEMBLY ZOOM
 
-fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(21.5, 43), ylim=(0, 21.5))
-add_material_legend(fig, geometry)
-fig.savefig(PLOTS_DIR /"pin_pyrex35_xy.pdf", bbox_inches="tight")
-plt.close(fig)
+    fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(0, 21.5), ylim=(0, 21.5))
+    add_material_legend(fig, geometry)
+    fig.savefig(PLOTS_DIR /"pin_pyrex40_xy.pdf", bbox_inches="tight")
+    plt.close(fig)
 
-fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(43, 64.5), ylim=(0, 21.5))
-add_material_legend(fig, geometry)
-fig.savefig(PLOTS_DIR /"pin_pyrex25_xy.pdf", bbox_inches="tight")
-plt.close(fig)
+    fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(21.5, 43), ylim=(0, 21.5))
+    add_material_legend(fig, geometry)
+    fig.savefig(PLOTS_DIR /"pin_pyrex35_xy.pdf", bbox_inches="tight")
+    plt.close(fig)
 
-fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(64.5, 86), ylim=(0, 21.5))
-add_material_legend(fig, geometry)
-fig.savefig(PLOTS_DIR /"pin_pyrex10_xy.pdf", bbox_inches="tight")
-plt.close(fig)
+    fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(43, 64.5), ylim=(0, 21.5))
+    add_material_legend(fig, geometry)
+    fig.savefig(PLOTS_DIR /"pin_pyrex25_xy.pdf", bbox_inches="tight")
+    plt.close(fig)
 
-fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(64.5, 86), ylim=(21.5, 43))
-add_material_legend(fig, geometry)
-fig.savefig(PLOTS_DIR /"pin_pyrex5_xy.pdf", bbox_inches="tight")
-plt.close(fig)
+    fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(64.5, 86), ylim=(0, 21.5))
+    add_material_legend(fig, geometry)
+    fig.savefig(PLOTS_DIR /"pin_pyrex10_xy.pdf", bbox_inches="tight")
+    plt.close(fig)
 
-# CORE XZ
+    fig = plot_materials_custom(geometry,  gridsize=3500, plane='xy', offset=0.0, xlim=(64.5, 86), ylim=(21.5, 43))
+    add_material_legend(fig, geometry)
+    fig.savefig(PLOTS_DIR /"pin_pyrex5_xy.pdf", bbox_inches="tight")
+    plt.close(fig)
 
-fig = plot_materials_custom(geometry,   gridsize=3500, plane='xz', offset=50.0, xlim=(-100, 100), zlim=(-100, 100))
-add_material_legend(fig, geometry)
-fig.savefig(PLOTS_DIR /"core_xz.pdf",  bbox_inches="tight")
-plt.close(fig)
+    # CORE XZ
+
+    fig = plot_materials_custom(geometry,   gridsize=3500, plane='xz', offset=50.0, xlim=(-100, 100), zlim=(-100, 100))
+    add_material_legend(fig, geometry)
+    fig.savefig(PLOTS_DIR /"core_xz.pdf",  bbox_inches="tight")
+    plt.close(fig)

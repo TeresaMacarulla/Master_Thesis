@@ -1,0 +1,124 @@
+Current local time and date: Thu Oct 15 17:58:06 2026
+[  NORMAL ]  Importing BANDI-60 materials from HDF5...
+[  NORMAL ]  Creating pin-cell universes...
+[  NORMAL ]  Creating five BANDI-60 Pyrex assembly types...
+[  NORMAL ]  Creating BANDI-60 OpenMOC geometry...
+[  NORMAL ]  Initializing flat source regions...
+[  NORMAL ]  BANDI-60 geometry: 52 FAs; FA counts = 5%:8, 10%:12, 25%:16,
+[  NORMAL ]  ...  35%:12, 40%:4
+[  NORMAL ]  Each FA: 240 fuel pins, 24 Pyrex pins, 24 guide tubes, 1
+[  NORMAL ]  ...  instrument tube
+[  NORMAL ]  Pin pitch = 1.260 cm; FA pitch = 21.500 cm; active height = 200.0 c
+[  NORMAL ]  Initializing the track generator...
+[  NORMAL ]  CPUs on rank 0 process: 0 2 4 7 
+[  NORMAL ]  Initializing 2D tracks...
+[  NORMAL ]  Initializing 2D tracks reflections...
+[  NORMAL ]  Initializing 2D tracks array...
+[  NORMAL ]  Initializing 3D tracks...
+[  NORMAL ]  RMS polar angle correction 1.093334 %
+[  NORMAL ]  Max polar angle correction 1.093334 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 0.14 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 10.12 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 20.09 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 30.06 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 40.03 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 50.00 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 59.97 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 69.94 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 79.91 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 89.88 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 100.00 %
+[  NORMAL ]  3D Tracks in domain: 90648
+[  NORMAL ]  Ray tracing for axially extruded track segmentation...
+[  NORMAL ]  Progress Segmenting 2D Tracks: 0.14 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 10.12 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 20.09 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 30.06 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 40.03 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 50.00 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 59.97 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 69.94 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 79.91 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 89.88 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 100.00 %
+[  NORMAL ]  Initializing FSRs axially...
+[  NORMAL ]  Initializing 3D FSRs in axially extruded regions...
+[  NORMAL ]  Progress initializing 3D FSRs: 0.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 10.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 20.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 30.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 40.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 50.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 60.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 70.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 80.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 90.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 100.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 0.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 10.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 20.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 30.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 40.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 50.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 60.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 70.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 80.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 90.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 100.00 %
+[  NORMAL ]  Finished initializing 3D FSRs
+[  NORMAL ]  Initializing FSR lookup vectors
+[  NORMAL ]  Total number of FSRs 61651
+[  NORMAL ]  Initializing MOC eigenvalue solver...
+[  NORMAL ]  Initializing solver arrays...
+[  NORMAL ]  Max boundary angular flux storage per domain =  10.15 MB
+[  NORMAL ]  Max scalar flux storage per domain =   3.45 MB
+[  NORMAL ]  Max source storage per domain =   1.73 MB
+[  NORMAL ]  Number of azimuthal angles = 4
+[  NORMAL ]  Azimuthal ray spacing = 1.000000
+[  NORMAL ]  Number of polar angles = 2
+[  NORMAL ]  Z-spacing = 5.000000
+[  NORMAL ]  Source type = Flat
+[  NORMAL ]  MOC transport undamped
+[  NORMAL ]  CMFD acceleration: OFF
+[  NORMAL ]  Using 4 threads
+[  NORMAL ]  Computing the eigenvalue...
+[  NORMAL ]  Iteration 0:  k_eff = 0.805409   res = 3.760E-02  delta-k (pcm) = -19459 D.R. = 0.0376
+[  NORMAL ]  Iteration 1:  k_eff = 0.741277   res = 2.408E-02  delta-k (pcm) = -6413 D.R. = 0.6405
+[  NORMAL ]  Iteration 2:  k_eff = 0.704912   res = 1.853E-02  delta-k (pcm) = -3636 D.R. = 0.7695
+[  NORMAL ]  Iteration 3:  k_eff = 0.678834   res = 1.410E-02  delta-k (pcm) = -2607 D.R. = 0.7606
+[  NORMAL ]  Iteration 4:  k_eff = 0.657348   res = 1.094E-02  delta-k (pcm) = -2148 D.R. = 0.7764
+[  NORMAL ]  Iteration 5:  k_eff = 0.638405   res = 8.636E-03  delta-k (pcm) = -1894 D.R. = 0.7892
+[  NORMAL ]  Iteration 6:  k_eff = 0.621486   res = 6.814E-03  delta-k (pcm) = -1691 D.R. = 0.7889
+[  NORMAL ]  Iteration 7:  k_eff = 0.606681   res = 5.282E-03  delta-k (pcm) = -1480 D.R. = 0.7753
+[  NORMAL ]  Iteration 8:  k_eff = 0.594260   res = 3.989E-03  delta-k (pcm) = -1242 D.R. = 0.7551
+[  NORMAL ]  Iteration 9:  k_eff = 0.584471   res = 3.024E-03  delta-k (pcm) = -978 D.R. = 0.7581
+[  NORMAL ]  Iteration 10:  k_eff = 0.577466   res = 2.628E-03  delta-k (pcm) = -700 D.R. = 0.8690
+[  NORMAL ]  Iteration 11:  k_eff = 0.573278   res = 2.918E-03  delta-k (pcm) = -418 D.R. = 1.1107
+[  NORMAL ]  Iteration 12:  k_eff = 0.571837   res = 3.619E-03  delta-k (pcm) = -144 D.R. = 1.2401
+[  NORMAL ]  Iteration 13:  k_eff = 0.572988   res = 4.424E-03  delta-k (pcm) = 115 D.R. = 1.2224
+[  NORMAL ]  Iteration 14:  k_eff = 0.576511   res = 5.178E-03  delta-k (pcm) = 352 D.R. = 1.1704
+[  NORMAL ]  Iteration 15:  k_eff = 0.582151   res = 5.815E-03  delta-k (pcm) = 563 D.R. = 1.1230
+[  NORMAL ]  Iteration 16:  k_eff = 0.589631   res = 6.310E-03  delta-k (pcm) = 747 D.R. = 1.0852
+[  NORMAL ]  Iteration 17:  k_eff = 0.598668   res = 6.662E-03  delta-k (pcm) = 903 D.R. = 1.0558
+[  NORMAL ]  Iteration 18:  k_eff = 0.608989   res = 6.882E-03  delta-k (pcm) = 1032 D.R. = 1.0329
+[  NORMAL ]  Iteration 19:  k_eff = 0.620332   res = 6.985E-03  delta-k (pcm) = 1134 D.R. = 1.0150
+[ WARNING ]  Unable to converge the source distribution
+[  TITLE  ]  ************************************************************************************************************************
+[  TITLE  ]                                                       TIMING REPORT                                                     
+[  TITLE  ]  ************************************************************************************************************************
+[  RESULT ]  Total Track Generation & Segmentation Time...........2.3510E+00 sec
+[  RESULT ]  Total time to solution...............................1.4441E+01 sec
+[  RESULT ]    Solver initialization..............................9.3052E-01 sec
+[  RESULT ]    Transport Sweep....................................1.3146E+01 sec
+[  RESULT ]  Integration time by segment-group-thread (sweep).....1.0390E-08 sec
+[  RESULT ]  Integration time by segment-group-thread (total).....1.1414E-08 sec
+[SEPARATOR]  ------------------------------------------------------------------------------------------------------------------------
+[  RESULT ]             # tracks          # segments          # FSRs
+[SEPARATOR]  ------------------------------------------------------------------------------------------------------------------------
+[  RESULT ]              90648            18074400            61651            
+[SEPARATOR]  ------------------------------------------------------------------------------------------------------------------------
+[  NORMAL ]  Plotting data...
+[  NORMAL ]  Plotting the materials...
+[  TITLE  ]  ************************************************************************************************************************
+[  TITLE  ]                                                          Finished                                                        
+[  TITLE  ]  ************************************************************************************************************************
