@@ -5,7 +5,7 @@ geometry.py
 OpenMOC geometry for the Pyrex-loaded BANDI-60 active core.
 
 This geometry is based on:
-  - the previously developed OpenMC BANDI-60 geometry (Maia),
+  - the previously developed OpenMC BANDI-60 geometry (Maia's geometry with modifications),
   - Kim et al. (2020),
   - Kim et al. (2022),
   - Kim et al. (2024).
@@ -45,7 +45,7 @@ from matplotlib.colors import ListedColormap
 # =============================================================================
 
 MGXS_FILENAME = "materials.h5"
-MGXS_DIRECTORY = "."
+MGXS_DIRECTORY = "../multi-group_cross-sections/"
 
 log.set_log_level("NORMAL")
 
