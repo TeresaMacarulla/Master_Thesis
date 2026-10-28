@@ -3,20 +3,20 @@ import openmc
 
 #MATERIALS FILE
 """CREATE FUEL - UO2"""
-uo2 = openmc.Material(material_id=1, name="$\mathrm{UO_2}$", temperature=900)
+uo2 = openmc.Material(material_id=1, name="UO2", temperature=700) # Maias temperature 900 and Kim's temperature 700
 uo2.add_nuclide("U235", 0.0495, percent_type="ao")  # 4.95%
 uo2.add_nuclide("U238", 0.9505, percent_type="ao")  # 95.05%
 uo2.add_element("O", 2.0, percent_type="ao")
-uo2.set_density("g/cm3", 10.76)    #source found
+uo2.set_density("g/cm3", 10.26)    # Maias density source found 10.76 and Kim's density 10.26
 
 
 """GAP"""     #FIND SOURCE
-helium = openmc.Material(material_id=2, name="helium", temperature=900)
+helium = openmc.Material(material_id=2, name="helium", temperature=700) # Maias temperature 900
 helium.add_element("He", 1.0)
 helium.set_density("g/cm3", 2.449e-3) #source found
 
 """CLADDING""" #FIND SOURCE
-zirc = openmc.Material(material_id=3, name="zircaloy4", temperature=600)
+zirc = openmc.Material(material_id=3, name="zircaloy4", temperature=590) # Maias temperature 600
 zirc.add_element("Zr", 98.070, percent_type="wo")
 zirc.add_element("Sn", 1.500, percent_type="wo")
 zirc.add_element("Fe", 0.220, percent_type="wo")
@@ -24,30 +24,30 @@ zirc.add_element("Cr", 0.130, percent_type="wo")
 zirc.add_element("O", 0.100, percent_type="wo")
 zirc.set_density("g/cm3", 6.551)     #source found and calculated
 
-"""CREATE MODERATOR"""
-water = openmc.Material(material_id=4, name="water", temperature=600)
+"""MODERATOR"""
+water = openmc.Material(material_id=4, name="water", temperature=580.65) # Maias temperature 600 and Kim's temperature 580.65
 water.add_nuclide("H1", 2.0, percent_type="ao")
 water.add_nuclide("O16", 1.0, percent_type="ao")
 water.add_s_alpha_beta("c_H_in_H2O")
-water.set_density("g/cm3", 0.687)    #source found
+water.set_density("g/cm3", 0.7105)    # Maias density source found 0.687 and Kim's density 0.7105
 
-"""CREATE PYREX"""
-SiO2 = openmc.Material(material_id=5, name="SiO2", temperature=600)
+"""PYREX"""
+SiO2 = openmc.Material(material_id=5, name="SiO2", temperature=580.65) # Maias temperature 600
 SiO2.add_element("Si", 1.0, percent_type="ao")
 SiO2.add_element("O", 2.0, percent_type="ao")
 SiO2.set_density("g/cm3", 2.200) #source found and calculated
 
-K2O = openmc.Material(material_id=6, name="K2O", temperature=600)
+K2O = openmc.Material(material_id=6, name="K2O", temperature=580.65) # Maias temperature 600
 K2O.add_element("K", 2.0, percent_type="ao")
 K2O.add_element("O", 1.0, percent_type="ao")
 K2O.set_density("g/cm3", 2.312) #source found and calculated
 
-Al2O3 = openmc.Material(material_id=7, name="Al2O3", temperature=600)
+Al2O3 = openmc.Material(material_id=7, name="Al2O3", temperature=580.65) # Maias temperature 600
 Al2O3.add_element("Al", 2.0, percent_type="ao")
 Al2O3.add_element("O", 3.0, percent_type="ao")
 Al2O3.set_density("g/cm3", 3.981) #source found and calculated
 
-B2O3 = openmc.Material(material_id=8, name="B2O3", temperature=600)
+B2O3 = openmc.Material(material_id=8, name="B2O3", temperature=580.65) # Maias temperature 600
 B2O3.add_element("B", 2.0, percent_type="ao")
 B2O3.add_element("O", 3.0, percent_type="ao")
 B2O3.set_density("g/cm3", 2.231) #source found and calculated
@@ -59,22 +59,20 @@ pyrex25 = openmc.Material.mix_materials([SiO2, K2O, Al2O3, B2O3], [0.6896, 0.034
 pyrex35 = openmc.Material.mix_materials([SiO2, K2O, Al2O3, B2O3], [0.5977, 0.0299, 0.0224, 0.3500], percent_type="wo", name="pyrex35")
 pyrex40 = openmc.Material.mix_materials([SiO2, K2O, Al2O3, B2O3], [0.5517, 0.0275, 0.0208, 0.4000], percent_type="wo", name="pyrex40")
 
-pyrex5.temperature = 600 #type: ignore
+pyrex5.temperature = 580.65 # Maias temperature 600
 pyrex5.set_density("g/cm3", 2.265)
 
-pyrex10.temperature = 600 #type: ignore
+pyrex10.temperature = 580.65 # Maias temperature 600
 pyrex10.set_density("g/cm3", 2.263)
 
-pyrex25.temperature = 600 #type: ignore
+pyrex25.temperature = 580.65 # Maias temperature 600
 pyrex25.set_density("g/cm3", 2.258)
 
-pyrex35.temperature = 600 #type: ignore
+pyrex35.temperature = 580.65 # Maias temperature 600
 pyrex35.set_density("g/cm3", 2.254)
 
-pyrex40.temperature = 600 #type: ignore
+pyrex40.temperature = 580.65 # Maias temperature 600
 pyrex40.set_density("g/cm3", 2.252)
-
-
 
 """SHIELDING"""
 #SA-508 STEEL for RPV - source found
@@ -92,12 +90,10 @@ steel.add_element("Si", 0.60, "wo")
 steel.add_element("Mn", 1.20, "wo")
 steel.add_element("C", 0.25, "wo")
 steel.set_density("g/cm3", 7.850)   #room T
-steel.temperature = 293.6 #type: ignore
-
-#biological shielding - still have no info on this??
+steel.temperature = 570 # Assuming contact with coolant at 580.65 K. Maias temperature 293.6
 
 #1.4404 STEEL for CV - source found
-steel2 = openmc.Material(material_id=15, name="Steel_1.4404")
+steel2 = openmc.Material(material_id=15, name="Steel_14404")
 steel2.add_element("Fe", 65.505, "wo")
 steel2.add_element("N", 0.11, "wo")
 steel2.add_element("Ni", 11.5, "wo")
@@ -111,6 +107,6 @@ steel2.add_element("C", 0.03, "wo")
 steel2.set_density("g/cm3", 8.000)  #room T
 steel2.temperature = 293.6 #type: ignore
 
-
 materials = openmc.Materials([uo2, helium, zirc, water, pyrex5, pyrex10, pyrex25, pyrex35, pyrex40, steel, steel2])
+materials.cross_sections = "/home/teres/nuclear_data/openmc/endfb-vii.1-hdf5/cross_sections.xml"
 materials.export_to_xml()

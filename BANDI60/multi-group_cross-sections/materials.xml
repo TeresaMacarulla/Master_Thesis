@@ -1,18 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material id="1" name="$\mathrm{UO_2}$" depletable="true" temperature="900">
-    <density value="10.76" units="g/cm3"/>
+  <cross_sections>/home/teres/nuclear_data/openmc/endfb-vii.1-hdf5/cross_sections.xml</cross_sections>
+  <material id="1" name="UO2" depletable="true" temperature="700">
+    <density value="10.26" units="g/cm3"/>
     <nuclide name="U235" ao="0.0495"/>
     <nuclide name="U238" ao="0.9505"/>
     <nuclide name="O16" ao="1.999242"/>
     <nuclide name="O17" ao="0.000758"/>
   </material>
-  <material id="2" name="helium" temperature="900">
+  <material id="2" name="helium" temperature="700">
     <density value="0.002449" units="g/cm3"/>
     <nuclide name="He3" ao="2e-06"/>
     <nuclide name="He4" ao="0.999998"/>
   </material>
-  <material id="3" name="zircaloy4" temperature="600">
+  <material id="3" name="zircaloy4" temperature="590">
     <density value="6.551" units="g/cm3"/>
     <nuclide name="Zr90" wo="49.72748944130496"/>
     <nuclide name="Zr91" wo="10.965096325255939"/>
@@ -40,13 +41,13 @@
     <nuclide name="O16" wo="0.09995972146279343"/>
     <nuclide name="O17" wo="4.027853720657955e-05"/>
   </material>
-  <material id="4" name="water" temperature="600">
-    <density value="0.687" units="g/cm3"/>
+  <material id="4" name="water" temperature="580.65">
+    <density value="0.7105" units="g/cm3"/>
     <nuclide name="H1" ao="2.0"/>
     <nuclide name="O16" ao="1.0"/>
     <sab name="c_H_in_H2O"/>
   </material>
-  <material id="9" name="pyrex5" temperature="600">
+  <material id="9" name="pyrex5" temperature="580.65">
     <density value="2.265" units="g/cm3"/>
     <nuclide name="Si28" ao="0.26707160760984217"/>
     <nuclide name="Si29" ao="0.01356113422375648"/>
@@ -60,7 +61,7 @@
     <nuclide name="B10" ao="0.005670610852702833"/>
     <nuclide name="B11" ao="0.022939938353668678"/>
   </material>
-  <material id="10" name="pyrex10" temperature="600">
+  <material id="10" name="pyrex10" temperature="580.65">
     <density value="2.263" units="g/cm3"/>
     <nuclide name="Si28" ao="0.2474307934826195"/>
     <nuclide name="Si29" ao="0.012563829721691155"/>
@@ -74,7 +75,7 @@
     <nuclide name="B10" ao="0.011089916979200618"/>
     <nuclide name="B11" ao="0.04486324638709918"/>
   </material>
-  <material id="11" name="pyrex25" temperature="600">
+  <material id="11" name="pyrex25" temperature="580.65">
     <density value="2.258" units="g/cm3"/>
     <nuclide name="Si28" ao="0.19332220095447566"/>
     <nuclide name="Si29" ao="0.009816349776145405"/>
@@ -88,7 +89,7 @@
     <nuclide name="B10" ao="0.025996777420250267"/>
     <nuclide name="B11" ao="0.10516758897859065"/>
   </material>
-  <material id="12" name="pyrex35" temperature="600">
+  <material id="12" name="pyrex35" temperature="580.65">
     <density value="2.254" units="g/cm3"/>
     <nuclide name="Si28" ao="0.16087414651158022"/>
     <nuclide name="Si29" ao="0.008168730152562299"/>
@@ -102,7 +103,7 @@
     <nuclide name="B10" ao="0.03494347352546781"/>
     <nuclide name="B11" ao="0.14136063104298735"/>
   </material>
-  <material id="13" name="pyrex40" temperature="600">
+  <material id="13" name="pyrex40" temperature="580.65">
     <density value="2.252" units="g/cm3"/>
     <nuclide name="Si28" ao="0.14558464276805475"/>
     <nuclide name="Si29" ao="0.007392372776590391"/>
@@ -116,7 +117,7 @@
     <nuclide name="B10" ao="0.039153230540940734"/>
     <nuclide name="B11" ao="0.1583908186060862"/>
   </material>
-  <material id="14" name="Steel_SA508" temperature="293.6">
+  <material id="14" name="Steel_SA508" temperature="570">
     <density value="7.85" units="g/cm3"/>
     <nuclide name="Fe54" wo="5.470376551056262"/>
     <nuclide name="Fe56" wo="89.04982434153264"/>
@@ -155,7 +156,7 @@
     <nuclide name="Mn55" wo="1.2"/>
     <nuclide name="C0" wo="0.25"/>
   </material>
-  <material id="15" name="Steel_1.4404" temperature="293.6">
+  <material id="15" name="Steel_14404" temperature="293.6">
     <density value="8.0" units="g/cm3"/>
     <nuclide name="Fe54" wo="3.6981229137841254"/>
     <nuclide name="Fe56" wo="60.20009642705239"/>
