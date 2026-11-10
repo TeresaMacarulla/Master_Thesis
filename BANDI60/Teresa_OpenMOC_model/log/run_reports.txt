@@ -1,0 +1,11 @@
+python core_run.py -a 4 -p 2 -s 1 -l 3 -t 4 -i 600 -c 1e-5 : not converged k_eff = 1.015317 : FSR 61653
+
+python core_run.py -a 4 -p 2 -s 5 -l 5 -t 4 -i 1000 -c 1e-5 : not converged k_eff = 1.132289 : FSR 54945
+
+python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.055147 : FSR 99313 : Time 1.7371E+00 + 4.6717E+02 = 4.6891E+02
+python core_run.py -a 4 -p 2 -s 2.5 -l 2.5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.055019 : FSR 99313 : Time 1.4826E+00 + 9.6487E+02 = 9.6635E+02
+
+# Changed the assembly geometry: the two pyrex pins in the middle row of the assembly were wrong placed
+python core_run.py -a 4 -p 2 -s 2.5 -l 1 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049233 : FSR 99177 : Time 2.5344E+00 + 2.5719E+03 = 2.5744E+03
+
+

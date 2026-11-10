@@ -2,6 +2,7 @@
 #                          Start with
 ###############################################################################
 # conda activate openmoc-env
+# last run: python core_run.py -a 4 -p 2 -s 5 -l 5 -t 4 -i 1000 -c 1e-5
 
 # Example runs:
 #
@@ -33,6 +34,8 @@ from geometry import geometry
 #-c / --tolerance → convergence tolerance = 1E-5
 #-p / --num-polar → number of polar angles, mainly for 3D problems = 6
 #-l / --z-spacing → axial ray spacing, also for 3D problems. = 1.5
+#-b / --num-threadblocks → Related with GPU : 64 blocks
+#-g / --num-threads-per-block → Related with GPU : 64 CUDA threads per block
 
 options = Options()
 openmoc.set_line_length(120)

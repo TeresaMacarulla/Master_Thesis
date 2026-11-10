@@ -125,6 +125,8 @@ def make_fuel_pin_universe():
     fuel = openmoc.Cell(name="UO2 fuel")
     fuel.setFill(UO2)
     fuel.addSurface(halfspace=-1, surface=fuel_surface)
+    fuel.setNumRings(2)
+    fuel.setNumSectors(4)
 
     gap = openmoc.Cell(name="fuel He gap")
     gap.setFill(helium)
@@ -139,6 +141,8 @@ def make_fuel_pin_universe():
     moderator = openmoc.Cell(name="fuel-pin moderator")
     moderator.setFill(water)
     moderator.addSurface(halfspace=+1, surface=clad_surface)
+    moderator.setNumRings(2)
+    moderator.setNumSectors(4)
 
     universe = openmoc.Universe(name="fuel pin universe")
     universe.addCell(fuel)
@@ -304,7 +308,7 @@ PYREX_HALF_POSITIONS = [
     (4, 4), (4, 12),
     (5, 1), (5, 15),
     (6, 6), (6, 10),
-    (8, 1), (8, 15),
+    (8, 3), (8, 13),
 ]
 
 TUBE_HALF_POSITIONS = [
@@ -313,7 +317,6 @@ TUBE_HALF_POSITIONS = [
     (5, 2), (5, 5), (5, 8), (5, 11), (5, 14),
     (8, 2), (8, 5), (8, 8), (8, 11), (8, 14),
 ]
-
 
 def add_180_degree_symmetry(positions):
     """Return each position together with its 180-degree symmetric partner."""
