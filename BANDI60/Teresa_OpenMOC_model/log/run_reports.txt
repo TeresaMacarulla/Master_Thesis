@@ -23,6 +23,6 @@ python core_run.py -a 16 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff
 # SENSITIVITY AZIMUTAL SPACING: track spacing
 python core_run.py -a 4 -p 2 -s 1 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = k_eff = 1.023164 : FSR 185481 : Time 4.4987E+00 + 1.6114E+03 = 1.6159 +03
 python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049418 : FSR 99177 : Time 2.8297E+00 + 1.0730E+03 = 1.0758E+03
-python core_run.py -a 4 -p 2 -s 5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff =  : FSR : Time  +  =
+python core_run.py -a 4 -p 2 -s 5 -l 5 -t 4 -i 1000 -c 1e-5 : not converged k_eff = 1.138500 : FSR 55109 : Time 9.4708E-01 + 2.6435E+02 = 2.6530E+02
 
 
