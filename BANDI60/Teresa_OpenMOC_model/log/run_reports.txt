@@ -1,28 +1,23 @@
-python core_run.py -a 4 -p 2 -s 1 -l 3 -t 4 -i 600 -c 1e-5 : not converged k_eff = 1.015317 : FSR 61653
+# SENSITIVITY Z-SPACING: axial ray spacing (-l)
+13/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 0.5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049182 : FSR 99177 : Time 4.1390E+00 + 5.6741E+03 = 5.6782E+03
+11/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 1 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049233 : FSR 99177 : Time 2.5344E+00 + 2.5719E+03 = 2.5744E+03
+11/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 2.5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049289 : FSR 99177 : Time 1.5933E+01 + 1.9117E+03 = 1.9276E+03
+11/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049418 : FSR 99177 : Time 2.8297E+00 + 1.0730E+03 = 1.0758E+03
+13/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 8 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049512 : FSR 99177 : Time 1.6648E+00 + 3.6050E+02 = 1.6216E+02
 
-python core_run.py -a 4 -p 2 -s 5 -l 5 -t 4 -i 1000 -c 1e-5 : not converged k_eff = 1.132289 : FSR 54945
+# SENSITIVITY AZIMUTAL ANGLES: number of azimuthal angles (-a)
+11/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049418 : FSR 99177 : Time 2.8297E+00 + 1.0730E+03 = 1.0758E+03 
+11/11/20026 python core_run.py -a 8 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.004157 : FSR 156301 : Time 3.3632E+00 + 1.3341E+03 = 1.3375E+03
+11/11/20026 python core_run.py -a 16 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.013711 : FSR 203221: Time 8.1419E+00 + 2.8353E+03 = 2.8434E+03
 
-python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.055147 : FSR 99313 : Time 1.7371E+00 + 4.6717E+02 = 4.6891E+02
-python core_run.py -a 4 -p 2 -s 2.5 -l 2.5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.055019 : FSR 99313 : Time 1.4826E+00 + 9.6487E+02 = 9.6635E+02
+13/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 1 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049233 : FSR 99177 : Time 2.5344E+00 + 2.5719E+03 = 2.5744E+03 
+14/11/20026 python core_run.py -a 8 -p 2 -s 2.5 -l 1 -t 4 -i 1000 -c 1e-5 : converged k_eff = : FSR : Time + =
 
+# SENSITIVITY AZIMUTAL SPACING: track spacing (-s)
+11/11/20026 python core_run.py -a 4 -p 2 -s 1 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = k_eff = 1.023164 : FSR 185481 : Time 4.4987E+00 + 1.6114E+03 = 1.6159 +03
+11/11/20026 python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049418 : FSR 99177 : Time 2.8297E+00 + 1.0730E+03 = 1.0758E+03
+11/11/20026 python core_run.py -a 4 -p 2 -s 5 -l 5 -t 4 -i 1000 -c 1e-5 : not converged k_eff = 1.138500 : FSR 55109 : Time 9.4708E-01 + 2.6435E+02 = 2.6530E+02
 
-# Changed the assembly geometry: the two pyrex pins in the middle row of the assembly were wrong placed before
-
-11/11/20026
-
-# SENSITIVITY Z-SPACING: axial ray spacing
-python core_run.py -a 4 -p 2 -s 2.5 -l 1 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049233 : FSR 99177 : Time 2.5344E+00 + 2.5719E+03 = 2.5744E+03
-python core_run.py -a 4 -p 2 -s 2.5 -l 2.5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049289 : FSR 99177 : Time 1.5933E+01 + 1.9117E+03 = 1.9276E+03
-python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049418 : FSR 99177 : Time 2.8297E+00 + 1.0730E+03 = 1.0758E+03
-
-# SENSITIVITY AZIMUTAL ANGLES: number of azimuthal angles
-python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049418 : FSR 99177 : Time 2.8297E+00 + 1.0730E+03 = 1.0758E+03 
-python core_run.py -a 8 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.004157 : FSR 156301 : Time 3.3632E+00 + 1.3341E+03 = 1.3375E+03
-python core_run.py -a 16 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.013711 : FSR 203221: Time 8.1419E+00 + 2.8353E+03 = 2.8434E+03
-
-# SENSITIVITY AZIMUTAL SPACING: track spacing
-python core_run.py -a 4 -p 2 -s 1 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = k_eff = 1.023164 : FSR 185481 : Time 4.4987E+00 + 1.6114E+03 = 1.6159 +03
-python core_run.py -a 4 -p 2 -s 2.5 -l 5 -t 4 -i 1000 -c 1e-5 : converged k_eff = 1.049418 : FSR 99177 : Time 2.8297E+00 + 1.0730E+03 = 1.0758E+03
-python core_run.py -a 4 -p 2 -s 5 -l 5 -t 4 -i 1000 -c 1e-5 : not converged k_eff = 1.138500 : FSR 55109 : Time 9.4708E-01 + 2.6435E+02 = 2.6530E+02
+# SENSITIVITY POLAR ANGLES: number of polar angles (-p)
 
 

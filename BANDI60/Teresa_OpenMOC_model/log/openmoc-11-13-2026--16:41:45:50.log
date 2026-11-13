@@ -1,0 +1,1030 @@
+Current local time and date: Fri Nov 13 16:41:45 2026
+[  NORMAL ]  Importing BANDI-60 materials from HDF5...
+[  NORMAL ]  Creating pin-cell universes...
+[  NORMAL ]  Creating five BANDI-60 Pyrex assembly types...
+[  NORMAL ]  Creating BANDI-60 OpenMOC geometry...
+[  NORMAL ]  Initializing flat source regions...
+[  NORMAL ]  BANDI-60 geometry: 52 FAs; FA counts = 5%:8, 10%:12, 25%:16,
+[  NORMAL ]  ...  35%:12, 40%:4
+[  NORMAL ]  Each FA: 240 fuel pins, 24 Pyrex pins, 24 guide tubes, 1
+[  NORMAL ]  ...  instrument tube
+[  NORMAL ]  Pin pitch = 1.260 cm; FA pitch = 21.500 cm; active height = 200.0 c
+[  NORMAL ]  Initializing the track generator...
+[  NORMAL ]  CPUs on rank 0 process: 1 2 5 6 
+[  NORMAL ]  Initializing 2D tracks...
+[  NORMAL ]  Initializing 2D tracks reflections...
+[  NORMAL ]  Initializing 2D tracks array...
+[  NORMAL ]  Initializing 3D tracks...
+[  NORMAL ]  RMS polar angle correction 0.082487 %
+[  NORMAL ]  Max polar angle correction 0.082487 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 0.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 10.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 20.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 30.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 40.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 50.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 60.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 70.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 80.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 90.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 100.00 %
+[  NORMAL ]  3D Tracks in domain: 406280
+[  NORMAL ]  Ray tracing for axially extruded track segmentation...
+[  NORMAL ]  Progress Segmenting 2D Tracks: 0.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 10.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 20.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 30.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 40.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 50.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 60.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 70.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 80.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 90.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 100.00 %
+[  NORMAL ]  Initializing FSRs axially...
+[  NORMAL ]  Initializing 3D FSRs in axially extruded regions...
+[  NORMAL ]  Progress initializing 3D FSRs: 0.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 10.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 20.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 30.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 40.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 50.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 60.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 70.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 80.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 90.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 100.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 0.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 10.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 20.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 30.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 40.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 50.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 60.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 70.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 80.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 90.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 100.00 %
+[  NORMAL ]  Finished initializing 3D FSRs
+[  NORMAL ]  Initializing FSR lookup vectors
+[  NORMAL ]  Total number of FSRs 99177
+[  NORMAL ]  Initializing MOC eigenvalue solver...
+[  NORMAL ]  Initializing solver arrays...
+[  NORMAL ]  Splitting segments since the maximum optical length in the domain is 141.144485 and the maximum supported by the
+[  NORMAL ]  ...  exponential evaluator is 100.000000.
+[  NORMAL ]  Max boundary angular flux storage per domain =  45.50 MB
+[  NORMAL ]  Max scalar flux storage per domain =   5.55 MB
+[  NORMAL ]  Max source storage per domain =   2.78 MB
+[  NORMAL ]  Number of azimuthal angles = 4
+[  NORMAL ]  Azimuthal ray spacing = 2.500000
+[  NORMAL ]  Number of polar angles = 2
+[  NORMAL ]  Z-spacing = 0.500000
+[  NORMAL ]  Source type = Flat
+[  NORMAL ]  MOC transport undamped
+[  NORMAL ]  CMFD acceleration: OFF
+[  NORMAL ]  Using 4 threads
+[  NORMAL ]  Computing the eigenvalue...
+[  NORMAL ]  Iteration 0:  k_eff = 0.814660   res = 3.232E-02  delta-k (pcm) = -18534 D.R. = 0.0323
+[  NORMAL ]  Iteration 1:  k_eff = 0.749879   res = 2.232E-02  delta-k (pcm) = -6478 D.R. = 0.6904
+[  NORMAL ]  Iteration 2:  k_eff = 0.713825   res = 2.073E-02  delta-k (pcm) = -3605 D.R. = 0.9290
+[  NORMAL ]  Iteration 3:  k_eff = 0.688749   res = 1.910E-02  delta-k (pcm) = -2507 D.R. = 0.9210
+[  NORMAL ]  Iteration 4:  k_eff = 0.668840   res = 1.728E-02  delta-k (pcm) = -1990 D.R. = 0.9051
+[  NORMAL ]  Iteration 5:  k_eff = 0.651958   res = 1.542E-02  delta-k (pcm) = -1688 D.R. = 0.8920
+[  NORMAL ]  Iteration 6:  k_eff = 0.637449   res = 1.352E-02  delta-k (pcm) = -1450 D.R. = 0.8772
+[  NORMAL ]  Iteration 7:  k_eff = 0.625264   res = 1.162E-02  delta-k (pcm) = -1218 D.R. = 0.8590
+[  NORMAL ]  Iteration 8:  k_eff = 0.615549   res = 9.729E-03  delta-k (pcm) = -971 D.R. = 0.8376
+[  NORMAL ]  Iteration 9:  k_eff = 0.608448   res = 7.928E-03  delta-k (pcm) = -710 D.R. = 0.8149
+[  NORMAL ]  Iteration 10:  k_eff = 0.604036   res = 6.311E-03  delta-k (pcm) = -441 D.R. = 0.7960
+[  NORMAL ]  Iteration 11:  k_eff = 0.602292   res = 5.003E-03  delta-k (pcm) = -174 D.R. = 0.7928
+[  NORMAL ]  Iteration 12:  k_eff = 0.603109   res = 4.142E-03  delta-k (pcm) = 81 D.R. = 0.8280
+[  NORMAL ]  Iteration 13:  k_eff = 0.606310   res = 3.798E-03  delta-k (pcm) = 320 D.R. = 0.9168
+[  NORMAL ]  Iteration 14:  k_eff = 0.611667   res = 3.868E-03  delta-k (pcm) = 535 D.R. = 1.0184
+[  NORMAL ]  Iteration 15:  k_eff = 0.618926   res = 4.141E-03  delta-k (pcm) = 725 D.R. = 1.0707
+[  NORMAL ]  Iteration 16:  k_eff = 0.627817   res = 4.451E-03  delta-k (pcm) = 889 D.R. = 1.0746
+[  NORMAL ]  Iteration 17:  k_eff = 0.638071   res = 4.711E-03  delta-k (pcm) = 1025 D.R. = 1.0584
+[  NORMAL ]  Iteration 18:  k_eff = 0.649430   res = 4.893E-03  delta-k (pcm) = 1135 D.R. = 1.0386
+[  NORMAL ]  Iteration 19:  k_eff = 0.661651   res = 4.995E-03  delta-k (pcm) = 1222 D.R. = 1.0210
+[  NORMAL ]  Iteration 20:  k_eff = 0.674514   res = 5.029E-03  delta-k (pcm) = 1286 D.R. = 1.0068
+[  NORMAL ]  Iteration 21:  k_eff = 0.687819   res = 5.009E-03  delta-k (pcm) = 1330 D.R. = 0.9959
+[  NORMAL ]  Iteration 22:  k_eff = 0.701393   res = 4.948E-03  delta-k (pcm) = 1357 D.R. = 0.9879
+[  NORMAL ]  Iteration 23:  k_eff = 0.715085   res = 4.859E-03  delta-k (pcm) = 1369 D.R. = 0.9820
+[  NORMAL ]  Iteration 24:  k_eff = 0.728768   res = 4.752E-03  delta-k (pcm) = 1368 D.R. = 0.9780
+[  NORMAL ]  Iteration 25:  k_eff = 0.742334   res = 4.635E-03  delta-k (pcm) = 1356 D.R. = 0.9753
+[  NORMAL ]  Iteration 26:  k_eff = 0.755695   res = 4.512E-03  delta-k (pcm) = 1336 D.R. = 0.9736
+[  NORMAL ]  Iteration 27:  k_eff = 0.768779   res = 4.389E-03  delta-k (pcm) = 1308 D.R. = 0.9726
+[  NORMAL ]  Iteration 28:  k_eff = 0.781532   res = 4.267E-03  delta-k (pcm) = 1275 D.R. = 0.9722
+[  NORMAL ]  Iteration 29:  k_eff = 0.793908   res = 4.148E-03  delta-k (pcm) = 1237 D.R. = 0.9721
+[  NORMAL ]  Iteration 30:  k_eff = 0.805877   res = 4.033E-03  delta-k (pcm) = 1196 D.R. = 0.9723
+[  NORMAL ]  Iteration 31:  k_eff = 0.817415   res = 3.923E-03  delta-k (pcm) = 1153 D.R. = 0.9727
+[  NORMAL ]  Iteration 32:  k_eff = 0.828509   res = 3.818E-03  delta-k (pcm) = 1109 D.R. = 0.9732
+[  NORMAL ]  Iteration 33:  k_eff = 0.839150   res = 3.717E-03  delta-k (pcm) = 1064 D.R. = 0.9737
+[  NORMAL ]  Iteration 34:  k_eff = 0.849336   res = 3.621E-03  delta-k (pcm) = 1018 D.R. = 0.9742
+[  NORMAL ]  Iteration 35:  k_eff = 0.859069   res = 3.529E-03  delta-k (pcm) = 973 D.R. = 0.9747
+[  NORMAL ]  Iteration 36:  k_eff = 0.868354   res = 3.442E-03  delta-k (pcm) = 928 D.R. = 0.9752
+[  NORMAL ]  Iteration 37:  k_eff = 0.877201   res = 3.358E-03  delta-k (pcm) = 884 D.R. = 0.9757
+[  NORMAL ]  Iteration 38:  k_eff = 0.885621   res = 3.278E-03  delta-k (pcm) = 841 D.R. = 0.9761
+[  NORMAL ]  Iteration 39:  k_eff = 0.893624   res = 3.201E-03  delta-k (pcm) = 800 D.R. = 0.9765
+[  NORMAL ]  Iteration 40:  k_eff = 0.901227   res = 3.127E-03  delta-k (pcm) = 760 D.R. = 0.9769
+[  NORMAL ]  Iteration 41:  k_eff = 0.908441   res = 3.055E-03  delta-k (pcm) = 721 D.R. = 0.9772
+[  NORMAL ]  Iteration 42:  k_eff = 0.915284   res = 2.987E-03  delta-k (pcm) = 684 D.R. = 0.9775
+[  NORMAL ]  Iteration 43:  k_eff = 0.921770   res = 2.920E-03  delta-k (pcm) = 648 D.R. = 0.9778
+[  NORMAL ]  Iteration 44:  k_eff = 0.927915   res = 2.856E-03  delta-k (pcm) = 614 D.R. = 0.9781
+[  NORMAL ]  Iteration 45:  k_eff = 0.933734   res = 2.795E-03  delta-k (pcm) = 581 D.R. = 0.9784
+[  NORMAL ]  Iteration 46:  k_eff = 0.939243   res = 2.735E-03  delta-k (pcm) = 550 D.R. = 0.9786
+[  NORMAL ]  Iteration 47:  k_eff = 0.944457   res = 2.677E-03  delta-k (pcm) = 521 D.R. = 0.9789
+[  NORMAL ]  Iteration 48:  k_eff = 0.949390   res = 2.622E-03  delta-k (pcm) = 493 D.R. = 0.9792
+[  NORMAL ]  Iteration 49:  k_eff = 0.954056   res = 2.568E-03  delta-k (pcm) = 466 D.R. = 0.9794
+[  NORMAL ]  Iteration 50:  k_eff = 0.958470   res = 2.516E-03  delta-k (pcm) = 441 D.R. = 0.9797
+[  NORMAL ]  Iteration 51:  k_eff = 0.962644   res = 2.465E-03  delta-k (pcm) = 417 D.R. = 0.9800
+[  NORMAL ]  Iteration 52:  k_eff = 0.966592   res = 2.417E-03  delta-k (pcm) = 394 D.R. = 0.9803
+[  NORMAL ]  Iteration 53:  k_eff = 0.970325   res = 2.370E-03  delta-k (pcm) = 373 D.R. = 0.9806
+[  NORMAL ]  Iteration 54:  k_eff = 0.973855   res = 2.324E-03  delta-k (pcm) = 353 D.R. = 0.9809
+[  NORMAL ]  Iteration 55:  k_eff = 0.977193   res = 2.281E-03  delta-k (pcm) = 333 D.R. = 0.9812
+[  NORMAL ]  Iteration 56:  k_eff = 0.980350   res = 2.238E-03  delta-k (pcm) = 315 D.R. = 0.9815
+[  NORMAL ]  Iteration 57:  k_eff = 0.983336   res = 2.198E-03  delta-k (pcm) = 298 D.R. = 0.9818
+[  NORMAL ]  Iteration 58:  k_eff = 0.986161   res = 2.158E-03  delta-k (pcm) = 282 D.R. = 0.9821
+[  NORMAL ]  Iteration 59:  k_eff = 0.988833   res = 2.120E-03  delta-k (pcm) = 267 D.R. = 0.9824
+[  NORMAL ]  Iteration 60:  k_eff = 0.991361   res = 2.084E-03  delta-k (pcm) = 252 D.R. = 0.9827
+[  NORMAL ]  Iteration 61:  k_eff = 0.993754   res = 2.048E-03  delta-k (pcm) = 239 D.R. = 0.9830
+[  NORMAL ]  Iteration 62:  k_eff = 0.996018   res = 2.014E-03  delta-k (pcm) = 226 D.R. = 0.9833
+[  NORMAL ]  Iteration 63:  k_eff = 0.998162   res = 1.981E-03  delta-k (pcm) = 214 D.R. = 0.9836
+[  NORMAL ]  Iteration 64:  k_eff = 1.000193   res = 1.949E-03  delta-k (pcm) = 203 D.R. = 0.9839
+[  NORMAL ]  Iteration 65:  k_eff = 1.002116   res = 1.919E-03  delta-k (pcm) = 192 D.R. = 0.9842
+[  NORMAL ]  Iteration 66:  k_eff = 1.003937   res = 1.889E-03  delta-k (pcm) = 182 D.R. = 0.9846
+[  NORMAL ]  Iteration 67:  k_eff = 1.005664   res = 1.860E-03  delta-k (pcm) = 172 D.R. = 0.9848
+[  NORMAL ]  Iteration 68:  k_eff = 1.007300   res = 1.833E-03  delta-k (pcm) = 163 D.R. = 0.9851
+[  NORMAL ]  Iteration 69:  k_eff = 1.008852   res = 1.806E-03  delta-k (pcm) = 155 D.R. = 0.9854
+[  NORMAL ]  Iteration 70:  k_eff = 1.010324   res = 1.780E-03  delta-k (pcm) = 147 D.R. = 0.9857
+[  NORMAL ]  Iteration 71:  k_eff = 1.011721   res = 1.755E-03  delta-k (pcm) = 139 D.R. = 0.9859
+[  NORMAL ]  Iteration 72:  k_eff = 1.013046   res = 1.731E-03  delta-k (pcm) = 132 D.R. = 0.9862
+[  NORMAL ]  Iteration 73:  k_eff = 1.014304   res = 1.707E-03  delta-k (pcm) = 125 D.R. = 0.9864
+[  NORMAL ]  Iteration 74:  k_eff = 1.015500   res = 1.684E-03  delta-k (pcm) = 119 D.R. = 0.9866
+[  NORMAL ]  Iteration 75:  k_eff = 1.016635   res = 1.662E-03  delta-k (pcm) = 113 D.R. = 0.9869
+[  NORMAL ]  Iteration 76:  k_eff = 1.017715   res = 1.641E-03  delta-k (pcm) = 107 D.R. = 0.9871
+[  NORMAL ]  Iteration 77:  k_eff = 1.018741   res = 1.620E-03  delta-k (pcm) = 102 D.R. = 0.9873
+[  NORMAL ]  Iteration 78:  k_eff = 1.019717   res = 1.600E-03  delta-k (pcm) = 97 D.R. = 0.9875
+[  NORMAL ]  Iteration 79:  k_eff = 1.020646   res = 1.580E-03  delta-k (pcm) = 92 D.R. = 0.9877
+[  NORMAL ]  Iteration 80:  k_eff = 1.021530   res = 1.561E-03  delta-k (pcm) = 88 D.R. = 0.9879
+[  NORMAL ]  Iteration 81:  k_eff = 1.022372   res = 1.542E-03  delta-k (pcm) = 84 D.R. = 0.9881
+[  NORMAL ]  Iteration 82:  k_eff = 1.023174   res = 1.524E-03  delta-k (pcm) = 80 D.R. = 0.9883
+[  NORMAL ]  Iteration 83:  k_eff = 1.023939   res = 1.506E-03  delta-k (pcm) = 76 D.R. = 0.9884
+[  NORMAL ]  Iteration 84:  k_eff = 1.024668   res = 1.489E-03  delta-k (pcm) = 72 D.R. = 0.9886
+[  NORMAL ]  Iteration 85:  k_eff = 1.025363   res = 1.472E-03  delta-k (pcm) = 69 D.R. = 0.9887
+[  NORMAL ]  Iteration 86:  k_eff = 1.026027   res = 1.456E-03  delta-k (pcm) = 66 D.R. = 0.9889
+[  NORMAL ]  Iteration 87:  k_eff = 1.026661   res = 1.440E-03  delta-k (pcm) = 63 D.R. = 0.9890
+[  NORMAL ]  Iteration 88:  k_eff = 1.027266   res = 1.425E-03  delta-k (pcm) = 60 D.R. = 0.9892
+[  NORMAL ]  Iteration 89:  k_eff = 1.027845   res = 1.409E-03  delta-k (pcm) = 57 D.R. = 0.9893
+[  NORMAL ]  Iteration 90:  k_eff = 1.028398   res = 1.394E-03  delta-k (pcm) = 55 D.R. = 0.9894
+[  NORMAL ]  Iteration 91:  k_eff = 1.028927   res = 1.380E-03  delta-k (pcm) = 52 D.R. = 0.9895
+[  NORMAL ]  Iteration 92:  k_eff = 1.029434   res = 1.365E-03  delta-k (pcm) = 50 D.R. = 0.9897
+[  NORMAL ]  Iteration 93:  k_eff = 1.029918   res = 1.352E-03  delta-k (pcm) = 48 D.R. = 0.9898
+[  NORMAL ]  Iteration 94:  k_eff = 1.030383   res = 1.338E-03  delta-k (pcm) = 46 D.R. = 0.9899
+[  NORMAL ]  Iteration 95:  k_eff = 1.030828   res = 1.324E-03  delta-k (pcm) = 44 D.R. = 0.9900
+[  NORMAL ]  Iteration 96:  k_eff = 1.031255   res = 1.311E-03  delta-k (pcm) = 42 D.R. = 0.9901
+[  NORMAL ]  Iteration 97:  k_eff = 1.031664   res = 1.298E-03  delta-k (pcm) = 40 D.R. = 0.9902
+[  NORMAL ]  Iteration 98:  k_eff = 1.032058   res = 1.286E-03  delta-k (pcm) = 39 D.R. = 0.9902
+[  NORMAL ]  Iteration 99:  k_eff = 1.032435   res = 1.273E-03  delta-k (pcm) = 37 D.R. = 0.9903
+[  NORMAL ]  Iteration 100:  k_eff = 1.032798   res = 1.261E-03  delta-k (pcm) = 36 D.R. = 0.9904
+[  NORMAL ]  Iteration 101:  k_eff = 1.033146   res = 1.249E-03  delta-k (pcm) = 34 D.R. = 0.9905
+[  NORMAL ]  Iteration 102:  k_eff = 1.033481   res = 1.237E-03  delta-k (pcm) = 33 D.R. = 0.9906
+[  NORMAL ]  Iteration 103:  k_eff = 1.033804   res = 1.226E-03  delta-k (pcm) = 32 D.R. = 0.9907
+[  NORMAL ]  Iteration 104:  k_eff = 1.034115   res = 1.214E-03  delta-k (pcm) = 31 D.R. = 0.9907
+[  NORMAL ]  Iteration 105:  k_eff = 1.034414   res = 1.203E-03  delta-k (pcm) = 29 D.R. = 0.9908
+[  NORMAL ]  Iteration 106:  k_eff = 1.034702   res = 1.192E-03  delta-k (pcm) = 28 D.R. = 0.9909
+[  NORMAL ]  Iteration 107:  k_eff = 1.034980   res = 1.181E-03  delta-k (pcm) = 27 D.R. = 0.9909
+[  NORMAL ]  Iteration 108:  k_eff = 1.035248   res = 1.171E-03  delta-k (pcm) = 26 D.R. = 0.9910
+[  NORMAL ]  Iteration 109:  k_eff = 1.035507   res = 1.160E-03  delta-k (pcm) = 25 D.R. = 0.9910
+[  NORMAL ]  Iteration 110:  k_eff = 1.035756   res = 1.150E-03  delta-k (pcm) = 24 D.R. = 0.9911
+[  NORMAL ]  Iteration 111:  k_eff = 1.035998   res = 1.140E-03  delta-k (pcm) = 24 D.R. = 0.9911
+[  NORMAL ]  Iteration 112:  k_eff = 1.036231   res = 1.130E-03  delta-k (pcm) = 23 D.R. = 0.9912
+[  NORMAL ]  Iteration 113:  k_eff = 1.036457   res = 1.120E-03  delta-k (pcm) = 22 D.R. = 0.9913
+[  NORMAL ]  Iteration 114:  k_eff = 1.036675   res = 1.110E-03  delta-k (pcm) = 21 D.R. = 0.9913
+[  NORMAL ]  Iteration 115:  k_eff = 1.036886   res = 1.101E-03  delta-k (pcm) = 21 D.R. = 0.9913
+[  NORMAL ]  Iteration 116:  k_eff = 1.037091   res = 1.091E-03  delta-k (pcm) = 20 D.R. = 0.9914
+[  NORMAL ]  Iteration 117:  k_eff = 1.037289   res = 1.082E-03  delta-k (pcm) = 19 D.R. = 0.9915
+[  NORMAL ]  Iteration 118:  k_eff = 1.037481   res = 1.072E-03  delta-k (pcm) = 19 D.R. = 0.9915
+[  NORMAL ]  Iteration 119:  k_eff = 1.037667   res = 1.063E-03  delta-k (pcm) = 18 D.R. = 0.9915
+[  NORMAL ]  Iteration 120:  k_eff = 1.037848   res = 1.054E-03  delta-k (pcm) = 18 D.R. = 0.9916
+[  NORMAL ]  Iteration 121:  k_eff = 1.038023   res = 1.046E-03  delta-k (pcm) = 17 D.R. = 0.9916
+[  NORMAL ]  Iteration 122:  k_eff = 1.038193   res = 1.037E-03  delta-k (pcm) = 17 D.R. = 0.9916
+[  NORMAL ]  Iteration 123:  k_eff = 1.038359   res = 1.028E-03  delta-k (pcm) = 16 D.R. = 0.9917
+[  NORMAL ]  Iteration 124:  k_eff = 1.038520   res = 1.020E-03  delta-k (pcm) = 16 D.R. = 0.9917
+[  NORMAL ]  Iteration 125:  k_eff = 1.038676   res = 1.011E-03  delta-k (pcm) = 15 D.R. = 0.9918
+[  NORMAL ]  Iteration 126:  k_eff = 1.038828   res = 1.003E-03  delta-k (pcm) = 15 D.R. = 0.9918
+[  NORMAL ]  Iteration 127:  k_eff = 1.038976   res = 9.948E-04  delta-k (pcm) = 14 D.R. = 0.9918
+[  NORMAL ]  Iteration 128:  k_eff = 1.039120   res = 9.867E-04  delta-k (pcm) = 14 D.R. = 0.9918
+[  NORMAL ]  Iteration 129:  k_eff = 1.039261   res = 9.787E-04  delta-k (pcm) = 14 D.R. = 0.9919
+[  NORMAL ]  Iteration 130:  k_eff = 1.039398   res = 9.709E-04  delta-k (pcm) = 13 D.R. = 0.9919
+[  NORMAL ]  Iteration 131:  k_eff = 1.039531   res = 9.630E-04  delta-k (pcm) = 13 D.R. = 0.9919
+[  NORMAL ]  Iteration 132:  k_eff = 1.039661   res = 9.553E-04  delta-k (pcm) = 12 D.R. = 0.9920
+[  NORMAL ]  Iteration 133:  k_eff = 1.039788   res = 9.477E-04  delta-k (pcm) = 12 D.R. = 0.9920
+[  NORMAL ]  Iteration 134:  k_eff = 1.039911   res = 9.401E-04  delta-k (pcm) = 12 D.R. = 0.9920
+[  NORMAL ]  Iteration 135:  k_eff = 1.040032   res = 9.326E-04  delta-k (pcm) = 12 D.R. = 0.9921
+[  NORMAL ]  Iteration 136:  k_eff = 1.040150   res = 9.253E-04  delta-k (pcm) = 11 D.R. = 0.9921
+[  NORMAL ]  Iteration 137:  k_eff = 1.040265   res = 9.180E-04  delta-k (pcm) = 11 D.R. = 0.9921
+[  NORMAL ]  Iteration 138:  k_eff = 1.040378   res = 9.108E-04  delta-k (pcm) = 11 D.R. = 0.9922
+[  NORMAL ]  Iteration 139:  k_eff = 1.040488   res = 9.036E-04  delta-k (pcm) = 11 D.R. = 0.9921
+[  NORMAL ]  Iteration 140:  k_eff = 1.040596   res = 8.966E-04  delta-k (pcm) = 10 D.R. = 0.9922
+[  NORMAL ]  Iteration 141:  k_eff = 1.040701   res = 8.896E-04  delta-k (pcm) = 10 D.R. = 0.9922
+[  NORMAL ]  Iteration 142:  k_eff = 1.040804   res = 8.827E-04  delta-k (pcm) = 10 D.R. = 0.9922
+[  NORMAL ]  Iteration 143:  k_eff = 1.040905   res = 8.758E-04  delta-k (pcm) = 10 D.R. = 0.9922
+[  NORMAL ]  Iteration 144:  k_eff = 1.041004   res = 8.691E-04  delta-k (pcm) = 9 D.R. = 0.9923
+[  NORMAL ]  Iteration 145:  k_eff = 1.041101   res = 8.624E-04  delta-k (pcm) = 9 D.R. = 0.9923
+[  NORMAL ]  Iteration 146:  k_eff = 1.041195   res = 8.558E-04  delta-k (pcm) = 9 D.R. = 0.9923
+[  NORMAL ]  Iteration 147:  k_eff = 1.041288   res = 8.492E-04  delta-k (pcm) = 9 D.R. = 0.9923
+[  NORMAL ]  Iteration 148:  k_eff = 1.041379   res = 8.427E-04  delta-k (pcm) = 9 D.R. = 0.9924
+[  NORMAL ]  Iteration 149:  k_eff = 1.041468   res = 8.363E-04  delta-k (pcm) = 8 D.R. = 0.9924
+[  NORMAL ]  Iteration 150:  k_eff = 1.041556   res = 8.300E-04  delta-k (pcm) = 8 D.R. = 0.9924
+[  NORMAL ]  Iteration 151:  k_eff = 1.041642   res = 8.237E-04  delta-k (pcm) = 8 D.R. = 0.9924
+[  NORMAL ]  Iteration 152:  k_eff = 1.041726   res = 8.174E-04  delta-k (pcm) = 8 D.R. = 0.9925
+[  NORMAL ]  Iteration 153:  k_eff = 1.041809   res = 8.113E-04  delta-k (pcm) = 8 D.R. = 0.9925
+[  NORMAL ]  Iteration 154:  k_eff = 1.041890   res = 8.051E-04  delta-k (pcm) = 8 D.R. = 0.9925
+[  NORMAL ]  Iteration 155:  k_eff = 1.041970   res = 7.991E-04  delta-k (pcm) = 7 D.R. = 0.9925
+[  NORMAL ]  Iteration 156:  k_eff = 1.042048   res = 7.931E-04  delta-k (pcm) = 7 D.R. = 0.9925
+[  NORMAL ]  Iteration 157:  k_eff = 1.042125   res = 7.872E-04  delta-k (pcm) = 7 D.R. = 0.9925
+[  NORMAL ]  Iteration 158:  k_eff = 1.042201   res = 7.813E-04  delta-k (pcm) = 7 D.R. = 0.9925
+[  NORMAL ]  Iteration 159:  k_eff = 1.042275   res = 7.755E-04  delta-k (pcm) = 7 D.R. = 0.9925
+[  NORMAL ]  Iteration 160:  k_eff = 1.042348   res = 7.697E-04  delta-k (pcm) = 7 D.R. = 0.9926
+[  NORMAL ]  Iteration 161:  k_eff = 1.042420   res = 7.640E-04  delta-k (pcm) = 7 D.R. = 0.9926
+[  NORMAL ]  Iteration 162:  k_eff = 1.042490   res = 7.584E-04  delta-k (pcm) = 7 D.R. = 0.9926
+[  NORMAL ]  Iteration 163:  k_eff = 1.042560   res = 7.528E-04  delta-k (pcm) = 6 D.R. = 0.9926
+[  NORMAL ]  Iteration 164:  k_eff = 1.042628   res = 7.472E-04  delta-k (pcm) = 6 D.R. = 0.9926
+[  NORMAL ]  Iteration 165:  k_eff = 1.042696   res = 7.417E-04  delta-k (pcm) = 6 D.R. = 0.9927
+[  NORMAL ]  Iteration 166:  k_eff = 1.042762   res = 7.363E-04  delta-k (pcm) = 6 D.R. = 0.9926
+[  NORMAL ]  Iteration 167:  k_eff = 1.042827   res = 7.309E-04  delta-k (pcm) = 6 D.R. = 0.9927
+[  NORMAL ]  Iteration 168:  k_eff = 1.042891   res = 7.255E-04  delta-k (pcm) = 6 D.R. = 0.9927
+[  NORMAL ]  Iteration 169:  k_eff = 1.042954   res = 7.202E-04  delta-k (pcm) = 6 D.R. = 0.9927
+[  NORMAL ]  Iteration 170:  k_eff = 1.043016   res = 7.150E-04  delta-k (pcm) = 6 D.R. = 0.9927
+[  NORMAL ]  Iteration 171:  k_eff = 1.043078   res = 7.098E-04  delta-k (pcm) = 6 D.R. = 0.9927
+[  NORMAL ]  Iteration 172:  k_eff = 1.043138   res = 7.046E-04  delta-k (pcm) = 6 D.R. = 0.9927
+[  NORMAL ]  Iteration 173:  k_eff = 1.043197   res = 6.995E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 174:  k_eff = 1.043256   res = 6.944E-04  delta-k (pcm) = 5 D.R. = 0.9927
+[  NORMAL ]  Iteration 175:  k_eff = 1.043314   res = 6.894E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 176:  k_eff = 1.043371   res = 6.844E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 177:  k_eff = 1.043427   res = 6.795E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 178:  k_eff = 1.043482   res = 6.746E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 179:  k_eff = 1.043536   res = 6.697E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 180:  k_eff = 1.043590   res = 6.650E-04  delta-k (pcm) = 5 D.R. = 0.9929
+[  NORMAL ]  Iteration 181:  k_eff = 1.043643   res = 6.602E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 182:  k_eff = 1.043696   res = 6.555E-04  delta-k (pcm) = 5 D.R. = 0.9929
+[  NORMAL ]  Iteration 183:  k_eff = 1.043747   res = 6.508E-04  delta-k (pcm) = 5 D.R. = 0.9928
+[  NORMAL ]  Iteration 184:  k_eff = 1.043798   res = 6.461E-04  delta-k (pcm) = 5 D.R. = 0.9929
+[  NORMAL ]  Iteration 185:  k_eff = 1.043848   res = 6.415E-04  delta-k (pcm) = 5 D.R. = 0.9929
+[  NORMAL ]  Iteration 186:  k_eff = 1.043898   res = 6.370E-04  delta-k (pcm) = 4 D.R. = 0.9929
+[  NORMAL ]  Iteration 187:  k_eff = 1.043947   res = 6.324E-04  delta-k (pcm) = 4 D.R. = 0.9929
+[  NORMAL ]  Iteration 188:  k_eff = 1.043995   res = 6.279E-04  delta-k (pcm) = 4 D.R. = 0.9929
+[  NORMAL ]  Iteration 189:  k_eff = 1.044043   res = 6.235E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 190:  k_eff = 1.044090   res = 6.191E-04  delta-k (pcm) = 4 D.R. = 0.9929
+[  NORMAL ]  Iteration 191:  k_eff = 1.044136   res = 6.147E-04  delta-k (pcm) = 4 D.R. = 0.9929
+[  NORMAL ]  Iteration 192:  k_eff = 1.044182   res = 6.104E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 193:  k_eff = 1.044227   res = 6.061E-04  delta-k (pcm) = 4 D.R. = 0.9929
+[  NORMAL ]  Iteration 194:  k_eff = 1.044272   res = 6.018E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 195:  k_eff = 1.044316   res = 5.976E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 196:  k_eff = 1.044360   res = 5.934E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 197:  k_eff = 1.044403   res = 5.892E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 198:  k_eff = 1.044446   res = 5.851E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 199:  k_eff = 1.044488   res = 5.810E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 200:  k_eff = 1.044529   res = 5.769E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 201:  k_eff = 1.044570   res = 5.729E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 202:  k_eff = 1.044611   res = 5.689E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 203:  k_eff = 1.044651   res = 5.649E-04  delta-k (pcm) = 4 D.R. = 0.9930
+[  NORMAL ]  Iteration 204:  k_eff = 1.044691   res = 5.610E-04  delta-k (pcm) = 3 D.R. = 0.9930
+[  NORMAL ]  Iteration 205:  k_eff = 1.044730   res = 5.571E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 206:  k_eff = 1.044769   res = 5.532E-04  delta-k (pcm) = 3 D.R. = 0.9930
+[  NORMAL ]  Iteration 207:  k_eff = 1.044807   res = 5.494E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 208:  k_eff = 1.044845   res = 5.456E-04  delta-k (pcm) = 3 D.R. = 0.9930
+[  NORMAL ]  Iteration 209:  k_eff = 1.044882   res = 5.418E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 210:  k_eff = 1.044919   res = 5.381E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 211:  k_eff = 1.044956   res = 5.343E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 212:  k_eff = 1.044992   res = 5.306E-04  delta-k (pcm) = 3 D.R. = 0.9930
+[  NORMAL ]  Iteration 213:  k_eff = 1.045028   res = 5.270E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 214:  k_eff = 1.045063   res = 5.233E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 215:  k_eff = 1.045098   res = 5.198E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 216:  k_eff = 1.045133   res = 5.162E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 217:  k_eff = 1.045167   res = 5.126E-04  delta-k (pcm) = 3 D.R. = 0.9932
+[  NORMAL ]  Iteration 218:  k_eff = 1.045201   res = 5.091E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 219:  k_eff = 1.045235   res = 5.056E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 220:  k_eff = 1.045268   res = 5.021E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 221:  k_eff = 1.045301   res = 4.987E-04  delta-k (pcm) = 3 D.R. = 0.9932
+[  NORMAL ]  Iteration 222:  k_eff = 1.045333   res = 4.953E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 223:  k_eff = 1.045365   res = 4.919E-04  delta-k (pcm) = 3 D.R. = 0.9932
+[  NORMAL ]  Iteration 224:  k_eff = 1.045397   res = 4.885E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 225:  k_eff = 1.045428   res = 4.852E-04  delta-k (pcm) = 3 D.R. = 0.9932
+[  NORMAL ]  Iteration 226:  k_eff = 1.045459   res = 4.819E-04  delta-k (pcm) = 3 D.R. = 0.9932
+[  NORMAL ]  Iteration 227:  k_eff = 1.045490   res = 4.786E-04  delta-k (pcm) = 3 D.R. = 0.9932
+[  NORMAL ]  Iteration 228:  k_eff = 1.045521   res = 4.754E-04  delta-k (pcm) = 3 D.R. = 0.9931
+[  NORMAL ]  Iteration 229:  k_eff = 1.045551   res = 4.721E-04  delta-k (pcm) = 3 D.R. = 0.9932
+[  NORMAL ]  Iteration 230:  k_eff = 1.045581   res = 4.689E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 231:  k_eff = 1.045610   res = 4.657E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 232:  k_eff = 1.045640   res = 4.626E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 233:  k_eff = 1.045669   res = 4.594E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 234:  k_eff = 1.045697   res = 4.563E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 235:  k_eff = 1.045726   res = 4.533E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 236:  k_eff = 1.045754   res = 4.502E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 237:  k_eff = 1.045781   res = 4.471E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 238:  k_eff = 1.045809   res = 4.441E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 239:  k_eff = 1.045836   res = 4.411E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 240:  k_eff = 1.045863   res = 4.381E-04  delta-k (pcm) = 2 D.R. = 0.9932
+[  NORMAL ]  Iteration 241:  k_eff = 1.045890   res = 4.352E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 242:  k_eff = 1.045916   res = 4.323E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 243:  k_eff = 1.045943   res = 4.294E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 244:  k_eff = 1.045969   res = 4.265E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 245:  k_eff = 1.045994   res = 4.236E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 246:  k_eff = 1.046020   res = 4.208E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 247:  k_eff = 1.046045   res = 4.180E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 248:  k_eff = 1.046070   res = 4.152E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 249:  k_eff = 1.046095   res = 4.124E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 250:  k_eff = 1.046119   res = 4.096E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 251:  k_eff = 1.046143   res = 4.069E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 252:  k_eff = 1.046167   res = 4.042E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 253:  k_eff = 1.046191   res = 4.015E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 254:  k_eff = 1.046215   res = 3.988E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 255:  k_eff = 1.046238   res = 3.961E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 256:  k_eff = 1.046261   res = 3.935E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 257:  k_eff = 1.046284   res = 3.909E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 258:  k_eff = 1.046307   res = 3.883E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 259:  k_eff = 1.046329   res = 3.857E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 260:  k_eff = 1.046352   res = 3.831E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 261:  k_eff = 1.046374   res = 3.806E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 262:  k_eff = 1.046396   res = 3.781E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 263:  k_eff = 1.046417   res = 3.756E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 264:  k_eff = 1.046439   res = 3.731E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 265:  k_eff = 1.046460   res = 3.706E-04  delta-k (pcm) = 2 D.R. = 0.9933
+[  NORMAL ]  Iteration 266:  k_eff = 1.046481   res = 3.681E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 267:  k_eff = 1.046502   res = 3.657E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 268:  k_eff = 1.046523   res = 3.633E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 269:  k_eff = 1.046543   res = 3.609E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 270:  k_eff = 1.046564   res = 3.585E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 271:  k_eff = 1.046584   res = 3.562E-04  delta-k (pcm) = 2 D.R. = 0.9934
+[  NORMAL ]  Iteration 272:  k_eff = 1.046604   res = 3.538E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 273:  k_eff = 1.046624   res = 3.515E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 274:  k_eff = 1.046643   res = 3.492E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 275:  k_eff = 1.046663   res = 3.469E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 276:  k_eff = 1.046682   res = 3.446E-04  delta-k (pcm) = 1 D.R. = 0.9933
+[  NORMAL ]  Iteration 277:  k_eff = 1.046701   res = 3.423E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 278:  k_eff = 1.046720   res = 3.401E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 279:  k_eff = 1.046739   res = 3.378E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 280:  k_eff = 1.046758   res = 3.356E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 281:  k_eff = 1.046776   res = 3.335E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 282:  k_eff = 1.046794   res = 3.313E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 283:  k_eff = 1.046813   res = 3.291E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 284:  k_eff = 1.046831   res = 3.269E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 285:  k_eff = 1.046848   res = 3.248E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 286:  k_eff = 1.046866   res = 3.227E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 287:  k_eff = 1.046884   res = 3.206E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 288:  k_eff = 1.046901   res = 3.185E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 289:  k_eff = 1.046918   res = 3.164E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 290:  k_eff = 1.046935   res = 3.143E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 291:  k_eff = 1.046952   res = 3.123E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 292:  k_eff = 1.046969   res = 3.103E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 293:  k_eff = 1.046986   res = 3.083E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 294:  k_eff = 1.047002   res = 3.063E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 295:  k_eff = 1.047018   res = 3.043E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 296:  k_eff = 1.047035   res = 3.023E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 297:  k_eff = 1.047051   res = 3.003E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 298:  k_eff = 1.047067   res = 2.984E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 299:  k_eff = 1.047083   res = 2.965E-04  delta-k (pcm) = 1 D.R. = 0.9934
+[  NORMAL ]  Iteration 300:  k_eff = 1.047098   res = 2.946E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 301:  k_eff = 1.047114   res = 2.926E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 302:  k_eff = 1.047129   res = 2.908E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 303:  k_eff = 1.047144   res = 2.889E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 304:  k_eff = 1.047160   res = 2.870E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 305:  k_eff = 1.047175   res = 2.852E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 306:  k_eff = 1.047190   res = 2.833E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 307:  k_eff = 1.047204   res = 2.815E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 308:  k_eff = 1.047219   res = 2.797E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 309:  k_eff = 1.047234   res = 2.779E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 310:  k_eff = 1.047248   res = 2.761E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 311:  k_eff = 1.047262   res = 2.743E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 312:  k_eff = 1.047277   res = 2.726E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 313:  k_eff = 1.047291   res = 2.708E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 314:  k_eff = 1.047305   res = 2.691E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 315:  k_eff = 1.047318   res = 2.674E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 316:  k_eff = 1.047332   res = 2.656E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 317:  k_eff = 1.047346   res = 2.640E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 318:  k_eff = 1.047359   res = 2.623E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 319:  k_eff = 1.047373   res = 2.606E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 320:  k_eff = 1.047386   res = 2.589E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 321:  k_eff = 1.047399   res = 2.573E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 322:  k_eff = 1.047412   res = 2.556E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 323:  k_eff = 1.047425   res = 2.540E-04  delta-k (pcm) = 1 D.R. = 0.9935
+[  NORMAL ]  Iteration 324:  k_eff = 1.047438   res = 2.524E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 325:  k_eff = 1.047451   res = 2.508E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 326:  k_eff = 1.047464   res = 2.492E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 327:  k_eff = 1.047476   res = 2.476E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 328:  k_eff = 1.047489   res = 2.460E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 329:  k_eff = 1.047501   res = 2.445E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 330:  k_eff = 1.047513   res = 2.429E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 331:  k_eff = 1.047526   res = 2.414E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 332:  k_eff = 1.047538   res = 2.398E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 333:  k_eff = 1.047550   res = 2.383E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 334:  k_eff = 1.047562   res = 2.368E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 335:  k_eff = 1.047573   res = 2.353E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 336:  k_eff = 1.047585   res = 2.338E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 337:  k_eff = 1.047597   res = 2.324E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 338:  k_eff = 1.047608   res = 2.309E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 339:  k_eff = 1.047620   res = 2.294E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 340:  k_eff = 1.047631   res = 2.280E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 341:  k_eff = 1.047642   res = 2.265E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 342:  k_eff = 1.047653   res = 2.251E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 343:  k_eff = 1.047664   res = 2.237E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 344:  k_eff = 1.047675   res = 2.223E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 345:  k_eff = 1.047686   res = 2.209E-04  delta-k (pcm) = 1 D.R. = 0.9936
+[  NORMAL ]  Iteration 346:  k_eff = 1.047697   res = 2.195E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 347:  k_eff = 1.047708   res = 2.181E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 348:  k_eff = 1.047719   res = 2.168E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 349:  k_eff = 1.047729   res = 2.154E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 350:  k_eff = 1.047740   res = 2.141E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 351:  k_eff = 1.047750   res = 2.127E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 352:  k_eff = 1.047760   res = 2.114E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 353:  k_eff = 1.047771   res = 2.101E-04  delta-k (pcm) = 1 D.R. = 0.9938
+[  NORMAL ]  Iteration 354:  k_eff = 1.047781   res = 2.087E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 355:  k_eff = 1.047791   res = 2.075E-04  delta-k (pcm) = 1 D.R. = 0.9939
+[  NORMAL ]  Iteration 356:  k_eff = 1.047801   res = 2.062E-04  delta-k (pcm) = 1 D.R. = 0.9937
+[  NORMAL ]  Iteration 357:  k_eff = 1.047811   res = 2.049E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 358:  k_eff = 1.047821   res = 2.036E-04  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 359:  k_eff = 1.047830   res = 2.023E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 360:  k_eff = 1.047840   res = 2.011E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 361:  k_eff = 1.047850   res = 1.998E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 362:  k_eff = 1.047859   res = 1.986E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 363:  k_eff = 1.047869   res = 1.973E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 364:  k_eff = 1.047878   res = 1.961E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 365:  k_eff = 1.047888   res = 1.949E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 366:  k_eff = 1.047897   res = 1.937E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 367:  k_eff = 1.047906   res = 1.925E-04  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 368:  k_eff = 1.047915   res = 1.913E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 369:  k_eff = 1.047924   res = 1.901E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 370:  k_eff = 1.047933   res = 1.890E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 371:  k_eff = 1.047942   res = 1.878E-04  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 372:  k_eff = 1.047951   res = 1.866E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 373:  k_eff = 1.047960   res = 1.855E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 374:  k_eff = 1.047968   res = 1.843E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 375:  k_eff = 1.047977   res = 1.832E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 376:  k_eff = 1.047986   res = 1.821E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 377:  k_eff = 1.047994   res = 1.809E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 378:  k_eff = 1.048003   res = 1.798E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 379:  k_eff = 1.048011   res = 1.787E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 380:  k_eff = 1.048019   res = 1.776E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 381:  k_eff = 1.048028   res = 1.765E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 382:  k_eff = 1.048036   res = 1.755E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 383:  k_eff = 1.048044   res = 1.744E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 384:  k_eff = 1.048052   res = 1.733E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 385:  k_eff = 1.048060   res = 1.723E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 386:  k_eff = 1.048068   res = 1.712E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 387:  k_eff = 1.048076   res = 1.701E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 388:  k_eff = 1.048084   res = 1.691E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 389:  k_eff = 1.048092   res = 1.681E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 390:  k_eff = 1.048099   res = 1.671E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 391:  k_eff = 1.048107   res = 1.660E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 392:  k_eff = 1.048115   res = 1.650E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 393:  k_eff = 1.048122   res = 1.640E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 394:  k_eff = 1.048130   res = 1.630E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 395:  k_eff = 1.048137   res = 1.620E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 396:  k_eff = 1.048144   res = 1.610E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 397:  k_eff = 1.048152   res = 1.601E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 398:  k_eff = 1.048159   res = 1.591E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 399:  k_eff = 1.048166   res = 1.581E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 400:  k_eff = 1.048173   res = 1.572E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 401:  k_eff = 1.048181   res = 1.562E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 402:  k_eff = 1.048188   res = 1.553E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 403:  k_eff = 1.048195   res = 1.543E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 404:  k_eff = 1.048202   res = 1.534E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 405:  k_eff = 1.048209   res = 1.525E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 406:  k_eff = 1.048215   res = 1.516E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 407:  k_eff = 1.048222   res = 1.506E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 408:  k_eff = 1.048229   res = 1.498E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 409:  k_eff = 1.048236   res = 1.488E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 410:  k_eff = 1.048242   res = 1.479E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 411:  k_eff = 1.048249   res = 1.471E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 412:  k_eff = 1.048256   res = 1.462E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 413:  k_eff = 1.048262   res = 1.453E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 414:  k_eff = 1.048269   res = 1.444E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 415:  k_eff = 1.048275   res = 1.436E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 416:  k_eff = 1.048281   res = 1.427E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 417:  k_eff = 1.048288   res = 1.419E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 418:  k_eff = 1.048294   res = 1.410E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 419:  k_eff = 1.048300   res = 1.402E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 420:  k_eff = 1.048306   res = 1.393E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 421:  k_eff = 1.048313   res = 1.385E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 422:  k_eff = 1.048319   res = 1.377E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 423:  k_eff = 1.048325   res = 1.368E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 424:  k_eff = 1.048331   res = 1.360E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 425:  k_eff = 1.048337   res = 1.352E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 426:  k_eff = 1.048343   res = 1.344E-04  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 427:  k_eff = 1.048348   res = 1.336E-04  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 428:  k_eff = 1.048354   res = 1.328E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 429:  k_eff = 1.048360   res = 1.320E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 430:  k_eff = 1.048366   res = 1.312E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 431:  k_eff = 1.048372   res = 1.305E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 432:  k_eff = 1.048377   res = 1.297E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 433:  k_eff = 1.048383   res = 1.289E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 434:  k_eff = 1.048389   res = 1.282E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 435:  k_eff = 1.048394   res = 1.274E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 436:  k_eff = 1.048400   res = 1.266E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 437:  k_eff = 1.048405   res = 1.259E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 438:  k_eff = 1.048411   res = 1.252E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 439:  k_eff = 1.048416   res = 1.244E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 440:  k_eff = 1.048421   res = 1.237E-04  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 441:  k_eff = 1.048427   res = 1.230E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 442:  k_eff = 1.048432   res = 1.222E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 443:  k_eff = 1.048437   res = 1.215E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 444:  k_eff = 1.048442   res = 1.208E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 445:  k_eff = 1.048448   res = 1.201E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 446:  k_eff = 1.048453   res = 1.194E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 447:  k_eff = 1.048458   res = 1.187E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 448:  k_eff = 1.048463   res = 1.180E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 449:  k_eff = 1.048468   res = 1.173E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 450:  k_eff = 1.048473   res = 1.166E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 451:  k_eff = 1.048478   res = 1.159E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 452:  k_eff = 1.048483   res = 1.152E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 453:  k_eff = 1.048488   res = 1.146E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 454:  k_eff = 1.048492   res = 1.139E-04  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 455:  k_eff = 1.048497   res = 1.132E-04  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 456:  k_eff = 1.048502   res = 1.126E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 457:  k_eff = 1.048507   res = 1.119E-04  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 458:  k_eff = 1.048511   res = 1.113E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 459:  k_eff = 1.048516   res = 1.106E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 460:  k_eff = 1.048521   res = 1.100E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 461:  k_eff = 1.048525   res = 1.094E-04  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 462:  k_eff = 1.048530   res = 1.087E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 463:  k_eff = 1.048534   res = 1.081E-04  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 464:  k_eff = 1.048539   res = 1.075E-04  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 465:  k_eff = 1.048543   res = 1.068E-04  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 466:  k_eff = 1.048548   res = 1.062E-04  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 467:  k_eff = 1.048552   res = 1.056E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 468:  k_eff = 1.048557   res = 1.050E-04  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 469:  k_eff = 1.048561   res = 1.044E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 470:  k_eff = 1.048565   res = 1.038E-04  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 471:  k_eff = 1.048570   res = 1.032E-04  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 472:  k_eff = 1.048574   res = 1.026E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 473:  k_eff = 1.048578   res = 1.020E-04  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 474:  k_eff = 1.048582   res = 1.014E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 475:  k_eff = 1.048587   res = 1.008E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 476:  k_eff = 1.048591   res = 1.002E-04  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 477:  k_eff = 1.048595   res = 9.967E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 478:  k_eff = 1.048599   res = 9.910E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 479:  k_eff = 1.048603   res = 9.852E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 480:  k_eff = 1.048607   res = 9.796E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 481:  k_eff = 1.048611   res = 9.740E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 482:  k_eff = 1.048615   res = 9.684E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 483:  k_eff = 1.048619   res = 9.629E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 484:  k_eff = 1.048623   res = 9.571E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 485:  k_eff = 1.048627   res = 9.522E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 486:  k_eff = 1.048631   res = 9.464E-05  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 487:  k_eff = 1.048634   res = 9.412E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 488:  k_eff = 1.048638   res = 9.355E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 489:  k_eff = 1.048642   res = 9.304E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 490:  k_eff = 1.048646   res = 9.251E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 491:  k_eff = 1.048650   res = 9.197E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 492:  k_eff = 1.048653   res = 9.145E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 493:  k_eff = 1.048657   res = 9.093E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 494:  k_eff = 1.048661   res = 9.043E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 495:  k_eff = 1.048664   res = 8.991E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 496:  k_eff = 1.048668   res = 8.939E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 497:  k_eff = 1.048671   res = 8.890E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 498:  k_eff = 1.048675   res = 8.838E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 499:  k_eff = 1.048679   res = 8.787E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 500:  k_eff = 1.048682   res = 8.738E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 501:  k_eff = 1.048686   res = 8.691E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 502:  k_eff = 1.048689   res = 8.640E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 503:  k_eff = 1.048692   res = 8.591E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 504:  k_eff = 1.048696   res = 8.542E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 505:  k_eff = 1.048699   res = 8.495E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 506:  k_eff = 1.048703   res = 8.446E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 507:  k_eff = 1.048706   res = 8.398E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 508:  k_eff = 1.048709   res = 8.352E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 509:  k_eff = 1.048713   res = 8.305E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 510:  k_eff = 1.048716   res = 8.258E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 511:  k_eff = 1.048719   res = 8.213E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 512:  k_eff = 1.048722   res = 8.164E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 513:  k_eff = 1.048725   res = 8.121E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 514:  k_eff = 1.048729   res = 8.074E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 515:  k_eff = 1.048732   res = 8.029E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 516:  k_eff = 1.048735   res = 7.984E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 517:  k_eff = 1.048738   res = 7.936E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 518:  k_eff = 1.048741   res = 7.897E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 519:  k_eff = 1.048744   res = 7.851E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 520:  k_eff = 1.048747   res = 7.809E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 521:  k_eff = 1.048750   res = 7.761E-05  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 522:  k_eff = 1.048753   res = 7.720E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 523:  k_eff = 1.048756   res = 7.678E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 524:  k_eff = 1.048759   res = 7.635E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 525:  k_eff = 1.048762   res = 7.591E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 526:  k_eff = 1.048765   res = 7.549E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 527:  k_eff = 1.048768   res = 7.509E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 528:  k_eff = 1.048771   res = 7.465E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 529:  k_eff = 1.048774   res = 7.424E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 530:  k_eff = 1.048777   res = 7.384E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 531:  k_eff = 1.048780   res = 7.342E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 532:  k_eff = 1.048782   res = 7.302E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 533:  k_eff = 1.048785   res = 7.262E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 534:  k_eff = 1.048788   res = 7.220E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 535:  k_eff = 1.048791   res = 7.181E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 536:  k_eff = 1.048793   res = 7.141E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 537:  k_eff = 1.048796   res = 7.101E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 538:  k_eff = 1.048799   res = 7.063E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 539:  k_eff = 1.048802   res = 7.024E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 540:  k_eff = 1.048804   res = 6.984E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 541:  k_eff = 1.048807   res = 6.946E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 542:  k_eff = 1.048809   res = 6.907E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 543:  k_eff = 1.048812   res = 6.870E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 544:  k_eff = 1.048815   res = 6.833E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 545:  k_eff = 1.048817   res = 6.794E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 546:  k_eff = 1.048820   res = 6.758E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 547:  k_eff = 1.048822   res = 6.720E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 548:  k_eff = 1.048825   res = 6.684E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 549:  k_eff = 1.048827   res = 6.646E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 550:  k_eff = 1.048830   res = 6.611E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 551:  k_eff = 1.048832   res = 6.574E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 552:  k_eff = 1.048835   res = 6.537E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 553:  k_eff = 1.048837   res = 6.503E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 554:  k_eff = 1.048840   res = 6.467E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 555:  k_eff = 1.048842   res = 6.430E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 556:  k_eff = 1.048844   res = 6.398E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 557:  k_eff = 1.048847   res = 6.362E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 558:  k_eff = 1.048849   res = 6.327E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 559:  k_eff = 1.048852   res = 6.291E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 560:  k_eff = 1.048854   res = 6.259E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 561:  k_eff = 1.048856   res = 6.224E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 562:  k_eff = 1.048858   res = 6.190E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 563:  k_eff = 1.048861   res = 6.156E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 564:  k_eff = 1.048863   res = 6.124E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 565:  k_eff = 1.048865   res = 6.089E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 566:  k_eff = 1.048868   res = 6.058E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 567:  k_eff = 1.048870   res = 6.024E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 568:  k_eff = 1.048872   res = 5.991E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 569:  k_eff = 1.048874   res = 5.959E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 570:  k_eff = 1.048876   res = 5.925E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 571:  k_eff = 1.048878   res = 5.895E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 572:  k_eff = 1.048881   res = 5.862E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 573:  k_eff = 1.048883   res = 5.831E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 574:  k_eff = 1.048885   res = 5.799E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 575:  k_eff = 1.048887   res = 5.768E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 576:  k_eff = 1.048889   res = 5.738E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 577:  k_eff = 1.048891   res = 5.705E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 578:  k_eff = 1.048893   res = 5.676E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 579:  k_eff = 1.048895   res = 5.645E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 580:  k_eff = 1.048897   res = 5.614E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 581:  k_eff = 1.048899   res = 5.586E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 582:  k_eff = 1.048901   res = 5.554E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 583:  k_eff = 1.048903   res = 5.524E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 584:  k_eff = 1.048905   res = 5.495E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 585:  k_eff = 1.048907   res = 5.466E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 586:  k_eff = 1.048909   res = 5.435E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 587:  k_eff = 1.048911   res = 5.408E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 588:  k_eff = 1.048913   res = 5.377E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 589:  k_eff = 1.048915   res = 5.349E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 590:  k_eff = 1.048917   res = 5.322E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 591:  k_eff = 1.048919   res = 5.291E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 592:  k_eff = 1.048921   res = 5.263E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 593:  k_eff = 1.048923   res = 5.236E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 594:  k_eff = 1.048924   res = 5.208E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 595:  k_eff = 1.048926   res = 5.182E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 596:  k_eff = 1.048928   res = 5.152E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 597:  k_eff = 1.048930   res = 5.124E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 598:  k_eff = 1.048932   res = 5.098E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 599:  k_eff = 1.048933   res = 5.070E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 600:  k_eff = 1.048935   res = 5.044E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 601:  k_eff = 1.048937   res = 5.016E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 602:  k_eff = 1.048939   res = 4.989E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 603:  k_eff = 1.048941   res = 4.963E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 604:  k_eff = 1.048942   res = 4.940E-05  delta-k (pcm) = 0 D.R. = 0.9954
+[  NORMAL ]  Iteration 605:  k_eff = 1.048944   res = 4.910E-05  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 606:  k_eff = 1.048946   res = 4.884E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 607:  k_eff = 1.048947   res = 4.859E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 608:  k_eff = 1.048949   res = 4.832E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 609:  k_eff = 1.048951   res = 4.807E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 610:  k_eff = 1.048952   res = 4.784E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 611:  k_eff = 1.048954   res = 4.756E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 612:  k_eff = 1.048956   res = 4.732E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 613:  k_eff = 1.048957   res = 4.707E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 614:  k_eff = 1.048959   res = 4.682E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 615:  k_eff = 1.048961   res = 4.658E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 616:  k_eff = 1.048962   res = 4.632E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 617:  k_eff = 1.048964   res = 4.610E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 618:  k_eff = 1.048965   res = 4.585E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 619:  k_eff = 1.048967   res = 4.559E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 620:  k_eff = 1.048969   res = 4.535E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 621:  k_eff = 1.048970   res = 4.513E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 622:  k_eff = 1.048972   res = 4.488E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 623:  k_eff = 1.048973   res = 4.464E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 624:  k_eff = 1.048975   res = 4.442E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 625:  k_eff = 1.048976   res = 4.418E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 626:  k_eff = 1.048978   res = 4.396E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 627:  k_eff = 1.048979   res = 4.373E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 628:  k_eff = 1.048981   res = 4.348E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 629:  k_eff = 1.048982   res = 4.325E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 630:  k_eff = 1.048984   res = 4.304E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 631:  k_eff = 1.048985   res = 4.280E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 632:  k_eff = 1.048987   res = 4.260E-05  delta-k (pcm) = 0 D.R. = 0.9954
+[  NORMAL ]  Iteration 633:  k_eff = 1.048988   res = 4.236E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 634:  k_eff = 1.048989   res = 4.214E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 635:  k_eff = 1.048991   res = 4.194E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 636:  k_eff = 1.048992   res = 4.169E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 637:  k_eff = 1.048994   res = 4.150E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 638:  k_eff = 1.048995   res = 4.126E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 639:  k_eff = 1.048996   res = 4.107E-05  delta-k (pcm) = 0 D.R. = 0.9954
+[  NORMAL ]  Iteration 640:  k_eff = 1.048998   res = 4.084E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 641:  k_eff = 1.048999   res = 4.063E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 642:  k_eff = 1.049001   res = 4.041E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 643:  k_eff = 1.049002   res = 4.021E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 644:  k_eff = 1.049003   res = 4.001E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 645:  k_eff = 1.049005   res = 3.979E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 646:  k_eff = 1.049006   res = 3.958E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 647:  k_eff = 1.049007   res = 3.938E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 648:  k_eff = 1.049009   res = 3.918E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 649:  k_eff = 1.049010   res = 3.897E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 650:  k_eff = 1.049011   res = 3.876E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 651:  k_eff = 1.049012   res = 3.858E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 652:  k_eff = 1.049014   res = 3.838E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 653:  k_eff = 1.049015   res = 3.817E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 654:  k_eff = 1.049016   res = 3.798E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 655:  k_eff = 1.049017   res = 3.779E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 656:  k_eff = 1.049019   res = 3.757E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 657:  k_eff = 1.049020   res = 3.739E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 658:  k_eff = 1.049021   res = 3.718E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 659:  k_eff = 1.049022   res = 3.701E-05  delta-k (pcm) = 0 D.R. = 0.9954
+[  NORMAL ]  Iteration 660:  k_eff = 1.049024   res = 3.681E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 661:  k_eff = 1.049025   res = 3.664E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 662:  k_eff = 1.049026   res = 3.643E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 663:  k_eff = 1.049027   res = 3.625E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 664:  k_eff = 1.049028   res = 3.606E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 665:  k_eff = 1.049030   res = 3.589E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 666:  k_eff = 1.049031   res = 3.567E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 667:  k_eff = 1.049032   res = 3.552E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 668:  k_eff = 1.049033   res = 3.533E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 669:  k_eff = 1.049034   res = 3.515E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 670:  k_eff = 1.049035   res = 3.496E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 671:  k_eff = 1.049036   res = 3.480E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 672:  k_eff = 1.049037   res = 3.459E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 673:  k_eff = 1.049039   res = 3.444E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 674:  k_eff = 1.049040   res = 3.426E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 675:  k_eff = 1.049041   res = 3.408E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 676:  k_eff = 1.049042   res = 3.391E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 677:  k_eff = 1.049043   res = 3.372E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 678:  k_eff = 1.049044   res = 3.357E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 679:  k_eff = 1.049045   res = 3.337E-05  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 680:  k_eff = 1.049046   res = 3.323E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 681:  k_eff = 1.049047   res = 3.304E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 682:  k_eff = 1.049048   res = 3.290E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 683:  k_eff = 1.049049   res = 3.271E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 684:  k_eff = 1.049050   res = 3.253E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 685:  k_eff = 1.049051   res = 3.239E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 686:  k_eff = 1.049052   res = 3.221E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 687:  k_eff = 1.049053   res = 3.205E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 688:  k_eff = 1.049054   res = 3.190E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 689:  k_eff = 1.049055   res = 3.171E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 690:  k_eff = 1.049056   res = 3.156E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 691:  k_eff = 1.049057   res = 3.141E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 692:  k_eff = 1.049058   res = 3.124E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 693:  k_eff = 1.049059   res = 3.109E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 694:  k_eff = 1.049060   res = 3.093E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 695:  k_eff = 1.049061   res = 3.078E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 696:  k_eff = 1.049062   res = 3.061E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 697:  k_eff = 1.049063   res = 3.046E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 698:  k_eff = 1.049064   res = 3.031E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 699:  k_eff = 1.049065   res = 3.015E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 700:  k_eff = 1.049066   res = 3.000E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 701:  k_eff = 1.049067   res = 2.984E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 702:  k_eff = 1.049068   res = 2.970E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 703:  k_eff = 1.049069   res = 2.956E-05  delta-k (pcm) = 0 D.R. = 0.9955
+[  NORMAL ]  Iteration 704:  k_eff = 1.049070   res = 2.940E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 705:  k_eff = 1.049071   res = 2.924E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 706:  k_eff = 1.049072   res = 2.911E-05  delta-k (pcm) = 0 D.R. = 0.9954
+[  NORMAL ]  Iteration 707:  k_eff = 1.049073   res = 2.897E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 708:  k_eff = 1.049073   res = 2.882E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 709:  k_eff = 1.049074   res = 2.864E-05  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 710:  k_eff = 1.049075   res = 2.853E-05  delta-k (pcm) = 0 D.R. = 0.9962
+[  NORMAL ]  Iteration 711:  k_eff = 1.049076   res = 2.838E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 712:  k_eff = 1.049077   res = 2.824E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 713:  k_eff = 1.049078   res = 2.809E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 714:  k_eff = 1.049079   res = 2.793E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 715:  k_eff = 1.049080   res = 2.782E-05  delta-k (pcm) = 0 D.R. = 0.9961
+[  NORMAL ]  Iteration 716:  k_eff = 1.049080   res = 2.767E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 717:  k_eff = 1.049081   res = 2.753E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 718:  k_eff = 1.049082   res = 2.739E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 719:  k_eff = 1.049083   res = 2.725E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 720:  k_eff = 1.049084   res = 2.713E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 721:  k_eff = 1.049085   res = 2.699E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 722:  k_eff = 1.049085   res = 2.684E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 723:  k_eff = 1.049086   res = 2.672E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 724:  k_eff = 1.049087   res = 2.657E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 725:  k_eff = 1.049088   res = 2.644E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 726:  k_eff = 1.049089   res = 2.632E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 727:  k_eff = 1.049089   res = 2.619E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 728:  k_eff = 1.049090   res = 2.605E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 729:  k_eff = 1.049091   res = 2.592E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 730:  k_eff = 1.049092   res = 2.578E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 731:  k_eff = 1.049093   res = 2.566E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 732:  k_eff = 1.049093   res = 2.553E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 733:  k_eff = 1.049094   res = 2.542E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 734:  k_eff = 1.049095   res = 2.527E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 735:  k_eff = 1.049096   res = 2.517E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 736:  k_eff = 1.049096   res = 2.503E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 737:  k_eff = 1.049097   res = 2.489E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 738:  k_eff = 1.049098   res = 2.478E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 739:  k_eff = 1.049099   res = 2.466E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 740:  k_eff = 1.049099   res = 2.453E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 741:  k_eff = 1.049100   res = 2.441E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 742:  k_eff = 1.049101   res = 2.429E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 743:  k_eff = 1.049102   res = 2.415E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 744:  k_eff = 1.049102   res = 2.406E-05  delta-k (pcm) = 0 D.R. = 0.9962
+[  NORMAL ]  Iteration 745:  k_eff = 1.049103   res = 2.391E-05  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 746:  k_eff = 1.049104   res = 2.382E-05  delta-k (pcm) = 0 D.R. = 0.9963
+[  NORMAL ]  Iteration 747:  k_eff = 1.049104   res = 2.368E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 748:  k_eff = 1.049105   res = 2.359E-05  delta-k (pcm) = 0 D.R. = 0.9963
+[  NORMAL ]  Iteration 749:  k_eff = 1.049106   res = 2.346E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 750:  k_eff = 1.049107   res = 2.334E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 751:  k_eff = 1.049107   res = 2.322E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 752:  k_eff = 1.049108   res = 2.313E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 753:  k_eff = 1.049109   res = 2.298E-05  delta-k (pcm) = 0 D.R. = 0.9936
+[  NORMAL ]  Iteration 754:  k_eff = 1.049109   res = 2.288E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 755:  k_eff = 1.049110   res = 2.277E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 756:  k_eff = 1.049111   res = 2.266E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 757:  k_eff = 1.049111   res = 2.254E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 758:  k_eff = 1.049112   res = 2.244E-05  delta-k (pcm) = 0 D.R. = 0.9955
+[  NORMAL ]  Iteration 759:  k_eff = 1.049113   res = 2.233E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 760:  k_eff = 1.049113   res = 2.222E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 761:  k_eff = 1.049114   res = 2.209E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 762:  k_eff = 1.049114   res = 2.200E-05  delta-k (pcm) = 0 D.R. = 0.9962
+[  NORMAL ]  Iteration 763:  k_eff = 1.049115   res = 2.188E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 764:  k_eff = 1.049116   res = 2.179E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 765:  k_eff = 1.049116   res = 2.166E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 766:  k_eff = 1.049117   res = 2.155E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 767:  k_eff = 1.049118   res = 2.146E-05  delta-k (pcm) = 0 D.R. = 0.9961
+[  NORMAL ]  Iteration 768:  k_eff = 1.049118   res = 2.134E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 769:  k_eff = 1.049119   res = 2.126E-05  delta-k (pcm) = 0 D.R. = 0.9961
+[  NORMAL ]  Iteration 770:  k_eff = 1.049120   res = 2.114E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 771:  k_eff = 1.049120   res = 2.104E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 772:  k_eff = 1.049121   res = 2.094E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 773:  k_eff = 1.049121   res = 2.082E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 774:  k_eff = 1.049122   res = 2.073E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 775:  k_eff = 1.049123   res = 2.063E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 776:  k_eff = 1.049123   res = 2.053E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 777:  k_eff = 1.049124   res = 2.042E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 778:  k_eff = 1.049124   res = 2.033E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 779:  k_eff = 1.049125   res = 2.022E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 780:  k_eff = 1.049125   res = 2.012E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 781:  k_eff = 1.049126   res = 2.002E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 782:  k_eff = 1.049127   res = 1.994E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 783:  k_eff = 1.049127   res = 1.982E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 784:  k_eff = 1.049128   res = 1.974E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 785:  k_eff = 1.049128   res = 1.963E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 786:  k_eff = 1.049129   res = 1.954E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 787:  k_eff = 1.049129   res = 1.945E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 788:  k_eff = 1.049130   res = 1.935E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 789:  k_eff = 1.049130   res = 1.925E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 790:  k_eff = 1.049131   res = 1.918E-05  delta-k (pcm) = 0 D.R. = 0.9964
+[  NORMAL ]  Iteration 791:  k_eff = 1.049132   res = 1.906E-05  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 792:  k_eff = 1.049132   res = 1.898E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 793:  k_eff = 1.049133   res = 1.888E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 794:  k_eff = 1.049133   res = 1.879E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 795:  k_eff = 1.049134   res = 1.869E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 796:  k_eff = 1.049134   res = 1.860E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 797:  k_eff = 1.049135   res = 1.853E-05  delta-k (pcm) = 0 D.R. = 0.9963
+[  NORMAL ]  Iteration 798:  k_eff = 1.049135   res = 1.842E-05  delta-k (pcm) = 0 D.R. = 0.9938
+[  NORMAL ]  Iteration 799:  k_eff = 1.049136   res = 1.834E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 800:  k_eff = 1.049136   res = 1.824E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 801:  k_eff = 1.049137   res = 1.814E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 802:  k_eff = 1.049137   res = 1.808E-05  delta-k (pcm) = 0 D.R. = 0.9964
+[  NORMAL ]  Iteration 803:  k_eff = 1.049138   res = 1.799E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 804:  k_eff = 1.049138   res = 1.790E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 805:  k_eff = 1.049139   res = 1.780E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 806:  k_eff = 1.049139   res = 1.771E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 807:  k_eff = 1.049140   res = 1.764E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 808:  k_eff = 1.049140   res = 1.755E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 809:  k_eff = 1.049141   res = 1.746E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 810:  k_eff = 1.049141   res = 1.737E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 811:  k_eff = 1.049142   res = 1.729E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 812:  k_eff = 1.049142   res = 1.723E-05  delta-k (pcm) = 0 D.R. = 0.9963
+[  NORMAL ]  Iteration 813:  k_eff = 1.049143   res = 1.711E-05  delta-k (pcm) = 0 D.R. = 0.9932
+[  NORMAL ]  Iteration 814:  k_eff = 1.049143   res = 1.704E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 815:  k_eff = 1.049144   res = 1.696E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 816:  k_eff = 1.049144   res = 1.689E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 817:  k_eff = 1.049145   res = 1.679E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 818:  k_eff = 1.049145   res = 1.672E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 819:  k_eff = 1.049146   res = 1.663E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 820:  k_eff = 1.049146   res = 1.655E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 821:  k_eff = 1.049147   res = 1.647E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 822:  k_eff = 1.049147   res = 1.640E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 823:  k_eff = 1.049147   res = 1.631E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 824:  k_eff = 1.049148   res = 1.622E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 825:  k_eff = 1.049148   res = 1.615E-05  delta-k (pcm) = 0 D.R. = 0.9959
+[  NORMAL ]  Iteration 826:  k_eff = 1.049149   res = 1.609E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 827:  k_eff = 1.049149   res = 1.600E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 828:  k_eff = 1.049150   res = 1.591E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 829:  k_eff = 1.049150   res = 1.587E-05  delta-k (pcm) = 0 D.R. = 0.9972
+[  NORMAL ]  Iteration 830:  k_eff = 1.049150   res = 1.575E-05  delta-k (pcm) = 0 D.R. = 0.9929
+[  NORMAL ]  Iteration 831:  k_eff = 1.049151   res = 1.569E-05  delta-k (pcm) = 0 D.R. = 0.9962
+[  NORMAL ]  Iteration 832:  k_eff = 1.049151   res = 1.562E-05  delta-k (pcm) = 0 D.R. = 0.9955
+[  NORMAL ]  Iteration 833:  k_eff = 1.049152   res = 1.554E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 834:  k_eff = 1.049152   res = 1.547E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 835:  k_eff = 1.049153   res = 1.540E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 836:  k_eff = 1.049153   res = 1.532E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 837:  k_eff = 1.049153   res = 1.524E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 838:  k_eff = 1.049154   res = 1.518E-05  delta-k (pcm) = 0 D.R. = 0.9959
+[  NORMAL ]  Iteration 839:  k_eff = 1.049154   res = 1.509E-05  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 840:  k_eff = 1.049155   res = 1.504E-05  delta-k (pcm) = 0 D.R. = 0.9972
+[  NORMAL ]  Iteration 841:  k_eff = 1.049155   res = 1.495E-05  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 842:  k_eff = 1.049155   res = 1.488E-05  delta-k (pcm) = 0 D.R. = 0.9954
+[  NORMAL ]  Iteration 843:  k_eff = 1.049156   res = 1.482E-05  delta-k (pcm) = 0 D.R. = 0.9959
+[  NORMAL ]  Iteration 844:  k_eff = 1.049156   res = 1.473E-05  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 845:  k_eff = 1.049157   res = 1.467E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 846:  k_eff = 1.049157   res = 1.461E-05  delta-k (pcm) = 0 D.R. = 0.9965
+[  NORMAL ]  Iteration 847:  k_eff = 1.049157   res = 1.453E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 848:  k_eff = 1.049158   res = 1.445E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 849:  k_eff = 1.049158   res = 1.439E-05  delta-k (pcm) = 0 D.R. = 0.9957
+[  NORMAL ]  Iteration 850:  k_eff = 1.049159   res = 1.431E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 851:  k_eff = 1.049159   res = 1.425E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 852:  k_eff = 1.049159   res = 1.418E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 853:  k_eff = 1.049160   res = 1.412E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 854:  k_eff = 1.049160   res = 1.404E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 855:  k_eff = 1.049161   res = 1.398E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 856:  k_eff = 1.049161   res = 1.391E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 857:  k_eff = 1.049161   res = 1.386E-05  delta-k (pcm) = 0 D.R. = 0.9961
+[  NORMAL ]  Iteration 858:  k_eff = 1.049162   res = 1.377E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 859:  k_eff = 1.049162   res = 1.371E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 860:  k_eff = 1.049162   res = 1.364E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 861:  k_eff = 1.049163   res = 1.358E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 862:  k_eff = 1.049163   res = 1.351E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 863:  k_eff = 1.049163   res = 1.346E-05  delta-k (pcm) = 0 D.R. = 0.9961
+[  NORMAL ]  Iteration 864:  k_eff = 1.049164   res = 1.339E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 865:  k_eff = 1.049164   res = 1.332E-05  delta-k (pcm) = 0 D.R. = 0.9942
+[  NORMAL ]  Iteration 866:  k_eff = 1.049165   res = 1.326E-05  delta-k (pcm) = 0 D.R. = 0.9961
+[  NORMAL ]  Iteration 867:  k_eff = 1.049165   res = 1.320E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 868:  k_eff = 1.049165   res = 1.313E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 869:  k_eff = 1.049166   res = 1.305E-05  delta-k (pcm) = 0 D.R. = 0.9939
+[  NORMAL ]  Iteration 870:  k_eff = 1.049166   res = 1.303E-05  delta-k (pcm) = 0 D.R. = 0.9980
+[  NORMAL ]  Iteration 871:  k_eff = 1.049166   res = 1.294E-05  delta-k (pcm) = 0 D.R. = 0.9937
+[  NORMAL ]  Iteration 872:  k_eff = 1.049167   res = 1.288E-05  delta-k (pcm) = 0 D.R. = 0.9955
+[  NORMAL ]  Iteration 873:  k_eff = 1.049167   res = 1.282E-05  delta-k (pcm) = 0 D.R. = 0.9951
+[  NORMAL ]  Iteration 874:  k_eff = 1.049167   res = 1.275E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 875:  k_eff = 1.049168   res = 1.272E-05  delta-k (pcm) = 0 D.R. = 0.9975
+[  NORMAL ]  Iteration 876:  k_eff = 1.049168   res = 1.263E-05  delta-k (pcm) = 0 D.R. = 0.9929
+[  NORMAL ]  Iteration 877:  k_eff = 1.049168   res = 1.259E-05  delta-k (pcm) = 0 D.R. = 0.9969
+[  NORMAL ]  Iteration 878:  k_eff = 1.049169   res = 1.252E-05  delta-k (pcm) = 0 D.R. = 0.9950
+[  NORMAL ]  Iteration 879:  k_eff = 1.049169   res = 1.246E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 880:  k_eff = 1.049169   res = 1.240E-05  delta-k (pcm) = 0 D.R. = 0.9952
+[  NORMAL ]  Iteration 881:  k_eff = 1.049169   res = 1.233E-05  delta-k (pcm) = 0 D.R. = 0.9945
+[  NORMAL ]  Iteration 882:  k_eff = 1.049170   res = 1.229E-05  delta-k (pcm) = 0 D.R. = 0.9971
+[  NORMAL ]  Iteration 883:  k_eff = 1.049170   res = 1.222E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 884:  k_eff = 1.049170   res = 1.216E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 885:  k_eff = 1.049171   res = 1.211E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 886:  k_eff = 1.049171   res = 1.205E-05  delta-k (pcm) = 0 D.R. = 0.9949
+[  NORMAL ]  Iteration 887:  k_eff = 1.049171   res = 1.200E-05  delta-k (pcm) = 0 D.R. = 0.9961
+[  NORMAL ]  Iteration 888:  k_eff = 1.049172   res = 1.192E-05  delta-k (pcm) = 0 D.R. = 0.9930
+[  NORMAL ]  Iteration 889:  k_eff = 1.049172   res = 1.190E-05  delta-k (pcm) = 0 D.R. = 0.9988
+[  NORMAL ]  Iteration 890:  k_eff = 1.049172   res = 1.180E-05  delta-k (pcm) = 0 D.R. = 0.9915
+[  NORMAL ]  Iteration 891:  k_eff = 1.049173   res = 1.178E-05  delta-k (pcm) = 0 D.R. = 0.9977
+[  NORMAL ]  Iteration 892:  k_eff = 1.049173   res = 1.171E-05  delta-k (pcm) = 0 D.R. = 0.9943
+[  NORMAL ]  Iteration 893:  k_eff = 1.049173   res = 1.165E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 894:  k_eff = 1.049174   res = 1.161E-05  delta-k (pcm) = 0 D.R. = 0.9965
+[  NORMAL ]  Iteration 895:  k_eff = 1.049174   res = 1.153E-05  delta-k (pcm) = 0 D.R. = 0.9930
+[  NORMAL ]  Iteration 896:  k_eff = 1.049174   res = 1.150E-05  delta-k (pcm) = 0 D.R. = 0.9973
+[  NORMAL ]  Iteration 897:  k_eff = 1.049174   res = 1.142E-05  delta-k (pcm) = 0 D.R. = 0.9934
+[  NORMAL ]  Iteration 898:  k_eff = 1.049175   res = 1.139E-05  delta-k (pcm) = 0 D.R. = 0.9968
+[  NORMAL ]  Iteration 899:  k_eff = 1.049175   res = 1.132E-05  delta-k (pcm) = 0 D.R. = 0.9940
+[  NORMAL ]  Iteration 900:  k_eff = 1.049175   res = 1.127E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 901:  k_eff = 1.049176   res = 1.122E-05  delta-k (pcm) = 0 D.R. = 0.9963
+[  NORMAL ]  Iteration 902:  k_eff = 1.049176   res = 1.116E-05  delta-k (pcm) = 0 D.R. = 0.9944
+[  NORMAL ]  Iteration 903:  k_eff = 1.049176   res = 1.113E-05  delta-k (pcm) = 0 D.R. = 0.9972
+[  NORMAL ]  Iteration 904:  k_eff = 1.049176   res = 1.104E-05  delta-k (pcm) = 0 D.R. = 0.9917
+[  NORMAL ]  Iteration 905:  k_eff = 1.049177   res = 1.102E-05  delta-k (pcm) = 0 D.R. = 0.9985
+[  NORMAL ]  Iteration 906:  k_eff = 1.049177   res = 1.096E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 907:  k_eff = 1.049177   res = 1.090E-05  delta-k (pcm) = 0 D.R. = 0.9947
+[  NORMAL ]  Iteration 908:  k_eff = 1.049178   res = 1.086E-05  delta-k (pcm) = 0 D.R. = 0.9958
+[  NORMAL ]  Iteration 909:  k_eff = 1.049178   res = 1.079E-05  delta-k (pcm) = 0 D.R. = 0.9935
+[  NORMAL ]  Iteration 910:  k_eff = 1.049178   res = 1.075E-05  delta-k (pcm) = 0 D.R. = 0.9963
+[  NORMAL ]  Iteration 911:  k_eff = 1.049178   res = 1.071E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 912:  k_eff = 1.049179   res = 1.064E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 913:  k_eff = 1.049179   res = 1.059E-05  delta-k (pcm) = 0 D.R. = 0.9955
+[  NORMAL ]  Iteration 914:  k_eff = 1.049179   res = 1.055E-05  delta-k (pcm) = 0 D.R. = 0.9963
+[  NORMAL ]  Iteration 915:  k_eff = 1.049179   res = 1.051E-05  delta-k (pcm) = 0 D.R. = 0.9955
+[  NORMAL ]  Iteration 916:  k_eff = 1.049180   res = 1.044E-05  delta-k (pcm) = 0 D.R. = 0.9941
+[  NORMAL ]  Iteration 917:  k_eff = 1.049180   res = 1.039E-05  delta-k (pcm) = 0 D.R. = 0.9948
+[  NORMAL ]  Iteration 918:  k_eff = 1.049180   res = 1.036E-05  delta-k (pcm) = 0 D.R. = 0.9974
+[  NORMAL ]  Iteration 919:  k_eff = 1.049181   res = 1.029E-05  delta-k (pcm) = 0 D.R. = 0.9926
+[  NORMAL ]  Iteration 920:  k_eff = 1.049181   res = 1.025E-05  delta-k (pcm) = 0 D.R. = 0.9966
+[  NORMAL ]  Iteration 921:  k_eff = 1.049181   res = 1.021E-05  delta-k (pcm) = 0 D.R. = 0.9956
+[  NORMAL ]  Iteration 922:  k_eff = 1.049181   res = 1.015E-05  delta-k (pcm) = 0 D.R. = 0.9946
+[  NORMAL ]  Iteration 923:  k_eff = 1.049182   res = 1.011E-05  delta-k (pcm) = 0 D.R. = 0.9960
+[  NORMAL ]  Iteration 924:  k_eff = 1.049182   res = 1.006E-05  delta-k (pcm) = 0 D.R. = 0.9953
+[  NORMAL ]  Iteration 925:  k_eff = 1.049182   res = 9.999E-06  delta-k (pcm) = 0 D.R. = 0.9935
+[  TITLE  ]  ************************************************************************************************************************
+[  TITLE  ]                                                       TIMING REPORT                                                     
+[  TITLE  ]  ************************************************************************************************************************
+[  RESULT ]  Total Track Generation & Segmentation Time...........4.1390E+00 sec
+[  RESULT ]  Total time to solution...............................5.6741E+03 sec
+[  RESULT ]    Solver initialization..............................2.2176E+01 sec
+[  RESULT ]    Transport Sweep....................................5.6010E+03 sec
+[  RESULT ]  Integration time by segment-group-thread (sweep).....1.2870E-08 sec
+[  RESULT ]  Integration time by segment-group-thread (total).....1.3038E-08 sec
+[SEPARATOR]  ------------------------------------------------------------------------------------------------------------------------
+[  RESULT ]             # tracks          # segments          # FSRs
+[SEPARATOR]  ------------------------------------------------------------------------------------------------------------------------
+[  RESULT ]              406280            134281360            99177            
+[SEPARATOR]  ------------------------------------------------------------------------------------------------------------------------
+[  NORMAL ]  Plotting data...
+[  TITLE  ]  ************************************************************************************************************************
+[  TITLE  ]                                                          Finished                                                        
+[  TITLE  ]  ************************************************************************************************************************
