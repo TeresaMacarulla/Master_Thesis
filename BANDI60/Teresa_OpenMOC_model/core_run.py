@@ -22,6 +22,8 @@ import openmoc.log as log
 from openmoc import plotter as plotter
 from openmoc.options import Options
 from geometry import geometry
+from pathlib import Path
+import numpy as np
 
 ###############################################################################
 #                          Main Simulation Parameters (default)
@@ -48,6 +50,13 @@ num_polar = options.num_polar
 tolerance = options.tolerance
 max_iters = options.max_iters
 
+###############################################################################
+#                          Results file
+###############################################################################
+
+BASE_DIR = Path(__file__).resolve().parent
+LOG_DIR = BASE_DIR / "log"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 ###############################################################################
 #                          Creating the TrackGenerator
@@ -76,6 +85,65 @@ solver.setNumThreads(num_threads)
 solver.setConvergenceThreshold(tolerance)
 solver.computeEigenvalue(max_iters)
 solver.printTimerReport()
+
+###############################################################################
+#                  Export FSR fission-rate information
+###############################################################################
+
+num_fsrs = geometry.getNumFSRs()
+
+fission_rates = np.asarray(
+    solver.computeFSRFissionRates(num_fsrs),
+    dtype=float
+)
+
+fsr_id = np.arange(num_fsrs)
+
+x = np.empty(num_fsrs)
+y = np.empty(num_fsrs)
+z = np.empty(num_fsrs)
+volume = np.empty(num_fsrs)
+
+for i in range(num_fsrs):
+    centroid = geometry.getFSRCentroid(i)
+
+    x[i] = centroid.getX()
+    y[i] = centroid.getY()
+    z[i] = centroid.getZ()
+    volume[i] = solver.getFSRVolume(i)
+
+data = np.column_stack((
+    fsr_id,
+    x,
+    y,
+    z,
+    volume,
+    fission_rates
+))
+
+tag = (
+    f"a{num_azim}_p{num_polar}_"
+    f"s{azim_spacing:g}_l{polar_spacing:g}"
+).replace(".", "p")
+
+output_file = LOG_DIR / f"fsr_fission_{tag}.csv"
+
+np.savetxt(
+    output_file,
+    data,
+    delimiter=",",
+    header=(
+        "fsr_id,x_cm,y_cm,z_cm,"
+        "volume_cm3,fission_rate"
+    ),
+    comments=""
+)
+
+log.py_printf(
+    'NORMAL',
+    'FSR fission-rate data written to %s',
+    str(output_file)
+)
 
 ###############################################################################
 #                             Generating Plots

@@ -1,5 +1,5 @@
 """
-Batch plot OpenMOC convergence histories from all .log files in ./log/.
+Batch plot OpenMOC k_eff convergence histories from all .log files in ./log/.
 
 For every .log file, the script:
   1. Extracts iteration number, k_eff, and residual.
@@ -14,12 +14,12 @@ For every .log file, the script:
   3. Creates one figure with:
        - k_eff on the left y-axis (red)
        - residual on the right y-axis (blue, logarithmic scale)
-  4. Saves the figure as PDF in ./plots/.
+  4. Saves the figure as PDF in ./plots/k_eff/.
   5. Displays all generated figures after processing all log files.
 
 Example output filename
 -----------------------
-convergence_a4_p2_s2p5_z5_t4_FSR99177_20261111_195508.pdf
+conv_keff_a4_p2_s2p5_z5_t4_FSR99177_20261111_195508.pdf
 """
 
 from pathlib import Path
@@ -266,7 +266,7 @@ def create_convergence_plot(
     parameter_tag = make_parameter_tag(params)
 
     filename_parts = [
-        "convergence",
+        "conv_keff",
         parameter_tag,
     ]
 
@@ -399,7 +399,7 @@ def main():
     # The script, log/ folder and plots/ folder all live at the same level.
     script_dir = Path(__file__).resolve().parent
     log_dir = script_dir / "log"
-    plots_dir = script_dir / "plots"
+    plots_dir = script_dir / "plots" / "k_eff"
 
     # plots/ already exists in your setup, but this makes the script robust.
     plots_dir.mkdir(parents=True, exist_ok=True)
@@ -449,7 +449,7 @@ def main():
             parameter_tag = make_parameter_tag(params)
 
             filename_parts = [
-                "convergence",
+                "conv_keff",
                 parameter_tag,
             ]
 
