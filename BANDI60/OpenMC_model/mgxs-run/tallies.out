@@ -1,0 +1,3377 @@
+ ===========================>     TALLY 211     <===========================
+
+ Material 1
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.220828 +/- 9.93994e-05
+       Total Reaction Rate                  0.248135 +/- 0.000109962
+       Fission Rate                         0.12572 +/- 5.61368e-05
+       Nu-Fission Rate                      0.306343 +/- 0.000136788
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 1.53681 +/- 0.000371374
+       Total Reaction Rate                  0.932787 +/- 0.000226126
+       Fission Rate                         0.221341 +/- 6.59785e-05
+       Nu-Fission Rate                      0.539342 +/- 0.00016077
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.637022 +/- 0.00020496
+       Total Reaction Rate                  0.383562 +/- 0.000133322
+       Fission Rate                         0.0275119 +/- 1.20312e-05
+       Nu-Fission Rate                      0.067014 +/- 2.93071e-05
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.771983 +/- 0.000226109
+       Total Reaction Rate                  0.451018 +/- 0.000142242
+       Fission Rate                         0.0137824 +/- 4.98339e-06
+       Nu-Fission Rate                      0.0335441 +/- 1.21288e-05
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 3.54667 +/- 0.000635387
+       Total Reaction Rate                  1.69475 +/- 0.000305785
+       Fission Rate                         0.00995834 +/- 2.02414e-06
+       Nu-Fission Rate                      0.024299 +/- 4.93331e-06
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 1.19416 +/- 0.000386187
+       Total Reaction Rate                  0.391203 +/- 0.00012649
+       Fission Rate                         0.00164038 +/- 5.26852e-07
+       Nu-Fission Rate                      0.00411028 +/- 1.31981e-06
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 2.65849 +/- 0.000679439
+       Total Reaction Rate                  0.702134 +/- 0.000174901
+       Fission Rate                         0.0283196 +/- 8.4862e-06
+       Nu-Fission Rate                      0.078854 +/- 2.46365e-05
+ Material 2
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.0111843 +/- 6.05084e-06
+       Total Reaction Rate                  4.00762e-06 +/- 2.19064e-09
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0717073 +/- 1.74715e-05
+       Total Reaction Rate                  2.09647e-05 +/- 5.12781e-09
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0301964 +/- 1.03674e-05
+       Total Reaction Rate                  8.53955e-06 +/- 2.93189e-09
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0360539 +/- 1.14004e-05
+       Total Reaction Rate                  1.01903e-05 +/- 3.22223e-09
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.160318 +/- 2.91199e-05
+       Total Reaction Rate                  4.95667e-05 +/- 9.24189e-09
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0524312 +/- 1.76625e-05
+       Total Reaction Rate                  6.85183e-05 +/- 2.46301e-08
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.116288 +/- 3.21736e-05
+       Total Reaction Rate                  0.0001835 +/- 4.97865e-08
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 3
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.0951425 +/- 4.32204e-05
+       Total Reaction Rate                  0.0290767 +/- 1.32086e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.585502 +/- 0.000131019
+       Total Reaction Rate                  0.173903 +/- 3.89557e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.244189 +/- 7.13012e-05
+       Total Reaction Rate                  0.0713209 +/- 2.08187e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.289336 +/- 7.45145e-05
+       Total Reaction Rate                  0.0901625 +/- 2.78178e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 1.27312 +/- 0.000215727
+       Total Reaction Rate                  0.501182 +/- 8.99099e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.411205 +/- 0.000131784
+       Total Reaction Rate                  0.133146 +/- 4.28829e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.910972 +/- 0.000242657
+       Total Reaction Rate                  0.186388 +/- 4.78365e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 4
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 1.9937 +/- 0.00136632
+       Total Reaction Rate                  5.00473 +/- 0.00344843
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 6.51234 +/- 0.00252928
+       Total Reaction Rate                  9.31488 +/- 0.00403603
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 1.71819 +/- 0.000364656
+       Total Reaction Rate                  1.82755 +/- 0.000387869
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 1.96826 +/- 0.000363566
+       Total Reaction Rate                  2.08676 +/- 0.000385443
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 8.31062 +/- 0.00101298
+       Total Reaction Rate                  6.42373 +/- 0.000743867
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 2.58826 +/- 0.000779419
+       Total Reaction Rate                  0.834624 +/- 0.000253061
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 5.82116 +/- 0.00146889
+       Total Reaction Rate                  1.05882 +/- 0.000253739
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 9
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.00257255 +/- 8.03782e-06
+       Total Reaction Rate                  0.00393744 +/- 1.23865e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.019125 +/- 2.9982e-05
+       Total Reaction Rate                  0.0120485 +/- 2.00427e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.00823578 +/- 1.80674e-05
+       Total Reaction Rate                  0.0022003 +/- 4.82742e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.00964357 +/- 1.98262e-05
+       Total Reaction Rate                  0.00227972 +/- 4.68707e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.0423914 +/- 5.01614e-05
+       Total Reaction Rate                  0.0109197 +/- 1.35029e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0136188 +/- 2.58136e-05
+       Total Reaction Rate                  0.00318428 +/- 6.05715e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0301416 +/- 3.96958e-05
+       Total Reaction Rate                  0.00478763 +/- 6.83268e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 10
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.00252299 +/- 6.9809e-06
+       Total Reaction Rate                  0.00700541 +/- 1.92922e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0260516 +/- 2.99025e-05
+       Total Reaction Rate                  0.0253863 +/- 3.08775e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0135456 +/- 2.36694e-05
+       Total Reaction Rate                  0.00432635 +/- 7.55869e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0161476 +/- 2.66988e-05
+       Total Reaction Rate                  0.00418313 +/- 6.89194e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.0708019 +/- 6.40241e-05
+       Total Reaction Rate                  0.0188918 +/- 1.7361e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0226088 +/- 3.27149e-05
+       Total Reaction Rate                  0.00534963 +/- 7.76486e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.049918 +/- 5.19894e-05
+       Total Reaction Rate                  0.0080397 +/- 8.76189e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 11
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.00158561 +/- 4.04734e-06
+       Total Reaction Rate                  0.0102702 +/- 2.61022e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0287754 +/- 2.90626e-05
+       Total Reaction Rate                  0.0519931 +/- 5.18777e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0214957 +/- 2.66814e-05
+       Total Reaction Rate                  0.0101896 +/- 1.27881e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0267996 +/- 2.94016e-05
+       Total Reaction Rate                  0.00875623 +/- 9.66778e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.117784 +/- 7.53948e-05
+       Total Reaction Rate                  0.0346854 +/- 2.26597e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0367481 +/- 4.13056e-05
+       Total Reaction Rate                  0.00900367 +/- 1.02332e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0800849 +/- 6.71714e-05
+       Total Reaction Rate                  0.0134954 +/- 1.16525e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 12
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.000822449 +/- 2.5556e-06
+       Total Reaction Rate                  0.00736506 +/- 2.2576e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.017844 +/- 2.06714e-05
+       Total Reaction Rate                  0.0412942 +/- 4.62544e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0153399 +/- 2.34317e-05
+       Total Reaction Rate                  0.00883286 +/- 1.36703e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0197067 +/- 2.74498e-05
+       Total Reaction Rate                  0.00732049 +/- 1.02648e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.0875106 +/- 7.19659e-05
+       Total Reaction Rate                  0.0273905 +/- 2.27893e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0273124 +/- 3.70441e-05
+       Total Reaction Rate                  0.00684417 +/- 9.43513e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0594227 +/- 5.99612e-05
+       Total Reaction Rate                  0.0102944 +/- 1.07732e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 13
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.000228547 +/- 1.27473e-06
+       Total Reaction Rate                  0.00232792 +/- 1.25749e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.00523204 +/- 1.18677e-05
+       Total Reaction Rate                  0.0133776 +/- 2.89147e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.00480603 +/- 1.36196e-05
+       Total Reaction Rate                  0.00300854 +/- 8.73961e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.00624777 +/- 1.58232e-05
+       Total Reaction Rate                  0.00246026 +/- 6.2283e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.0278153 +/- 4.44478e-05
+       Total Reaction Rate                  0.0089641 +/- 1.48773e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.00868891 +/- 2.09152e-05
+       Total Reaction Rate                  0.00219976 +/- 5.37274e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0189095 +/- 3.6088e-05
+       Total Reaction Rate                  0.00331598 +/- 6.74487e-06
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 14
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.0421804 +/- 0.000100018
+       Total Reaction Rate                  0.048734 +/- 0.000115635
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.211524 +/- 0.000377467
+       Total Reaction Rate                  0.215369 +/- 0.000381338
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0667385 +/- 0.000225014
+       Total Reaction Rate                  0.0623913 +/- 0.00021049
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0676862 +/- 0.000224541
+       Total Reaction Rate                  0.0627457 +/- 0.000209518
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.347882 +/- 0.000654929
+       Total Reaction Rate                  0.132594 +/- 0.000270126
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.106124 +/- 0.000276941
+       Total Reaction Rate                  0.0216309 +/- 5.72792e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.143303 +/- 0.000275755
+       Total Reaction Rate                  0.0364137 +/- 6.93284e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ Material 15
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.0013976 +/- 1.86861e-05
+       Total Reaction Rate                  0.00152333 +/- 2.04253e-05
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0560874 +/- 0.000269826
+       Total Reaction Rate                  0.0514659 +/- 0.000245184
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0696402 +/- 0.000348316
+       Total Reaction Rate                  0.0617521 +/- 0.000308816
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0940877 +/- 0.000403136
+       Total Reaction Rate                  0.0866368 +/- 0.000371781
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.831322 +/- 0.00171044
+       Total Reaction Rate                  0.366524 +/- 0.000872558
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.21715 +/- 0.00062864
+       Total Reaction Rate                  0.0498253 +/- 0.000145746
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.137139 +/- 0.000392784
+       Total Reaction Rate                  0.035082 +/- 0.000100652
+       Fission Rate                         0 +/- 0
+       Nu-Fission Rate                      0 +/- 0
+ ===========================>     TALLY 202     <===========================
+
+ Material 1
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.220947 +/- 8.76449e-05
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 1.53691 +/- 0.000410686
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.637047 +/- 0.000267664
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.772454 +/- 0.000310781
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 3.54696 +/- 0.000791086
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 1.19446 +/- 0.000459772
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 2.65883 +/- 0.000803037
+ Material 2
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.0114869 +/- 0.00106953
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0753902 +/- 0.00288294
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0306462 +/- 0.00186179
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0382109 +/- 0.00210688
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.155523 +/- 0.00406628
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0509544 +/- 0.00119211
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.11686 +/- 0.00183338
+ Material 3
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.0952179 +/- 0.000113281
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.585515 +/- 0.000275457
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.243946 +/- 0.000180137
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.289391 +/- 0.00019503
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 1.27371 +/- 0.000401211
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.411526 +/- 0.000254178
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.911219 +/- 0.000415513
+ Material 4
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 1.99389 +/- 0.00135756
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 6.51251 +/- 0.00254367
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 1.71803 +/- 0.000304112
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 1.96846 +/- 0.000281514
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 8.31032 +/- 0.000781303
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 2.58806 +/- 0.000581573
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 5.82209 +/- 0.00135232
+ Material 9
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.00257035 +/- 8.07021e-06
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0191211 +/- 4.23022e-05
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.00823449 +/- 3.84996e-05
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.00972248 +/- 4.14364e-05
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.0422951 +/- 9.47049e-05
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0135972 +/- 5.04152e-05
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0302103 +/- 9.71209e-05
+ Material 10
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.00252149 +/- 5.88943e-06
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0260383 +/- 3.64945e-05
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0135377 +/- 3.92003e-05
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0161795 +/- 5.01931e-05
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.070678 +/- 0.000112209
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.022547 +/- 6.63569e-05
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0497737 +/- 0.000115948
+ Material 11
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.00158364 +/- 3.04281e-06
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0287822 +/- 3.14613e-05
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0214601 +/- 4.18917e-05
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0267775 +/- 5.65139e-05
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.117932 +/- 0.000138871
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0367266 +/- 8.3836e-05
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0799867 +/- 0.000142818
+ Material 12
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.000824686 +/- 1.86418e-06
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.017856 +/- 2.26617e-05
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0153405 +/- 3.58933e-05
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0196672 +/- 4.80643e-05
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.0878238 +/- 0.000117963
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.0273346 +/- 6.95624e-05
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.059436 +/- 0.000126313
+ Material 13
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.000228983 +/- 9.48208e-07
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.00523019 +/- 1.16645e-05
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.00480374 +/- 1.95041e-05
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.00623151 +/- 2.7037e-05
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.027866 +/- 7.30984e-05
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.00872697 +/- 4.14938e-05
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.0189183 +/- 7.62016e-05
+ Material 14
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.0422111 +/- 9.3169e-05
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.211612 +/- 0.00037041
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0666975 +/- 0.000223898
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0677452 +/- 0.00022399
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.347652 +/- 0.00067972
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.105993 +/- 0.00030086
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.143458 +/- 0.000299659
+ Material 15
+   Incoming Energy [1e-05, 0.0635)
+     Total Material
+       Flux                                 0.00140262 +/- 1.75371e-05
+   Incoming Energy [0.0635, 10)
+     Total Material
+       Flux                                 0.0560773 +/- 0.000263899
+   Incoming Energy [10, 100)
+     Total Material
+       Flux                                 0.0696796 +/- 0.000347853
+   Incoming Energy [100, 1000)
+     Total Material
+       Flux                                 0.0941381 +/- 0.000399251
+   Incoming Energy [1000, 500000)
+     Total Material
+       Flux                                 0.831209 +/- 0.00173924
+   Incoming Energy [500000, 1000000)
+     Total Material
+       Flux                                 0.217123 +/- 0.000616586
+   Incoming Energy [1000000, 20000000)
+     Total Material
+       Flux                                 0.1373 +/- 0.000371205
+ ===========================>     TALLY 203     <===========================
+
+ Material 1
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0766592 +/- 5.96535e-05
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0134121 +/- 2.16966e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0142389 +/- 2.32733e-05
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.589365 +/- 0.000197387
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      7.42e-05 +/- 1.57286e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00628183 +/- 1.65247e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.284001 +/- 0.000134967
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0063536 +/- 1.47939e-05
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.391271 +/- 0.000158024
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00881927 +/- 1.65439e-05
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.641 +/- 0.000367198
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3e-07 +/- 9.86531e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0368067 +/- 3.50236e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.349535 +/- 0.000140069
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.33333e-07 +/- 6.63314e-08
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.66667e-06 +/- 3.59094e-07
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0634176 +/- 4.8495e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0849582 +/- 5.32213e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.521347 +/- 0.000183418
+ Material 2
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.7e-06 +/- 3.18738e-07
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.46667e-06 +/- 2.09971e-07
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.93333e-06 +/- 2.56002e-07
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.00333e-05 +/- 7.8942e-07
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.13333e-06 +/- 1.95109e-07
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      7.53333e-06 +/- 4.85861e-07
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.1e-06 +/- 2.49347e-07
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      8.66667e-06 +/- 5.47281e-07
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.06667e-06 +/- 2.6541e-07
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      4.61333e-05 +/- 1.24355e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      4.25667e-05 +/- 1.15626e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.44333e-05 +/- 8.7326e-07
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      9.5e-06 +/- 5.66876e-07
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      4.72667e-05 +/- 1.28345e-06
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000127733 +/- 2.09862e-06
+ Material 3
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.025604 +/- 3.20502e-05
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00271 +/- 9.44113e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00284043 +/- 9.94671e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.169611 +/- 8.10987e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.57667e-05 +/- 7.27878e-07
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000671733 +/- 4.61143e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0704274 +/- 5.24261e-05
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000802267 +/- 5.2983e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0868615 +/- 5.8494e-05
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000775833 +/- 4.73406e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.498636 +/- 0.000147879
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.33333e-08 +/- 3.33333e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00280563 +/- 9.53476e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.130223 +/- 8.17995e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      6.66667e-08 +/- 4.70616e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0124553 +/- 1.95963e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0136524 +/- 2.14383e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.160001 +/- 8.33374e-05
+ Material 4
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.62861 +/- 0.00251962
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.34749 +/- 0.000917149
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.56857 +/- 0.000939833
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      7.71156 +/- 0.00315446
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.36e-05 +/- 9.19939e-07
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0027353 +/- 9.57565e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.637414 +/- 8.7279e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.18644 +/- 0.000277051
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.33333e-07 +/- 8.73024e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000317533 +/- 3.26458e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0728167 +/- 4.63331e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.668074 +/- 8.00198e-05
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.34547 +/- 0.000263821
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.94667e-05 +/- 1.12097e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0087046 +/- 1.67487e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0789398 +/- 4.77965e-05
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.799554 +/- 7.29158e-05
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      5.5363 +/- 0.000554426
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      9.26667e-06 +/- 5.72879e-07
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      8.03667e-05 +/- 1.66028e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000829833 +/- 4.87467e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.484946 +/- 9.50136e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.348685 +/- 0.000139359
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.9e-06 +/- 3.49183e-07
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.87e-05 +/- 1.18422e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0003892 +/- 3.66217e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.216025 +/- 7.83849e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.256608 +/- 7.94917e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.584344 +/- 0.000183562
+ Material 9
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000476567 +/- 4.43982e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0001276 +/- 1.95795e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000153533 +/- 2.39065e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00414063 +/- 1.36029e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      6.66667e-08 +/- 4.70616e-08
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      8.49667e-05 +/- 1.69562e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00175477 +/- 9.20138e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      9.80667e-05 +/- 1.89607e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0020665 +/- 9.20486e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000114433 +/- 1.91049e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0107126 +/- 2.40764e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0003495 +/- 3.3356e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00282933 +/- 1.07865e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.33333e-08 +/- 3.33333e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.72333e-05 +/- 1.13524e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000490667 +/- 4.05847e-06
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00422713 +/- 1.35903e-05
+ Material 10
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000476067 +/- 3.85229e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000139767 +/- 2.03559e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000176867 +/- 2.54646e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00588257 +/- 1.52937e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2e-07 +/- 8.09641e-08
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000147267 +/- 2.32566e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00299997 +/- 1.05512e-05
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000179867 +/- 2.39889e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0035647 +/- 1.20946e-05
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000200367 +/- 2.44005e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0184195 +/- 2.909e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0006121 +/- 4.54162e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00471213 +/- 1.45176e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      5.83667e-05 +/- 1.50769e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000851133 +/- 5.64464e-06
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0070415 +/- 1.62732e-05
+ Material 11
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0003234 +/- 3.42222e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      9.93333e-05 +/- 1.95052e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000147467 +/- 2.19829e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00731763 +/- 1.76826e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.33333e-07 +/- 8.73024e-08
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000255167 +/- 2.84158e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00529613 +/- 1.46276e-05
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000335067 +/- 3.03693e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00658137 +/- 1.51351e-05
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000393367 +/- 3.47101e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0333157 +/- 3.91506e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00111417 +/- 6.05244e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0078547 +/- 1.84632e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.33333e-08 +/- 3.33333e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      8.11333e-05 +/- 1.62757e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0015271 +/- 7.51259e-06
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0117444 +/- 2.11275e-05
+ Material 12
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000183367 +/- 2.47597e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      5.53e-05 +/- 1.39546e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      8.22667e-05 +/- 1.76065e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0048677 +/- 1.45323e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.66667e-07 +/- 7.40354e-08
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000199667 +/- 2.68188e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0040398 +/- 1.38513e-05
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0002765 +/- 3.14819e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.005146 +/- 1.47642e-05
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000329033 +/- 3.48115e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0260864 +/- 3.51585e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000894233 +/- 6.05505e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00592683 +/- 1.57758e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      6.66667e-08 +/- 4.70616e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      5.39667e-05 +/- 1.24295e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00118613 +/- 5.81383e-06
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00894053 +/- 1.97611e-05
+ Material 13
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      5.23667e-05 +/- 1.41271e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.68333e-05 +/- 7.53229e-07
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.45333e-05 +/- 8.42269e-07
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00146823 +/- 8.09239e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.33333e-08 +/- 3.33333e-08
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      6.37e-05 +/- 1.45613e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00130767 +/- 7.60183e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      8.76333e-05 +/- 1.69207e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00168507 +/- 8.92837e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000109467 +/- 1.88379e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0084796 +/- 2.32123e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000296333 +/- 2.94424e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0018989 +/- 9.74327e-06
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.64333e-05 +/- 7.44236e-07
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0003916 +/- 3.53614e-06
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0028777 +/- 1.15922e-05
+ Material 14
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0349785 +/- 8.8267e-05
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00522527 +/- 1.7291e-05
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00601083 +/- 1.86284e-05
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.193021 +/- 0.000353124
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      9.56667e-06 +/- 5.30493e-07
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000918033 +/- 5.46086e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0609539 +/- 0.000206303
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00101523 +/- 5.4426e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0615275 +/- 0.000206805
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0008493 +/- 5.17859e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.131296 +/- 0.000268233
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      1.66667e-07 +/- 7.40354e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0015466 +/- 7.10781e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0200258 +/- 5.70708e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.33333e-08 +/- 3.33333e-08
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      6.66667e-08 +/- 4.70616e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00189677 +/- 8.61978e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0033042 +/- 1.09656e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0311439 +/- 6.55894e-05
+ Material 15
+   Incoming Energy [1e-05, 0.0635)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00110813 +/- 1.59454e-05
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000131233 +/- 2.42213e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [0.0635, 10)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000219467 +/- 3.19928e-06
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0489175 +/- 0.000234099
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      2.1e-06 +/- 2.62417e-07
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [10, 100)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.000769867 +/- 5.18681e-06
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0601868 +/- 0.000302722
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [100, 1000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00119487 +/- 6.10161e-06
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0849217 +/- 0.000362371
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000, 500000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00150097 +/- 7.10976e-06
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.363963 +/- 0.000870955
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [500000, 1000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      5e-07 +/- 1.26041e-07
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00347887 +/- 1.15302e-05
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0462181 +/- 0.000135037
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+   Incoming Energy [1000000, 20000000)
+     Outgoing Energy [1e-05, 0.0635)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [0.0635, 10)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [10, 100)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0 +/- 0
+     Outgoing Energy [100, 1000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      3.33333e-08 +/- 3.33333e-08
+     Outgoing Energy [1000, 500000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00215103 +/- 8.74141e-06
+     Outgoing Energy [500000, 1000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.00338123 +/- 1.07216e-05
+     Outgoing Energy [1000000, 20000000)
+       Legendre expansion, P0
+         Total Material
+           Scattering Rate                      0.0294393 +/- 8.59324e-05
+ ===========================>     TALLY 214     <===========================
+
+ Material 1
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      1.05425 +/- 0.000203685
+ Material 2
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 3
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 4
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 9
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 10
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 11
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 12
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 13
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 14
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 15
+   Incoming Energy [1e-05, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ ===========================>     TALLY 215     <===========================
+
+ Material 1
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      3.86208e-07 +/- 1.14482e-07
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      1.33051e-05 +/- 6.99885e-07
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0.133845 +/- 6.28985e-05
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0.183441 +/- 7.63309e-05
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0.736948 +/- 0.000165162
+ Material 2
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 3
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 4
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 9
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 10
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 11
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 12
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 13
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 14
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ Material 15
+   Outgoing Energy [1e-05, 0.0635)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [0.0635, 10)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [10, 100)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [100, 1000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000, 500000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [500000, 1000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+   Outgoing Energy [1000000, 20000000)
+     Total Material
+       Nu-Fission Rate                      0 +/- 0
+ ===================>     TALLY 216: AXIAL-FISSION     <====================
+
+ Mesh Index (1, 1, 1)
+   Total Material
+     Fission Rate                         0.00445223 +/- 1.47234e-05
+ Mesh Index (1, 1, 2)
+   Total Material
+     Fission Rate                         0.00402095 +/- 1.21884e-05
+ Mesh Index (1, 1, 3)
+   Total Material
+     Fission Rate                         0.00503588 +/- 1.40664e-05
+ Mesh Index (1, 1, 4)
+   Total Material
+     Fission Rate                         0.00604101 +/- 1.49891e-05
+ Mesh Index (1, 1, 5)
+   Total Material
+     Fission Rate                         0.00699822 +/- 1.63697e-05
+ Mesh Index (1, 1, 6)
+   Total Material
+     Fission Rate                         0.00792374 +/- 1.81419e-05
+ Mesh Index (1, 1, 7)
+   Total Material
+     Fission Rate                         0.00883884 +/- 1.79757e-05
+ Mesh Index (1, 1, 8)
+   Total Material
+     Fission Rate                         0.00965828 +/- 1.96007e-05
+ Mesh Index (1, 1, 9)
+   Total Material
+     Fission Rate                         0.0104343 +/- 2.10308e-05
+ Mesh Index (1, 1, 10)
+   Total Material
+     Fission Rate                         0.0111965 +/- 1.975e-05
+ Mesh Index (1, 1, 11)
+   Total Material
+     Fission Rate                         0.0118552 +/- 1.98221e-05
+ Mesh Index (1, 1, 12)
+   Total Material
+     Fission Rate                         0.0124873 +/- 2.17909e-05
+ Mesh Index (1, 1, 13)
+   Total Material
+     Fission Rate                         0.0130324 +/- 2.00388e-05
+ Mesh Index (1, 1, 14)
+   Total Material
+     Fission Rate                         0.0135574 +/- 2.05747e-05
+ Mesh Index (1, 1, 15)
+   Total Material
+     Fission Rate                         0.0140545 +/- 1.93033e-05
+ Mesh Index (1, 1, 16)
+   Total Material
+     Fission Rate                         0.0143709 +/- 2.18032e-05
+ Mesh Index (1, 1, 17)
+   Total Material
+     Fission Rate                         0.0146976 +/- 2.0718e-05
+ Mesh Index (1, 1, 18)
+   Total Material
+     Fission Rate                         0.014894 +/- 2.11571e-05
+ Mesh Index (1, 1, 19)
+   Total Material
+     Fission Rate                         0.0150818 +/- 2.25246e-05
+ Mesh Index (1, 1, 20)
+   Total Material
+     Fission Rate                         0.0151542 +/- 2.28192e-05
+ Mesh Index (1, 1, 21)
+   Total Material
+     Fission Rate                         0.0151761 +/- 2.26575e-05
+ Mesh Index (1, 1, 22)
+   Total Material
+     Fission Rate                         0.0151338 +/- 2.40507e-05
+ Mesh Index (1, 1, 23)
+   Total Material
+     Fission Rate                         0.0150301 +/- 2.37143e-05
+ Mesh Index (1, 1, 24)
+   Total Material
+     Fission Rate                         0.0147574 +/- 2.36398e-05
+ Mesh Index (1, 1, 25)
+   Total Material
+     Fission Rate                         0.0144251 +/- 2.46838e-05
+ Mesh Index (1, 1, 26)
+   Total Material
+     Fission Rate                         0.0140323 +/- 2.44849e-05
+ Mesh Index (1, 1, 27)
+   Total Material
+     Fission Rate                         0.0136219 +/- 2.16414e-05
+ Mesh Index (1, 1, 28)
+   Total Material
+     Fission Rate                         0.0131047 +/- 2.30165e-05
+ Mesh Index (1, 1, 29)
+   Total Material
+     Fission Rate                         0.0125464 +/- 1.94815e-05
+ Mesh Index (1, 1, 30)
+   Total Material
+     Fission Rate                         0.0119146 +/- 2.0541e-05
+ Mesh Index (1, 1, 31)
+   Total Material
+     Fission Rate                         0.0112395 +/- 1.72002e-05
+ Mesh Index (1, 1, 32)
+   Total Material
+     Fission Rate                         0.0104642 +/- 1.77276e-05
+ Mesh Index (1, 1, 33)
+   Total Material
+     Fission Rate                         0.00972812 +/- 1.75881e-05
+ Mesh Index (1, 1, 34)
+   Total Material
+     Fission Rate                         0.00884543 +/- 1.61372e-05
+ Mesh Index (1, 1, 35)
+   Total Material
+     Fission Rate                         0.00792271 +/- 1.52043e-05
+ Mesh Index (1, 1, 36)
+   Total Material
+     Fission Rate                         0.00700508 +/- 1.44971e-05
+ Mesh Index (1, 1, 37)
+   Total Material
+     Fission Rate                         0.00602909 +/- 1.31863e-05
+ Mesh Index (1, 1, 38)
+   Total Material
+     Fission Rate                         0.00502693 +/- 1.28593e-05
+ Mesh Index (1, 1, 39)
+   Total Material
+     Fission Rate                         0.00401344 +/- 1.08227e-05
+ Mesh Index (1, 1, 40)
+   Total Material
+     Fission Rate                         0.00447228 +/- 1.38253e-05

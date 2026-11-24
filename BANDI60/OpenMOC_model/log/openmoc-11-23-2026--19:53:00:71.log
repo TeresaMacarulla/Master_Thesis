@@ -1,0 +1,88 @@
+Current local time and date: Mon Nov 23 19:53:00 2026
+[  NORMAL ]  Importing BANDI-60 materials from HDF5...
+[  NORMAL ]  Creating pin-cell universes...
+[  NORMAL ]  Creating five BANDI-60 Pyrex assembly types...
+[  NORMAL ]  Creating BANDI-60 OpenMOC geometry...
+[  NORMAL ]  Set global axial mesh of width 5.0000 cm
+[  NORMAL ]  Initializing flat source regions...
+[  NORMAL ]  BANDI-60 geometry: 52 FAs; FA counts = 5%:8, 10%:12, 25%:16,
+[  NORMAL ]  ...  35%:12, 40%:4
+[  NORMAL ]  Each FA: 240 fuel pins, 24 Pyrex pins, 24 guide tubes, 1
+[  NORMAL ]  ...  instrument tube
+[  NORMAL ]  Pin pitch = 1.260 cm; FA pitch = 21.500 cm; active height = 200.0 c
+[  NORMAL ]  Initializing the track generator...
+[  NORMAL ]  CPUs on rank 0 process: 0 2 4 6 
+[  NORMAL ]  Initializing 2D tracks...
+[  NORMAL ]  Initializing 2D tracks reflections...
+[  NORMAL ]  Initializing 2D tracks array...
+[  NORMAL ]  Initializing 3D tracks...
+[  NORMAL ]  RMS polar angle correction 0.389844 %
+[  NORMAL ]  Max polar angle correction 0.389844 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 0.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 10.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 20.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 30.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 40.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 50.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 60.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 70.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 80.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 90.36 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 100.00 %
+[  NORMAL ]  3D Tracks in domain: 81704
+[  NORMAL ]  Ray tracing for axially extruded track segmentation...
+[  NORMAL ]  Progress Segmenting 2D Tracks: 0.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 10.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 20.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 30.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 40.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 50.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 60.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 70.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 80.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 90.36 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 100.00 %
+[  NORMAL ]  Initializing FSRs axially...
+[  NORMAL ]  Initializing 3D FSRs in axially extruded regions...
+[  NORMAL ]  Progress initializing 3D FSRs: 0.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 10.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 20.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 30.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 40.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 50.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 60.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 70.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 80.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 90.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 100.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 0.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 10.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 20.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 30.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 40.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 50.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 60.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 70.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 80.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 90.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 100.00 %
+[  NORMAL ]  Finished initializing 3D FSRs
+[  NORMAL ]  Initializing FSR lookup vectors
+[  NORMAL ]  Total number of FSRs 3967032
+[  NORMAL ]  Initializing MOC eigenvalue solver...
+[  NORMAL ]  Initializing solver arrays...
+[  NORMAL ]  Max boundary angular flux storage per domain =   9.15 MB
+[  NORMAL ]  Max scalar flux storage per domain = 222.15 MB
+[  NORMAL ]  Max source storage per domain = 111.08 MB
+[  NORMAL ]  Number of azimuthal angles = 4
+[  NORMAL ]  Azimuthal ray spacing = 2.500000
+[  NORMAL ]  Number of polar angles = 2
+[  NORMAL ]  Z-spacing = 2.500000
+[  NORMAL ]  Source type = Flat
+[  NORMAL ]  MOC transport undamped
+[  NORMAL ]  CMFD acceleration: OFF
+[  NORMAL ]  Using 4 threads
+[  NORMAL ]  Computing the eigenvalue...
+[  NORMAL ]  Iteration 0:  k_eff = 0.814834   res = 3.235E-02  delta-k (pcm) = -18516 D.R. = 0.0323
+[  NORMAL ]  Iteration 1:  k_eff = 0.750123   res = 2.238E-02  delta-k (pcm) = -6471 D.R. = 0.6917
+[  NORMAL ]  Iteration 2:  k_eff = 0.714163   res = 2.081E-02  delta-k (pcm) = -3595 D.R. = 0.9301
